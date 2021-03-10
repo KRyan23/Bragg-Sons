@@ -16,7 +16,7 @@
 ## Scope
 ### Features
 - Provide a quick online quote
-- To sumbit a form outlining work required 
+- To sumbit a form outlining work required
 ### Content
 - Provide business details, phone number, address, email.
 - Photos of completed work and projects
