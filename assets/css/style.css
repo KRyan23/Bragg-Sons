@@ -15,6 +15,25 @@ body {
     color: #fafafa;
   }
 
+/* main-image {
+  background-repeat: repeat;
+  background-size: cover;
+  max-height: 600px;
+  max-width: 700px;
+  overflow: hidden;
+  border: 0px 0px 0px 0px;
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  position: absolute;}
+
+
+html {
+  background-image:url("/assets/images/main4.jpg");
+  background-size: cover;
+  position: inherit;
+  background-repeat: no-repeat;
+}
+*/
 
 
 /* -------------------------- General Style Rules End-----------------------*/
@@ -35,6 +54,7 @@ body {
   left: 0;
   bottom: 0;
   padding: 0 15px 0 15px;
+  
 }
 
 .hr-footer {
@@ -65,6 +85,9 @@ body {
  border: 1px solid #fafafa;
 }
 
+.main-col {
+ border: 1px solid #fafafa;
+ }
 /*-- Setting the colours of the 1st 4 columns just to show as an example */
 .r1c1 .r1c2 .r1c3 .r1c4 .r1c5{
 background-color: #fafafa;
@@ -207,6 +230,20 @@ img.company-logo {width: 100px;}
   #braggandsons-hr, #contact-hr, #services-hr  {
     display: none;
   }
+
+  .fa-facebook-f {
+    padding: 0 30px 0 30px;
+    font-size: 150%;
+  }
+  .fa-instagram-square {
+    padding: 0 30px 0 30px;
+    font-size: 150%;
+    border:
+  }
+  .fa-twitter-square {
+    padding: 0 30px 0 30px;
+    font-size: 150%;
+  }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 
@@ -223,5 +260,17 @@ h1.bands.heading {
   div.r1c3,div.r1c4, div.r1c5 {
     text-align: center;
   }
-
+  .fa-facebook-f {
+    padding: 0 30px 0 30px;
+    font-size: 150%;
+  }
+  .fa-instagram-square {
+    padding: 0 30px 0 30px;
+    font-size: 150%;
+    border:
+  }
+  .fa-twitter-square {
+    padding: 0 30px 0 30px;
+    font-size: 150%;
+  }
 }
