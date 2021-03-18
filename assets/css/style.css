@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+/* -------------------------- General Style Rules start-----------------------*/
+
+
+body {
+  padding: 15px;
+  background-color: #fafafa;
+  }
+
+  #braggandsons-hr, #contact-hr, #services-hr  {
+    height: 15px;
+    width: 135px;
+    position: fixed;
+    color: #fafafa;
+  }
+
+
+
+/* -------------------------- General Style Rules End-----------------------*/
+/*--------------------------- Mobile Style Rules start -----------------------*/
+
+
+
+
+
+/*--------------------------- Mobile Style Rules end -----------------------*/
+/* ---------------------------Foooter Style Rules start -----------------------*/
+.bands-footer {
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  background-color: #fafafa;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  padding: 0 15px 0 15px;
+}
+
+.hr-footer {
+  height: 1px;
+  background-color: lightgrey;
+  border: none;
+}
+
+.fa-facebook-f {
+  padding: 0 20px 0 20px;
+  font-size: 150%;
+}
+.fa-instagram-square {
+  padding: 0 20px 0 20px;
+  font-size: 150%;
+  border:
+}
+.fa-twitter-square {
+  padding: 0 20px 0 20px;
+  font-size: 150%;
+}
+/* ---------------------------Foooter Style Rules End -----------------------*/
+/* -------------------------- Colour Style Rules start -----------------------*/
+
+
+/* Change #fafafa to anything else to get back the surrounding boxes */
+.bands-col {
+ border: 1px solid #fafafa;
+}
+
+/*-- Setting the colours of the 1st 4 columns just to show as an example */
+.r1c1 .r1c2 .r1c3 .r1c4 .r1c5{
+background-color: #fafafa;
+}
+
+
+
+/* -------------------------- Colour Style Rules end -----------------------*/
+
+/* -------------------------- Media Query Rules start -----------------------*/
+
+
+/* If the screen size is 300px wide or less, hide the element */
+@media only screen and (max-width: 249px) {
+  div.col-md-2 {
+    display: none;
+  }
+}
+
+/* ------ For mobile phones start*/
+[class*="col-"] {
+  width: 100%;
+}
+@media only screen and (min-width: 250px) and (max-width: 499px){
+
+  img.company-logo {
+    width: 80px;
+    padding-top: 0px;
+  }
+  #bandsheading {
+    font-size: 24px;
+    text-align: left;
+  }
+#contact, #services, #about {
+  font-size: 12px;
+}
+
+    div.r1c3,div.r1c4, div.r1c5 {
+      text-align: left;
+    }
+
+  }
+@media only screen and (min-width: 500px) and (max-width: 767px){
+
+  img.company-logo {
+    width: 90px;
+    padding-top: 0px;
+  }
+  #bandsheading {
+    font-size: 24px;
+    text-align: left;
+  }
+#contact, #services, #about {
+  font-size: 12px;
+}
+
+
+    div.r1c3,div.r1c4, div.r1c5 {
+      text-align: left;
+    }
+
+  }
+/*-------For mobile phones end */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+  img.company-logo {width: 90px;}
+  #bandsheading {
+    font-size: 33px;
+    text-align: center;
+  }
+  #contact, #services, #about {
+    font-size: 12px;
+}
+#braggandsons-hr, #contact-hr, #services-hr  {
+  display: none;
+
+}
+    div.r1c3,div.r1c4, div.r1c5 {
+      text-align: center;
+    }
+
+  }
+/*-------For Tablets start */
+
+/* ----- For desktop start */
+@media only screen and (min-width: 992px) and (max-width: 1023px){
+
+  img.company-logo {width: 80px;}
+
+  #bandsheading {
+    font-size: 50px;
+    text-align: right;
+
+  }
+
+  #contact, #services, #about {
+    font-size: 12px;
+      }
+  #braggandsons-hr, #contact-hr, #services-hr  {
+    display: none;
+  }
+    div.r1c3,div.r1c4, div.r1c5 {
+      text-align: center;
+    }
+  }
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+
+img.company-logo {width: 100px;}
+
+  div.r1c3,div.r1c4, div.r1c5 {
+    text-align: center;
+  }
+  #braggandsons-hr, #contact-hr, #services-hr  {
+    display: none;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1201px) {
+
+img.company-logo {width: 130px;}
+h1.bands.heading {
+  text-align: left;
+  font-size: 1px;}
+
+  #braggandsons-hr, #contact-hr, #services-hr  {
+    display: none;
+  }
+  div.r1c3,div.r1c4, div.r1c5 {
+    text-align: center;
+  }
+
+}
