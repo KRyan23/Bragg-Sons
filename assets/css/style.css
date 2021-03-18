@@ -29,7 +29,7 @@ body {
 .bands-footer {
   position: fixed;
   width: 100%;
-  height: 100px;
+  height: 85px;
   background-color: #fafafa;
   text-align: center;
   left: 0;
@@ -79,15 +79,27 @@ background-color: #fafafa;
 
 /* If the screen size is 300px wide or less, hide the element */
 @media only screen and (max-width: 249px) {
-  div.col-md-2 {
-    display: none;
+
+  img.company-logo {
+    width: 70px;
+    padding-top: 0px;
   }
+  #bandsheading {
+    font-size: 24px;
+    text-align: left;
+}
+#contact, #services, #about {
+  font-size: 10px;
+}
+#foot-face, #foot-instagram, #foot-twitter   {
+  font-size: 100%;
 }
 
-/* ------ For mobile phones start*/
+}
+/* ------ For mobile phones start
 [class*="col-"] {
   width: 100%;
-}
+}*/
 @media only screen and (min-width: 250px) and (max-width: 499px){
 
   img.company-logo {
@@ -102,6 +114,9 @@ background-color: #fafafa;
   font-size: 12px;
 }
 
+#foot-face, #foot-instagram, #foot-twitter   {
+  font-size: 100%;
+}
     div.r1c3,div.r1c4, div.r1c5 {
       text-align: left;
     }
@@ -120,7 +135,9 @@ background-color: #fafafa;
 #contact, #services, #about {
   font-size: 12px;
 }
-
+#foot-face, #foot-instagram, #foot-twitter   {
+  font-size: 100%;
+}
 
     div.r1c3,div.r1c4, div.r1c5 {
       text-align: left;
@@ -143,6 +160,10 @@ background-color: #fafafa;
   display: none;
 
 }
+
+#foot-face, #foot-instagram, #foot-twitter   {
+  font-size: 100%;
+}
     div.r1c3,div.r1c4, div.r1c5 {
       text-align: center;
     }
@@ -156,8 +177,8 @@ background-color: #fafafa;
   img.company-logo {width: 80px;}
 
   #bandsheading {
-    font-size: 50px;
-    text-align: right;
+    font-size: 40px;
+    text-align: left;
 
   }
 
@@ -166,7 +187,11 @@ background-color: #fafafa;
       }
   #braggandsons-hr, #contact-hr, #services-hr  {
     display: none;
-  }
+    }
+
+    #foot-face, #foot-instagram, #foot-twitter   {
+      font-size: 100%;
+    }
     div.r1c3,div.r1c4, div.r1c5 {
       text-align: center;
     }
@@ -187,7 +212,7 @@ img.company-logo {width: 100px;}
 
 @media only screen and (min-width: 1201px) {
 
-img.company-logo {width: 130px;}
+img.company-logo {width: 120px;}
 h1.bands.heading {
   text-align: left;
   font-size: 1px;}

@@ -51,3 +51,7 @@
 - Concerned with appropriate content at all times
 
 <hr>
+
+### Sources:
+
+braggandsons logo - borrowed from brandcrowd.com
