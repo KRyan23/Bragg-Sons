@@ -74,23 +74,29 @@ Please find the 5 strategy planes discussing the scope and needs of the project.
 <a href="C:\Users\User\Desktop\CodeInst\MileStoneProject1\MileStone For real project\Bragg & Sons Idea\Wireframe Pdfs\Phone Wireframes\MobilePhonePages.pdf"><li>Mobile</li></a>
 <a href="C:\Users\User\Desktop\CodeInst\MileStoneProject1\MileStone For real project\Bragg & Sons Idea\Wireframe Pdfs\Tablet\TabletPages.pdf"><li>Tablet</li></a>
 <a href="C:\Users\User\Desktop\CodeInst\MileStoneProject1\MileStone For real project\Bragg & Sons Idea\DesktopPc\*.pdf"><li>Desktop</li></a>
+</ul>
 <hr>
 
-#Features
+##Features
+
+###Existing Features
+<ul>
+<li>The company wanted an easy central way to allow people to get in touch, this is atchieved using the contact form.</li>
+<li>Bragg&Sons wanted to showcase some their work, this is implemented in the gallery section.</li>
+<li>One of the main asks was to provide customers with the abilty to get a quick and accurate quote online by filling out a form. </li>
+</ul>
+
+###Features Left to Implement
+
+<p>If the Bragg&Sons website proves valuable for the business they would like to add an ecommerce module so they can take payments online.</P>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-### Sources:
-
-<p><li>braggandsons logo - borrowed from www.brandcrowd.com
+<hr>
+##Credits
+###Content
+The text for section Y was copied from the Wikipedia article Z
+###Media
+The braggandsons logo was borrowed from www.brandcrowd.com.
+The photos used in this site were obtained from ...
+###Acknowledgements
+I received inspiration for this project from a local painter.
