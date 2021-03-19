@@ -15,6 +15,39 @@ body {
     color: #fafafa;
   }
 
+#moto {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  float:center;
+  min-width: 300px;
+  padding-top: 15px;
+  margin-left: -50px;
+
+
+}
+
+.hr-moto {
+  border: 1px solid darkorange;
+  float: center;
+  border-radius: 1px;
+  margin-left: inherit;
+  min-width: 200px;
+}
+
+#reasons {
+
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  border: solid 1px lightgrey;
+  min-width: 300px;
+
+}
+
+#br-reasons {
+  text-align: left;
+}
 /* main-image {
   background-repeat: repeat;
   background-size: cover;
@@ -46,15 +79,15 @@ html {
 /*--------------------------- Mobile Style Rules end -----------------------*/
 /* ---------------------------Foooter Style Rules start -----------------------*/
 .bands-footer {
-  position: fixed;
+  position: relative;
   width: 100%;
   height: 85px;
   background-color: #fafafa;
   text-align: center;
   left: 0;
   bottom: 0;
-  padding: 0 15px 0 15px;
-  
+  /*padding: 0 15px 0 15px;*/
+
 }
 
 .hr-footer {
@@ -191,6 +224,12 @@ background-color: #fafafa;
       text-align: center;
     }
 
+/* ^^^^^^^^^^ Main content ^^^^^^^^^^^ */
+div.r2c1,div.r2c2, div.r2c3 {
+  text-align: left;
+}
+
+
   }
 /*-------For Tablets start */
 
@@ -218,6 +257,10 @@ background-color: #fafafa;
     div.r1c3,div.r1c4, div.r1c5 {
       text-align: center;
     }
+
+    .hr-moto {
+      margin-left: -50px;
+    }
   }
 
 @media only screen and (min-width: 1024px) and (max-width: 1200px) {
@@ -243,6 +286,10 @@ img.company-logo {width: 100px;}
   .fa-twitter-square {
     padding: 0 30px 0 30px;
     font-size: 150%;
+  }
+
+  .hr-moto {
+    margin-left: -50px;
   }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -272,5 +319,8 @@ h1.bands.heading {
   .fa-twitter-square {
     padding: 0 30px 0 30px;
     font-size: 150%;
+  }
+  .hr-moto {
+    margin-left: -50px;
   }
 }
