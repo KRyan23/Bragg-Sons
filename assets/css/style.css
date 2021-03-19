@@ -53,8 +53,9 @@ body {
 
 
 .main-button {
-  background-color:   darkgrey;
+  background-color: lightgrey;
     border: 1px solid coral;
+    border-radius: 25px;
     color: white;
     text-align: center;
     font-size: 16px;
@@ -63,8 +64,17 @@ body {
     transition: 0.3s;
 }
 
-.gallery {
+.main-button: hover {
+opacity: 0.1;
+}
+
+.gallery-button {
   text-decoration: none;
+  border: 1px solid coral;
+  background-color: #fafafa;
+  border-radius: 5px;
+  text-align: center;
+  min-width: 190px;
 }
 
 /* main-image {
@@ -77,15 +87,6 @@ body {
   margin: 0px;
   padding: 0px 0px 0px 0px;
   position: absolute;}
-
-
-html {
-  background-image:url("/assets/images/main4.jpg");
-  background-size: cover;
-  position: inherit;
-  background-repeat: no-repeat;
-}
-*/
 
 
 /* -------------------------- General Style Rules End-----------------------*/
@@ -170,6 +171,11 @@ background-color: #fafafa;
   font-size: 100%;
 }
 
+#quote-button {
+  margin-top: 40px;
+  font-size: 100%;
+  margin-left: 12px;
+}
 }
 /* ------ For mobile phones start
 [class*="col-"] {
@@ -196,6 +202,15 @@ background-color: #fafafa;
       text-align: left;
     }
 
+    #quote-button {
+      margin-top: 50px;
+      font-size: 100%;
+      margin-left: 0px;
+    }
+#moto {
+  text-align: center;
+  margin-left: 0px;
+}
   }
 @media only screen and (min-width: 500px) and (max-width: 767px){
 
@@ -221,6 +236,11 @@ div.r1c3,div.r1c4, div.r1c5 {
     div.r1c3,div.r1c4, div.r1c5 {
       text-align: left;
     }
+#quote-button {
+  margin-top: 60px;
+  font-size: 100%;
+
+}
 
   }
 /*-------For mobile phones end */
@@ -259,9 +279,9 @@ div.r2c1,div.r2c2, div.r2c3 {
 }
 
 #quote-button {
-  margin-top: 8px;
-  font-size: 90%;
-  height: 57px;
+  margin-top: 60px;
+  font-size: 100%;
+
 
 }
   }
@@ -300,7 +320,7 @@ div.r2c1,div.r2c2, div.r2c3 {
     margin-left: -50px;
   }
   #quote-button {
-    margin-top: 47px;
+    margin-top: 75px;
     font-size: 100%;
 }
 }
@@ -331,7 +351,7 @@ img.company-logo {width: 100px;}
     margin-left: -50px;
   }
   #quote-button {
-    margin-top: 16px;
+    margin-top: 26px;
     font-size: 100%;
 }
 }
@@ -345,7 +365,7 @@ h1.bands.heading {
   font-size: 1px;}
 
 
-  
+
   div.r1c3,div.r1c4, div.r1c5 {
     text-align: center;
   }
@@ -367,7 +387,7 @@ h1.bands.heading {
   }
 
   #quote-button {
-    margin-top: 76px;
-    font-size: 130%;
+    margin-top: 65px;
+    font-size: 120%;
   }
 }

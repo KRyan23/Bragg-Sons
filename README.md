@@ -1,35 +1,50 @@
 # Bragg&Sons
-## Strategy
-### Focus
+<hr>
+<p> Bragg&Sons are a family of local painters that have been in the business for a very long time.</p><p>
+They have a very established long standing customer base but would like to grow new business on a yearly basis.</p>
+<p>They have tried social media without much sucess, so we have suggested Bragg&Sons have their own website on which they can tie it all together.
+<hr>
+#The UX
+<p>
+Please find the 5 strategy planes discussing the scope and needs of the project.
+
+
+
+
+
+
+
+### Strategy
+#### Focus
 - They want more of an online presence
 - They would like to sell more services
 - Automate certain tasks
 - Get a clearer indication of the work needed
-### What are we creating
+#### What are we creating
 - We are creating a custom site rather than relying on facebook
-### Is it Valuable
+#### Is it Valuable
 - Make it easier to sell more of what we do
 - Make giving esitamates easier on both business and the end user
 - Give the user an easier oportunity to purchase a services
 - Showcase some of our work in a gallery page.
 <br><br><hr>
-## Scope
-### Features
+### Scope
+#### Features
 - Provide a quick online quote
 - To sumbit a form outlining work required
-### Content
+#### Content
 - Provide business details, phone number, address, email.
 - Photos of completed work and projects
 - User testimonials
 <br><br><hr>
-## Structure
-### Information architecture
+### Structure
+#### Information architecture
 - Were choosing the tree Structure, not the best for mobile but its a small site
 - Group content for our sites audience
 - Create the correct structure for our objectives and user needs
 - Prioritse the upfront information
 <br><br><hr>
-## Skeleton
+### Skeleton
 <ul>
 <li>Create Wireframes for</li>
 <ul>
@@ -39,7 +54,7 @@
 </ul>
 </ul>
 <br><br><hr>
-<h2> Surface</h2>
+<h3> Surface</h3>
 
 - Decide on the colour scheme
 - Decide on the Topography
@@ -52,6 +67,30 @@
 
 <hr>
 
+### Wireframes
+<p> Please find links to the wireframes below, all wer created using Balsamic 4.2.1 on windows.</p>
+
+<ul>
+<a href="C:\Users\User\Desktop\CodeInst\MileStoneProject1\MileStone For real project\Bragg & Sons Idea\Wireframe Pdfs\Phone Wireframes\MobilePhonePages.pdf"><li>Mobile</li></a>
+<a href="C:\Users\User\Desktop\CodeInst\MileStoneProject1\MileStone For real project\Bragg & Sons Idea\Wireframe Pdfs\Tablet\TabletPages.pdf"><li>Tablet</li></a>
+<a href="C:\Users\User\Desktop\CodeInst\MileStoneProject1\MileStone For real project\Bragg & Sons Idea\DesktopPc\*.pdf"><li>Desktop</li></a>
+<hr>
+
+#Features
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### Sources:
 
-braggandsons logo - borrowed from brandcrowd.com
+<p><li>braggandsons logo - borrowed from www.brandcrowd.com
