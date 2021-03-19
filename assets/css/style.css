@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
 /* -------------------------- General Style Rules start-----------------------*/
-
+/*#main {
+  padding-left: -150px;
+} */
 
 body {
   padding: 15px;
@@ -48,6 +50,23 @@ body {
 #br-reasons {
   text-align: left;
 }
+
+
+.main-button {
+  background-color:   darkgrey;
+    border: 1px solid coral;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.gallery {
+  text-decoration: none;
+}
+
 /* main-image {
   background-repeat: repeat;
   background-size: cover;
@@ -195,6 +214,10 @@ background-color: #fafafa;
   font-size: 100%;
 }
 
+div.r1c3,div.r1c4, div.r1c5 {
+  text-align: center;
+}
+
     div.r1c3,div.r1c4, div.r1c5 {
       text-align: left;
     }
@@ -212,10 +235,6 @@ background-color: #fafafa;
   #contact, #services, #about {
     font-size: 12px;
 }
-#braggandsons-hr, #contact-hr, #services-hr  {
-  display: none;
-
-}
 
 #foot-face, #foot-instagram, #foot-twitter   {
   font-size: 100%;
@@ -229,7 +248,22 @@ div.r2c1,div.r2c2, div.r2c3 {
   text-align: left;
 }
 
+#moto {
+  font-size: 80%;
+  margin-top: -15px;
+}
 
+#br-reasons {
+  font-size: 80%;
+
+}
+
+#quote-button {
+  margin-top: 8px;
+  font-size: 90%;
+  height: 57px;
+
+}
   }
 /*-------For Tablets start */
 
@@ -247,9 +281,6 @@ div.r2c1,div.r2c2, div.r2c3 {
   #contact, #services, #about {
     font-size: 12px;
       }
-  #braggandsons-hr, #contact-hr, #services-hr  {
-    display: none;
-    }
 
     #foot-face, #foot-instagram, #foot-twitter   {
       font-size: 100%;
@@ -258,11 +289,21 @@ div.r2c1,div.r2c2, div.r2c3 {
       text-align: center;
     }
 
-    .hr-moto {
-      margin-left: -50px;
-    }
+    #moto {
+    font-size: 90%;
   }
 
+  #br-reasons {
+    font-size: 90%;
+  }
+  .hr-moto {
+    margin-left: -50px;
+  }
+  #quote-button {
+    margin-top: 47px;
+    font-size: 100%;
+}
+}
 @media only screen and (min-width: 1024px) and (max-width: 1200px) {
 
 img.company-logo {width: 100px;}
@@ -270,9 +311,7 @@ img.company-logo {width: 100px;}
   div.r1c3,div.r1c4, div.r1c5 {
     text-align: center;
   }
-  #braggandsons-hr, #contact-hr, #services-hr  {
-    display: none;
-  }
+
 
   .fa-facebook-f {
     padding: 0 30px 0 30px;
@@ -291,6 +330,10 @@ img.company-logo {width: 100px;}
   .hr-moto {
     margin-left: -50px;
   }
+  #quote-button {
+    margin-top: 16px;
+    font-size: 100%;
+}
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 
@@ -301,9 +344,8 @@ h1.bands.heading {
   text-align: left;
   font-size: 1px;}
 
-  #braggandsons-hr, #contact-hr, #services-hr  {
-    display: none;
-  }
+
+  
   div.r1c3,div.r1c4, div.r1c5 {
     text-align: center;
   }
@@ -322,5 +364,10 @@ h1.bands.heading {
   }
   .hr-moto {
     margin-left: -50px;
+  }
+
+  #quote-button {
+    margin-top: 76px;
+    font-size: 130%;
   }
 }
