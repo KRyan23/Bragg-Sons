@@ -112,7 +112,7 @@ In addition, you should mention in this section how your project looks and works
 
 (You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.)
 One of the initial challenges which im sure is quiet normal when writing code was the accidental deletion or addition of a parenthesis,
-when editing code. The knockon effect being the whole layout of the site suddenly not looking right. Intially I tried to find these manually until I realised that I could just use the online css/html code validators and use the direct input method to quickly scan the code.
+when editing code. The knockon effect being the whole layout of the site suddenly not looking right. Intially I tried to find these manually until I realised that I could just use the online css/html code validators and use the direct input method to quickly scan the code which saved a lot of time.
 </li>
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
@@ -132,7 +132,7 @@ The text for all sections was created by myself derived from a conversation with
 ###Media
 The braggandsons logo was borrowed from www.brandcrowd.com.
 The logo was picked out I addded the text and style I then saved a screenshot.
-I understand that this is not the correct way to acquire or borrow images but to purchase the icon was quiet expensive and since I will only be using this for educational purposes i did not forsee and issue.
+I understand that this is not the correct way to acquire or borrow images but to purchase the icon was quiet expensive and since I will only be using this for educational purposes i did not see an issue with it.
 
 The photos used in this site were obtained from ...
 ###Acknowledgements

@@ -90,16 +90,18 @@ opacity: 0.1;
 
 
 /* -------------------------- General Style Rules End-----------------------*/
-/*--------------------------- Mobile Style Rules start -----------------------*/
+/*--------------------------- Header Rules Start -----------------------*/
+.fa-phone, .fa-cog, .fa-info{
+  padding-left: 10px;
+  font-size: 100%;
+}
 
 
 
-
-
-/*--------------------------- Mobile Style Rules end -----------------------*/
+/*--------------------------- Header Rules end -----------------------*/
 /* ---------------------------Foooter Style Rules start -----------------------*/
 .bands-footer {
-  position: relative;
+  position: inherit;
   width: 100%;
   height: 85px;
   background-color: #fafafa;
@@ -128,6 +130,26 @@ opacity: 0.1;
 .fa-twitter-square {
   padding: 0 20px 0 20px;
   font-size: 150%;
+}
+
+.bands-sub-footer {
+  max-width: 300px;
+}
+
+img.company-logo-footer {
+  max-width: 60px;
+  margin-left: -10px;
+
+}
+
+#contact-footer {
+  font-size: 24px;
+
+  font-weight: 400;
+  text-align: center;
+  float:center;
+  min-width: 300px;
+
 }
 /* ---------------------------Foooter Style Rules End -----------------------*/
 /* -------------------------- Colour Style Rules start -----------------------*/
@@ -247,7 +269,10 @@ div.r1c3,div.r1c4, div.r1c5 {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 
-  img.company-logo {width: 90px;}
+  img.company-logo {
+    width: 90px;
+  }
+
   #bandsheading {
     font-size: 33px;
     text-align: center;
