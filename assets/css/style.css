@@ -144,7 +144,6 @@ img.company-logo-footer {
 
 #contact-footer {
   font-size: 24px;
-
   font-weight: 400;
   text-align: center;
   float:center;
@@ -198,6 +197,10 @@ background-color: #fafafa;
   font-size: 100%;
   margin-left: 12px;
 }
+
+.fa-phone, .fa-cog, .fa-info{
+  display: none;
+}
 }
 /* ------ For mobile phones start
 [class*="col-"] {
@@ -233,6 +236,10 @@ background-color: #fafafa;
   text-align: center;
   margin-left: 0px;
 }
+
+.fa-phone, .fa-cog, .fa-info{
+  display: none;
+}
   }
 @media only screen and (min-width: 500px) and (max-width: 767px){
 
@@ -262,6 +269,10 @@ div.r1c3,div.r1c4, div.r1c5 {
   margin-top: 60px;
   font-size: 100%;
 
+}
+
+.fa-phone, .fa-cog, .fa-info{
+  display: none;
 }
 
   }
