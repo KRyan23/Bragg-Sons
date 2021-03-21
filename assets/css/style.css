@@ -10,6 +10,11 @@ body {
   background-color: #fafafa;
   }
 
+#nav-links {
+  text-decoration: none;
+  color: black;
+}
+
   #braggandsons-hr, #contact-hr, #services-hr  {
     height: 15px;
     width: 135px;
@@ -77,19 +82,35 @@ opacity: 0.1;
   min-width: 190px;
 }
 
-/* main-image {
-  background-repeat: repeat;
-  background-size: cover;
-  max-height: 600px;
-  max-width: 700px;
-  overflow: hidden;
-  border: 0px 0px 0px 0px;
-  margin: 0px;
-  padding: 0px 0px 0px 0px;
-  position: absolute;}
+#p-about {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  float:center;
+}
 
+hr.testimonial {
+  max-width: 100px;
+  text-align: center;
+}
 
 /* -------------------------- General Style Rules End-----------------------*/
+/* -------------------------- Image Style Rules start-----------------------*/
+.testimonial {
+ height: 150px;
+ width: 200px;
+ overflow: hidden;
+ opacity: 0.8;
+
+}
+
+img .testimonial{
+ height: auto;
+ width: 400px;
+}
+
+
+/*--------------------------- Image style Rules end -----------------------*/
 /*--------------------------- Header Rules Start -----------------------*/
 .fa-phone, .fa-cog, .fa-info{
   padding-left: 10px;
@@ -201,6 +222,11 @@ background-color: #fafafa;
 .fa-phone, .fa-cog, .fa-info{
   display: none;
 }
+
+/*--------- Rules for about.html testimonails ------*/
+div.r22c1, div.r22c2,div.r22c3, div.r22c4{
+text-align: center;
+  }
 }
 /* ------ For mobile phones start
 [class*="col-"] {
@@ -240,6 +266,11 @@ background-color: #fafafa;
 .fa-phone, .fa-cog, .fa-info{
   display: none;
 }
+
+/*--------- Rules for about.html testimonails ------*/
+div.r22c1, div.r22c2,div.r22c3, div.r22c4{
+text-align: center;
+  }
   }
 @media only screen and (min-width: 500px) and (max-width: 767px){
 
@@ -275,7 +306,11 @@ div.r1c3,div.r1c4, div.r1c5 {
   display: none;
 }
 
+/*--------- Rules for about.html testimonails ------*/
+div.r22c1, div.r22c2,div.r22c3, div.r22c4{
+text-align: center;
   }
+}
 /*-------For mobile phones end */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -296,6 +331,10 @@ div.r1c3,div.r1c4, div.r1c5 {
   font-size: 100%;
 }
     div.r1c3,div.r1c4, div.r1c5 {
+      text-align: center;
+    }
+/*--------- Rules for about.html testimonails ------*/
+      div.r22c1, div.r22c2,div.r22c3, div.r22c4{
       text-align: center;
     }
 

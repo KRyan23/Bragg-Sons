@@ -130,11 +130,13 @@ In addition, if it is not obvious, you should also describe how to run your code
 ###Content
 The text for all sections was created by myself derived from a conversation with a local painter.
 ###Media
+The photos used in this site were obtained from
 The braggandsons logo was borrowed from www.brandcrowd.com.
 The logo was picked out I addded the text and style I then saved a screenshot.
 I understand that this is not the correct way to acquire or borrow images but to purchase the icon was quiet expensive and since I will only be using this for educational purposes i did not see an issue with it.
+The testimonails on the about page were created by myself just the images we borrowed by doing a google search of "picture of a happy person", "picture of a smiling person", picture of a smiling older person, "picture of a smiling couple in new house", "picture of a smiling older couple"
 
-The photos used in this site were obtained from ...
+
 ###Acknowledgements
 I received inspiration for this project from a conversation with a local painter.
 The name Bragg&Sons and any contact information is ficticious and does not represent the actual painters details to protect his identity.
