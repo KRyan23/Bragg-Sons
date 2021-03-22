@@ -99,6 +99,19 @@ hr.testimonial {
   padding-bottom: 50px;
 }
 
+#services-quote-button {
+    background-color: lightgrey;
+    min-width: 260px;
+    min-height: 60px;
+    border: 1px solid coral;
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+  /*  margin: 4px 2px; */
+    opacity: 1;
+    transition: 0.3s;
+}
 
 /* -------------------------- General Style Rules End-----------------------*/
 /* -------------------------- Image Style Rules start-----------------------*/
@@ -235,22 +248,16 @@ div.r22c1, div.r22c2,div.r22c3, div.r22c4{
 text-align: center;
   }
 
+  #services {
+      max-width: 150px;
+      border-radius: 5px;
+      margin-left: 15px;
+      float: center;
+    }
 
 
 
-#services {
-  max-width: 150px;
-  border-radius: 5px;
-  margin-left: 25px;
 
-}
-
-#services-heading {
-  margin-left: 45px;
-  max-width: 150px;
-  text-align: left;
-  font-size: 12px;
-}
 }
 @media only screen and (min-width: 250px) and (max-width: 499px){
 
@@ -292,23 +299,15 @@ div.r22c1, div.r22c2,div.r22c3, div.r22c4{
 text-align: center;
   }
 
-
-
-
   #services {
-    max-width: 150px;
-    border-radius: 5px;
-    margin-left: 55px;
-    float:center;
-  }
+      max-width: 150px;
+      border-radius: 5px;
+      margin-left: 0px;
+      float: center;
+    }
 
-  #services-heading {
-    margin-left: 55px;
-    max-width: 150px;
-    text-align: center;
-    font-size: 12px;
-    float:center;
-  }
+
+
 
   }
 @media only screen and (min-width: 500px) and (max-width: 767px){
@@ -349,6 +348,13 @@ div.r1c3,div.r1c4, div.r1c5 {
 div.r22c1, div.r22c2,div.r22c3, div.r22c4{
 text-align: center;
   }
+
+  #services {
+      max-width: 200px;
+      border-radius: 5px;
+      margin-left: 0px;
+      float: center;
+    }
 }
 
 
@@ -397,9 +403,21 @@ div.r2c1,div.r2c2, div.r2c3 {
 #quote-button {
   margin-top: 60px;
   font-size: 100%;
-
-
 }
+
+#services {
+    max-width: 250px;
+    border-radius: 5px;
+    margin-left: 45px;
+    float: center;
+  }
+
+  #services-heading {
+    margin-left: 55px;
+    max-width: 250px;
+    text-align: center;
+    float:center;
+  }
   }
 /*-------For Tablets start */
 
@@ -439,6 +457,20 @@ div.r2c1,div.r2c2, div.r2c3 {
     margin-top: 75px;
     font-size: 100%;
 }
+
+#services {
+    max-width: 250px;
+    border-radius: 5px;
+    margin-left: 100px;
+    float: center;
+  }
+
+  #services-heading {
+    margin-left: 100px;
+    max-width: 250px;
+    text-align: center;
+    float:center;
+  }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1200px) {
 
@@ -470,6 +502,20 @@ img.company-logo {width: 100px;}
     margin-top: 26px;
     font-size: 100%;
 }
+
+#services {
+    max-width: 250px;
+    border-radius: 5px;
+    margin-left: 100px;
+    float: center;
+  }
+
+  #services-heading {
+    margin-left: 100px;
+    max-width: 250px;
+    text-align: center;
+    float:center;
+  }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 
