@@ -94,9 +94,16 @@ hr.testimonial {
   text-align: center;
 }
 
+#munsters-best {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+
 /* -------------------------- General Style Rules End-----------------------*/
 /* -------------------------- Image Style Rules start-----------------------*/
 .testimonial {
+ border-radius: 5px;
  height: 150px;
  width: 200px;
  overflow: hidden;
@@ -164,11 +171,11 @@ img.company-logo-footer {
 }
 
 #contact-footer {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 400;
   text-align: center;
   float:center;
-  min-width: 300px;
+
 
 }
 /* ---------------------------Foooter Style Rules End -----------------------*/
@@ -227,11 +234,24 @@ background-color: #fafafa;
 div.r22c1, div.r22c2,div.r22c3, div.r22c4{
 text-align: center;
   }
+
+
+
+
+#services {
+  max-width: 150px;
+  border-radius: 5px;
+  margin-left: 25px;
+
 }
-/* ------ For mobile phones start
-[class*="col-"] {
-  width: 100%;
-}*/
+
+#services-heading {
+  margin-left: 45px;
+  max-width: 150px;
+  text-align: left;
+  font-size: 12px;
+}
+}
 @media only screen and (min-width: 250px) and (max-width: 499px){
 
   img.company-logo {
@@ -263,14 +283,33 @@ text-align: center;
   margin-left: 0px;
 }
 
+
 .fa-phone, .fa-cog, .fa-info{
   display: none;
 }
-
 /*--------- Rules for about.html testimonails ------*/
 div.r22c1, div.r22c2,div.r22c3, div.r22c4{
 text-align: center;
   }
+
+
+
+
+  #services {
+    max-width: 150px;
+    border-radius: 5px;
+    margin-left: 55px;
+    float:center;
+  }
+
+  #services-heading {
+    margin-left: 55px;
+    max-width: 150px;
+    text-align: center;
+    font-size: 12px;
+    float:center;
+  }
+
   }
 @media only screen and (min-width: 500px) and (max-width: 767px){
 
@@ -311,6 +350,8 @@ div.r22c1, div.r22c2,div.r22c3, div.r22c4{
 text-align: center;
   }
 }
+
+
 /*-------For mobile phones end */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
