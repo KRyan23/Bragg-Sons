@@ -113,35 +113,40 @@ hr.testimonial {
 }
 /*-------Contact.html-*/
 
-#contact-methods1 {
+#contact-methods {
   background-color: #fafafa;
-  height: 500px;
-  width: 600px;
+  min-height: 500px;
+  max-width: 300px;
   color: black;
   border: 1px solid coral;
   border-radius: 25px;
-  text-align: center;
+  float: left;
+  padding-left: 20px;
+  opacity: 0.75;
 
+a. {
+  text-decoration: none;
+}
 
 
 }
 
-#contact-methods2 {
+#hours {
   background-color: #fafafa;
-  height: 600px;
-  width: 400px;
+  min-height: 500px;
+  max-width: 300px;
   color: black;
   border: 1px solid coral;
   border-radius: 25px;
-  text-align: center;
-
+  float: right;
+  padding-left: 20px;
+  opacity: 0.75;
 
 }
 
-#hr-contact {
-  width: 200px;
+li {
+  list-style-type: none;
 }
-
 
 /* -------------------------- General Style Rules End-----------------------*/
 /* -------------------------- Image Style Rules start-----------------------*/
@@ -161,15 +166,30 @@ img .testimonial{
 
 
 /*--------------------------- Image style Rules end -----------------------*/
-/*--------------------------- Header Rules Start -----------------------*/
-.fa-phone, .fa-cog, .fa-info{
+/*--------------------------- Fa Rules Start -----------------------*/
+.fa-phone, .fa-cog, .fa-info {
   padding-left: 10px;
   font-size: 100%;
 }
 
+/* Contact style rules */
+
+#phone-contact-icon {
+  padding-left: 22px;
+}
+#email-contact-icon {
+  padding-left: 45px;
+
+}
+
+#post-contact-icon {
+  padding-left: 22px;
 
 
-/*--------------------------- Header Rules end -----------------------*/
+}
+
+
+/*--------------------------- Fa Rules end -----------------------*/
 /* ---------------------------Foooter Style Rules start -----------------------*/
 .bands-footer {
   position: inherit;
@@ -252,6 +272,7 @@ background-color: #fafafa;
     width: 70px;
     padding-top: 0px;
   }
+
   #bandsheading {
     font-size: 24px;
     text-align: left;
@@ -259,6 +280,7 @@ background-color: #fafafa;
 #contact, #services, #about {
   font-size: 10px;
 }
+
 #foot-face, #foot-instagram, #foot-twitter   {
   font-size: 100%;
 }
@@ -273,6 +295,20 @@ background-color: #fafafa;
   display: none;
 }
 
+#email-contact-icon, #post-contact-icon {
+    display: none;
+}
+
+#p-contact-touch {
+  font-size: 14px;
+  text-align: center;
+}
+
+#ul-contact-touch {
+    font-size: 12px;
+
+}
+
 /*--------- Rules for about.html testimonails ------*/
 div.r22c1, div.r22c2,div.r22c3, div.r22c4{
 text-align: center;
@@ -284,7 +320,6 @@ text-align: center;
       margin-left: 15px;
       float: center;
     }
-
 
 
 
@@ -335,9 +370,19 @@ text-align: center;
       margin-left: 0px;
       float: center;
     }
+    #email-contact-icon, #post-contact-icon {
+        display: none;
+    }
 
+    #p-contact-touch {
+      font-size: 14px;
+      text-align: left;
+    }
 
-
+    #ul-contact-touch {
+        font-size: 12px;
+        text-align: left;
+}
 
   }
 @media only screen and (min-width: 500px) and (max-width: 767px){
@@ -385,6 +430,11 @@ text-align: center;
       margin-left: 0px;
       float: center;
     }
+
+    #email-contact-icon, #post-contact-icon {
+        display: none;
+    }
+
 }
 
 
