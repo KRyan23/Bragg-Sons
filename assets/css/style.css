@@ -108,10 +108,40 @@ hr.testimonial {
     color: white;
     text-align: center;
     font-size: 16px;
-  /*  margin: 4px 2px; */
     opacity: 1;
     transition: 0.3s;
 }
+/*-------Contact.html-*/
+
+#contact-methods1 {
+  background-color: #fafafa;
+  height: 500px;
+  width: 600px;
+  color: black;
+  border: 1px solid coral;
+  border-radius: 25px;
+  text-align: center;
+
+
+
+}
+
+#contact-methods2 {
+  background-color: #fafafa;
+  height: 600px;
+  width: 400px;
+  color: black;
+  border: 1px solid coral;
+  border-radius: 25px;
+  text-align: center;
+
+
+}
+
+#hr-contact {
+  width: 200px;
+}
+
 
 /* -------------------------- General Style Rules End-----------------------*/
 /* -------------------------- Image Style Rules start-----------------------*/
