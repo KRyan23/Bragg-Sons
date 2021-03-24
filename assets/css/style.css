@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
 /* -------------------------- General Style Rules start-----------------------*/
-/*#main {
-  padding-left: -150px;
-} */
+
 
 body {
   padding: 15px;
@@ -73,6 +71,36 @@ body {
 opacity: 0.1;
 }
 
+.submit-button {
+  background-color: lightgrey;
+    border: 1px solid coral;
+    border-radius: 25px;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 1;
+    transition: 0.3s;
+    min-width: 150px;
+    min-height: 30px;
+}
+
+.reset-button {
+  background-color: lightgrey;
+    border: 1px solid coral;
+    border-radius: 25px;
+    color: #fafafa;
+    float:right;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+
+    transition: 0.3s;
+    min-width: 140px;
+    min-height: 30px;
+}
+
+
 .gallery-button {
   text-decoration: none;
   border: 1px solid coral;
@@ -97,6 +125,7 @@ hr.testimonial {
 #munsters-best {
   text-align: center;
   padding-bottom: 50px;
+  opacity: 0.75;
 }
 
 #services-quote-button {
@@ -133,7 +162,7 @@ hr.testimonial {
   min-height: 500px;
   max-width: 300px;
   color: black;
-  border: 1px solid coral;
+  border: 1px solid lightgrey;
   border-radius: 25px;
   float: right;
   padding-left: 20px;
@@ -163,9 +192,7 @@ li {
   margin-left: 50px;
 }
 
-#form-query-input {
-  min-width: 350px;
-  min-height: 150px;
+
 }
 /* -------------------------- General Style Rules End-----------------------*/
 /* -------------------------- Image Style Rules start-----------------------*/
@@ -178,9 +205,13 @@ li {
 
 }
 
-img .testimonial{
+img.testimonial{
  height: auto;
- width: 400px;
+ width: 200px;
+ height: 150px;
+ border-radius: 5px;
+ opacity: 0.8;
+ overflow: hidden;
 }
 
 
@@ -345,8 +376,8 @@ text-align: center;
     }
 
     #form-query-input {
-      min-width: 10px;
-      min-height: 200px;
+      max-width: 130px;
+      min-height: 350px;
     }
 
 }
@@ -415,7 +446,7 @@ text-align: center;
 }
 
 #form-query-input {
-  min-width: 200px;
+  max-width: 150px;
   min-height: 350px;
 }
 
@@ -478,7 +509,7 @@ text-align: center;
       min-height: 350px;
 }
 
-
+}
 /*-------For mobile phones end */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -539,6 +570,11 @@ div.r2c1,div.r2c2, div.r2c3 {
     text-align: center;
     float:center;
   }
+
+  #form-query-input {
+    min-width: 450px;
+    min-height: 350px;
+}
   }
 /*-------For Tablets start */
 
@@ -592,6 +628,11 @@ div.r2c1,div.r2c2, div.r2c3 {
     text-align: center;
     float:center;
   }
+
+  #form-query-input {
+    min-width: 450px;
+    min-height: 350px;
+  }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1200px) {
 
@@ -637,6 +678,11 @@ img.company-logo {width: 100px;}
     text-align: center;
     float:center;
   }
+
+  #form-query-input {
+    min-width: 550px;
+    min-height: 350px;
+}
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 
@@ -673,4 +719,9 @@ h1.bands.heading {
     margin-top: 65px;
     font-size: 120%;
   }
+
+  #form-query-input {
+    min-width: 650px;
+    min-height: 350px;
+}
 }
