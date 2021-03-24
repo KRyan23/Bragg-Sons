@@ -132,7 +132,7 @@ hr.testimonial {
 #services-quote-button {
     background-color: lightgrey;
     min-width: 260px;
-    min-height: 60px;
+    min-height: 80px;
     border: 1px solid coral;
     border-radius: 25px;
     color: white;
@@ -258,6 +258,7 @@ img.testimonial{
   height: 1px;
   background-color: lightgrey;
   border: none;
+  margin-top: 100px;
 }
 
 .fa-facebook-f {
@@ -289,8 +290,10 @@ img.company-logo-footer {
   font-weight: 400;
   text-align: center;
   float:center;
+}
 
-
+.about-hr-footer {
+  padding-top: 50px;
 }
 /* ---------------------------Foooter Style Rules End -----------------------*/
 /* -------------------------- Colour Style Rules start -----------------------*/
@@ -648,6 +651,7 @@ div.r2c1,div.r2c2, div.r2c3 {
   #quote-button {
     margin-top: 75px;
     font-size: 100%;
+
 }
 
 #services {
