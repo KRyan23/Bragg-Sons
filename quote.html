@@ -58,24 +58,74 @@
 
 <div class="container main-container">
   <div class="row form-row justify-content-around">
-    <div class="col r2c40 align-self-between" id="contact-form">
+    <div class="col align-self-between" id="quote-form">
       <br>
 <form action="https://formdump.codeinstitute.net/" method="post">
-  <fieldset form="bragg&sons"><legend><h5>Your Details</h5></legend><br>
-        <input class="form-standard-input" id="firstname" type="text" name="First Name" placeholder="First Name" required></input><br><br>
+  <fieldset form="bragg&sons"><legend style="text-align: center;">Bragg&Sons</legend>
+<br><h6>What do you need painted</h6><br>
+        <input  class="radio-standard-input" id="wallsandceilings" value="wallsandceilings" type="radio" name="typeofwork" checked />
+          <label class="radio-standard-input" for="wallsandceilings">Walls and Ceilings</label>
+<br id="br-quote">
+          <input class="radio-standard-input" id="woodenfloors" value="woodenfloors" type="radio" name="typeofwork" />
+            <label class="radio-standard-input" for="wallsandceilings">Wooden Floors</label>
+<br id="br-quote">
+            <input class="radio-standard-input" id="both" value="both" type="radio" name="typeofwork" />
+              <label class="radio-standard-input" for="both">Both</label>
+<br><br>
 
-          <input class="form-standard-input" id="secondname" type="text" name="Last Name" placeholder="Last Name" required /><br><br>
+<label for="house-type"><h6>Which best describes your Home</h6></label>
+<br><br>
+<div class="dropdown-standard-input radio-standard-input">
+<select id="house-type" size="1"  name="house-type">
+<option value="apartment">Apartment / Flat</option>
+<option value="bungalow">Bungalow</option>
+<option value="cottage">Cottage</option>
+<option value="detached3">Detached 3 Bed</option>
+<option value="detached4">Detached 4 Bed</option>
+<option value="duplex">Duplex</option>
+<option value="other">Other />Not Listed</option>
+<option value="semi-d-3">Semi-D 3 Bed</option>
+<option value="semi-d-4">Semi-D 4 Bed </option>
+<option value="terraced">Terraced</option>
+  </select>
+</div>
+<br><br>
+<h6>Choose your price range.</h6>
+<br>
+<input  class="radio-standard-input" id="standard" value="standard" type="radio" name="paintscheme" checked />
+  <label class="radio-standard-input" for="standard">Standard</label>
+<br id="br-quote">
+  <input class="radio-standard-input" id="contemporary" value="contemporary" type="radio" name="paintscheme" />
+    <label class="radio-standard-input" for="contemporary">Contemporary</label>
+<br id="br-quote">
+    <input class="radio-standard-input" id="deluxe" value="deluxe" type="radio" name="paintscheme" />
+      <label class="radio-standard-input" for="deluxe">Deluxe</label>
+<br><br>
+<div class="color-scheme">
+<a href="/assets/documents/ColourScheme.pdf" target="_blank">View our colour palete schemes in advance<br>and present it to
+the painter on the day.</a>
+</div>
+<br><br>
+<h6>Choose any extras needed.</h6>
+<br>
+<input class="radio-standard-input" type="checkbox" id="doors" name="doors" value="doorsyes">
+      <label class="radio-standard-input" for="doors">Doors</label>
+<br id="br-quote">
+            <input class="radio-standard-input" type="checkbox" id="stairs" name="stairs" value="stairsyes">
+        <label class="radio-standard-input" for="stairs">Main Stairs</label>
+<br id="br-quote">
+<input class="radio-standard-input" type="checkbox" id="radiators" name="radiators" value="radiatorsyes">
+<label class="radio-standard-input" for="radiators">Radiators </label>
+<br>
+<button  class="painter-button" type="submit" ><h5 >Get Your Free Quote<br>Today</h5></button>
 
-              <input class="form-standard-input" id="phone" type="text" name="Phone Number" placeholder="Phone Number" required/><br><br>
 
-                <input class="form-standard-input" id="email" type="email" name="Email" placeholder="Email" required /><br><br>
 
-                  <textarea class="form-standard-input" id="query" type="text" placeholder="Query / Description of work" row="50" cols="50" required></textarea><br>
 
-                                  <br>
-                  <button class="submit-button" type="submit">Send</button>
 
-          <input id="form-standard-input" class="reset-button" type="reset" value="Clear Form"/><br>
+
+
+
 </fieldset>
 </form>
 </div>
