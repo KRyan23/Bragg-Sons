@@ -136,9 +136,11 @@ The logo was picked out I addded the text and style I then saved a screenshot.
 I understand that this is not the correct way to acquire or borrow images but to purchase the icon was quiet expensive and since I will only be using this for educational purposes i did not see an issue with it.
 The testimonails on the about page were created by myself just the images we borrowed by doing a google search of "picture of a happy person", "picture of a smiling person", picture of a smiling older person, "picture of a smiling couple in new house", "picture of a smiling older couple"
 
-Colour palette was borrowed from www.Lakelandfurniture.co.uk
+The colour palette pdf created using content borrowed from https://www.Lakelandfurniture.co.uk
 
-The pictures on the services page by doing a google search of "pictures of an empty house freshly painted", "pictures of an wooden floor"
+The pictures on the services page were from the following sources https://istockphoto.com and https://www.indiamart.com/
+
+The pictures on the before and after pages were from the following sources, www.perfecthome.ie,
 
 ###Acknowledgements
 I received inspiration for this project from a conversation with a local painter.

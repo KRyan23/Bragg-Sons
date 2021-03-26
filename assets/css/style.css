@@ -1,279 +1,287 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
-/* --------------------------Body Style Rules start-----------------------*/
+/* --------------------------Body Style Rules -----------------------*/
 
 
-body {
-  padding: 15px;
-  background-color: #fafafa;
-  }
+ body {
+   padding: 15px;
+   background-color: #fafafa;
+ }
 
-  li {
-    list-style-type: none;
-  }
+ li {
+   list-style-type: none;
+ }
 
-.hr-contact {
-    max-width: 100px;
-    background-color: coral;
-  }
+ .hr-contact {
+   max-width: 100px;
+   background-color: coral;
+ }
 
-.hr-moto {
-  border: 1px solid darkorange;
-  float: center;
-  border-radius: 1px;
-  margin-left: inherit;
-  min-width: 200px;
-}
+ .hr-moto {
+   border: 1px solid darkorange;
+   float: center;
+   border-radius: 1px;
+   margin-left: inherit;
+   min-width: 200px;
+ }
 
-#p-about {
-  font-size: 18px;
-  font-weight: 400;
-  text-align: center;
-  float:center;
-}
+ #p-about {
+   font-size: 18px;
+   font-weight: 400;
+   text-align: center;
+   float:center;
+ }
 
-#munsters-best {
-  text-align: center;
-  padding-top: 80px;
-  padding-bottom: 50px;
-  opacity: 0.75;
-}
+ #munsters-best {
+   text-align: center;
+   padding-top: 80px;
+   padding-bottom: 50px;
+   opacity: 0.75;
+ }
 
-#contact-methods {
-  background-color: #fafafa;
-  min-height: 500px;
-  max-width: 300px;
-  color: black;
-  border: 1px solid lightgray;
-  border-radius: 25px;
-  float: left;
-  padding-left: 20px;
-  opacity: 0.75;
-}
+ #contact-methods {
+   background-color: #fafafa;
+   min-height: 500px;
+   max-width: 300px;
+   color: black;
+   border: 1px solid lightgray;
+   border-radius: 25px;
+   float: left;
+   padding-left: 20px;
+   opacity: 0.75;
+ }
 
-#hours {
-  background-color: #fafafa;
-  min-height: 500px;
-  max-width: 300px;
-  color: black;
-  border: 1px solid lightgrey;
-  border-radius: 25px;
-  float: right;
-  padding-left: 20px;
-  opacity: 0.75;
+ #hours {
+   background-color: #fafafa;
+   min-height: 500px;
+   max-width: 300px;
+   color: black;
+   border: 1px solid lightgrey;
+   border-radius: 25px;
+   float: right;
+   padding-left: 20px;
+   opacity: 0.75;
 
-}
+ }
 
 
   /*------------------ For Header and Navigation -----------------------------------*/
-#moto {
-  font-size: 18px;
-  font-weight: 400;
-  text-align: center;
-  float:center;
-  min-width: 300px;
-  padding-top: 15px;
-  margin-left: -50px;
-}
+ #moto {
+   font-size: 18px;
+   font-weight: 400;
+   text-align: center;
+   float:center;
+   min-width: 300px;
+   padding-top: 15px;
+   margin-left: -50px;
+ }
 
-#nav-links {
-  text-decoration: none;
-  color: black;
-}
+ #nav-links {
+   text-decoration: none;
+   color: black;
+ }
 
-.fa-phone, .fa-cog, .fa-info {
-  padding-left: 10px;
-  font-size: 100%;
-}
+ .fa-phone, .fa-cog, .fa-info {
+   padding-left: 10px;
+   font-size: 100%;
+ }
 
 /*---------------------------- Buttons ----------------------*/
 
-.main-button {
-  background-color: lightgrey;
-    border: 1px solid coral;
-    border-radius: 25px;
-    color: white;
-    text-align: center;
-    font-size: 16px;
-    margin: 4px 2px;
-    opacity: 1;
-    transition: 0.3s;
-}
+ .main-button {
+   background-color: lightgrey;
+   border: 1px solid coral;
+   border-radius: 25px;
+   color: white;
+   text-align: center;
+   font-size: 16px;
+   margin: 4px 2px;
+   opacity: 1;
+   transition: 0.3s;
+ }
 
-.main-button: hover {
-opacity: 0.1;
-}
+ .main-button: hover {
+   opacity: 0.1;
+ }
 
 .submit-button {
-  background-color: lightgrey;
-    border: 1px solid coral;
-    border-radius: 25px;
-    color: black;
-    text-align: center;
-    font-size: 16px;
-    margin: 4px 2px;
-    opacity: 1;
-    transition: 0.3s;
-    min-width: 150px;
-    min-height: 30px;
-}
+   background-color: lightgrey;
+   border: 1px solid coral;
+   border-radius: 25px;
+   color: black;
+   text-align: center;
+   font-size: 16px;
+   margin: 4px 2px;
+   opacity: 1;
+   transition: 0.3s;
+   min-width: 150px;
+   min-height: 30px;
+ }
 
-.reset-button {
-  background-color: lightgrey;
-    border: 1px solid coral;
-    border-radius: 25px;
-    color: #fafafa;
-    float:right;
-    text-align: center;
-    font-size: 16px;
-    margin-right: 15px;
-    margin-top: 4px;
-    transition: 0.3s;
-    min-width: 140px;
-    min-height: 30px;
-}
+ .reset-button {
+   background-color: lightgrey;
+   border: 1px solid coral;
+   border-radius: 25px;
+   color: #fafafa;
+   float:right;
+   text-align: center;
+   font-size: 16px;
+   margin-right: 15px;
+   margin-top: 4px;
+   transition: 0.3s;
+   min-width: 140px;
+   min-height: 30px;
+ }
 
 
-.gallery-button {
-  text-decoration: none;
-  border: 1px solid coral;
-  background-color: #fafafa;
-  border-radius: 5px;
-  text-align: center;
-  min-width: 190px;
-}
+ .gallery-button {
+   text-decoration: none;
+   border: 1px solid coral;
+   background-color: #fafafa;
+   border-radius: 5px;
+   text-align: center;
+   min-width: 190px;
+ }
 
-.painter-button {
-    background-color: lightgrey;
-    border: 1px solid coral;
-    border-radius: 25px;
-    color: black;
-    text-align: center;
-    padding: 15px 15px 15px 15px;
-    opacity: 0.75;
-    margin-top: 50px;
-    min-width: 20px;
-    min-height: 30px;
-    margin-left: -15px;
-}
+ .painter-button {
+   background-color: lightgrey;
+   border: 1px solid coral;
+   border-radius: 25px;
+   color: black;
+   text-align: center;
+   padding: 15px 15px 15px 15px;
+   opacity: 0.75;
+   margin-top: 50px;
+   min-width: 20px;
+   min-height: 30px;
+   margin-left: -15px;
+ }
 
-#h5-painter-button {
-  font-size: 18px;
-}
+ #h5-painter-button {
+   font-size: 18px;
+ }
 
-#services-quote-button {
-    background-color: lightgrey;
-    min-width: 260px;
-    min-height: 80px;
-    border: 1px solid coral;
-    border-radius: 25px;
-    color: white;
-    text-align: center;
-    font-size: 16px;
-    opacity: 1;
-    transition: 0.3s;
-}
+ #services-quote-button {
+   background-color: lightgrey;
+   min-width: 260px;
+   min-height: 80px;
+   border: 1px solid coral;
+   border-radius: 25px;
+   color: white;
+   text-align: center;
+   font-size: 16px;
+   opacity: 1;
+   transition: 0.3s;
+ }
 
-.radio-standard-input {
-  text-align: left;
-  margin-left: 20px;
-  opacity: 0.75;
-}
+ .radio-standard-input {
+   text-align: left;
+   margin-left: 20px;
+   opacity: 0.75;
+ }
 
 /*-------------------------------- Images ----------------------*/
 
-hr.testimonial {
-  max-width: 100px;
-  text-align: center;
+ hr.testimonial {
+   max-width: 100px;
+   text-align: center;
+ }
+
+ img.service-pictures {
+   border-radius: 25px;
+   opacity: 0.75;
+ }
+
+ .testimonial {
+   border-radius: 5px;
+   height: 150px;
+   width: 200px;
+   overflow: hidden;
+   opacity: 0.8;
+
+ }
+
+ img.testimonial{
+   height: auto;
+   width: 200px;
+   height: 150px;
+   border-radius: 5px;
+   opacity: 0.8;
+   overflow: hidden;
+ }
+
+img.main-picture {
+  opacity: 0.6;
 }
 
-img.service-pictures {
-border-radius: 25px;
-opacity: 0.75;
-}
-
-.testimonial {
- border-radius: 5px;
- height: 150px;
- width: 200px;
- overflow: hidden;
- opacity: 0.8;
-
-}
-
-img.testimonial{
- height: auto;
- width: 200px;
- height: 150px;
- border-radius: 5px;
- opacity: 0.8;
- overflow: hidden;
+.beforeandafter {
+  
 }
 
 /*-Font Awesome Rules-*/
 
 
-#phone-contact-icon {
-  padding-left: 22px;
-}
+ #phone-contact-icon {
+   padding-left: 22px;
+ }
 
-#email-contact-icon {
-  padding-left: 45px;
-}
+ #email-contact-icon {
+    padding-left: 45px;
+ }
 
-#post-contact-icon {
-  padding-left: 22px;
-}
+ #post-contact-icon {
+    padding-left: 22px;
+ }
 
 /*------------------------------- Forms ------------------------*/
-#contact-form {
-  background-color: #fafafa;
-  min-height: 500px;
-  max-width: 800px;
-  color: black;
-  border: 1px solid coral;
-  border-radius: 25px;
-  float: left;
-  padding-left: 20px;
-  opacity: 0.75;
-}
+ #contact-form {
+    background-color: #fafafa;
+    min-height: 500px;
+    max-width: 800px;
+    color: black;
+    border: 1px solid coral;
+    border-radius: 25px;
+    float: left;
+    padding-left: 20px;
+    opacity: 0.75;
+ }
 
-#quote-form {
-  background-color: #fafafa;
-  min-height: 800px;
-  max-width: 800px;
-  color: black;
-  border: 1px solid coral;
-  border-radius: 25px;
-  float: left;
-  padding-left: 20px;
-  opacity: 0.75;
-}
+ #quote-form {
+    background-color: #fafafa;
+    min-height: 800px;
+    max-width: 800px;
+    color: black;
+    border: 1px solid coral;
+    border-radius: 25px;
+    float: left;
+    padding-left: 20px;
+    opacity: 0.75;
+ }
 
-#form {
-  min-width: 150px;
-  float:center;
-  margin-left: 50px;
-}
+ #form {
+    min-width: 150px;
+    float:center;
+    margin-left: 50px;
+ }
 
-#form-button {
-  float: center;
-  align-items: center;
-}
+ #form-button {
+    float: center;
+    align-items: center;
+ }
 
-.color-scheme {
-  background-color: #fafafa;
-  min-height: 50px;
-  min-width: 150px;
-  color: black;
-  border: 1px solid coral;
-  border-radius: 25px;
-  text-align: center;
-  float: center;
-  opacity: 0.75;
-  margin-left: -15px;
-  padding-left: 10px;
-  padding-right: 10px;
+ .color-scheme {
+    background-color: #fafafa;
+    min-height: 50px;
+    min-width: 150px;
+    color: black;
+    border: 1px solid coral;
+    border-radius: 25px;
+    text-align: center;
+    float: center;
+    opacity: 0.75;
+    margin-left: -15px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .dropdown-standard-input {
@@ -281,59 +289,60 @@ img.testimonial{
   }
 /* ---------------------------Foooter Style Rules start -----------------------*/
 
-.bands-footer {
-  position: inherit;
-  width: 100%;
-  height: 85px;
-  background-color: #fafafa;
-  text-align: center;
-  left: 0;
-  bottom: 0;
+ .bands-footer {
+    position: inherit;
+    width: 100%;
+    height: 85px;
+    background-color: #fafafa;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+ }
 
-}
+ .hr-footer {
+    height: 1px;
+    background-color: lightgrey;
+    border: none;
+    margin-top: 100px;
+ }
 
-.hr-footer {
-  height: 1px;
-  background-color: lightgrey;
-  border: none;
-  margin-top: 100px;
-}
+ .fa-facebook-f {
+    padding: 0 20px 0 20px;
+    font-size: 150%;
+ }
 
-.fa-facebook-f {
-  padding: 0 20px 0 20px;
-  font-size: 150%;
-}
-.fa-instagram-square {
-  padding: 0 20px 0 20px;
-  font-size: 150%;
-  border:
-}
-.fa-twitter-square {
-  padding: 0 20px 0 20px;
-  font-size: 150%;
-}
+ .fa-instagram-square {
+    padding: 0 20px 0 20px;
+    font-size: 150%;
+    border:
+ }
 
-.bands-sub-footer {
-  max-width: 300px;
-}
+ .fa-twitter-square {
+    padding: 0 20px 0 20px;
+    font-size: 150%;
+ }
 
-img.company-logo-footer {
-  max-width: 60px;
-  margin-left: -10px;
+ .bands-sub-footer {
+    max-width: 300px;
+ }
 
-}
+ img.company-logo-footer {
+    max-width: 60px;
+    margin-left: -10px;
+ }
 
-#contact-footer {
-  font-size: 20px;
-  font-weight: 400;
-  text-align: center;
-  float:center;
-}
+ #contact-footer {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    float:center;
+ }
 
-.about-hr-footer {
-  padding-top: 50px;
-}
+ .about-hr-footer {
+    padding-top: 50px;
+ }
 
+/*--------------------------- Media Query Rules ------------------*/
 
 /* < 249px */
 @media only screen and (max-width: 249px) {
@@ -366,30 +375,30 @@ img.company-logo-footer {
     min-height: 350px;
   }
 
+  #bandsheading {
+    font-size: 24px;
+    text-align: left;
+  }
+
+  #contact, #services, #about {
+      font-size: 10px;
+  }
+
   #services {
     max-width: 150px;
     border-radius: 5px;
     margin-left: 15px;
     float: center;
-    }
-
-  #bandsheading {
-    font-size: 24px;
-    text-align: left;
-    }
+  }
 
   #quote-form {
     min-height: 1000px;
     font-size: 80%;
-    }
-
-  #contact, #services, #about {
-      font-size: 10px;
-    }
+  }
 
   #foot-face, #foot-instagram, #foot-twitter {
     font-size: 100%;
-    }
+  }
 
   #email-contact-icon, #post-contact-icon {
     display: none;
@@ -402,7 +411,8 @@ img.company-logo-footer {
 
   #ul-contact-touch {
     font-size: 12px;
-    }
+  }
+
 }
 
 /* 250px - 499px */
