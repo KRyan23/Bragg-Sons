@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
-/* -------------------------- General Style Rules start-----------------------*/
+/* --------------------------Body Style Rules start-----------------------*/
 
 
 body {
@@ -8,29 +8,14 @@ body {
   background-color: #fafafa;
   }
 
-#nav-links {
-  text-decoration: none;
-  color: black;
-}
-
-  #braggandsons-hr, #contact-hr, #services-hr  {
-    height: 15px;
-    width: 135px;
-    position: fixed;
-    color: #fafafa;
+  li {
+    list-style-type: none;
   }
 
-#moto {
-  font-size: 18px;
-  font-weight: 400;
-  text-align: center;
-  float:center;
-  min-width: 300px;
-  padding-top: 15px;
-  margin-left: -50px;
-
-
-}
+.hr-contact {
+    max-width: 100px;
+    background-color: coral;
+  }
 
 .hr-moto {
   border: 1px solid darkorange;
@@ -40,20 +25,68 @@ body {
   min-width: 200px;
 }
 
-#reasons {
-
-  font-size: 16px;
+#p-about {
+  font-size: 18px;
   font-weight: 400;
   text-align: center;
-  border: solid 1px lightgrey;
+  float:center;
+}
+
+#munsters-best {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  opacity: 0.75;
+}
+
+#contact-methods {
+  background-color: #fafafa;
+  min-height: 500px;
+  max-width: 300px;
+  color: black;
+  border: 1px solid lightgray;
+  border-radius: 25px;
+  float: left;
+  padding-left: 20px;
+  opacity: 0.75;
+}
+
+#hours {
+  background-color: #fafafa;
+  min-height: 500px;
+  max-width: 300px;
+  color: black;
+  border: 1px solid lightgrey;
+  border-radius: 25px;
+  float: right;
+  padding-left: 20px;
+  opacity: 0.75;
+
+}
+
+
+  /*------------------ For Header and Navigation -----------------------------------*/
+#moto {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  float:center;
   min-width: 300px;
-
+  padding-top: 15px;
+  margin-left: -50px;
 }
 
-#br-reasons {
-  text-align: left;
+#nav-links {
+  text-decoration: none;
+  color: black;
 }
 
+.fa-phone, .fa-cog, .fa-info {
+  padding-left: 10px;
+  font-size: 100%;
+}
+
+/*---------------------------- Buttons ----------------------*/
 
 .main-button {
   background-color: lightgrey;
@@ -116,30 +149,16 @@ opacity: 0.1;
     border-radius: 25px;
     color: black;
     text-align: center;
-    padding-top: 5px;
+    padding: 15px 15px 15px 15px;
     opacity: 0.75;
     margin-top: 50px;
-    min-width: 220px;
+    min-width: 20px;
     min-height: 30px;
+    margin-left: -15px;
 }
 
-#p-about {
+#h5-painter-button {
   font-size: 18px;
-  font-weight: 400;
-  text-align: center;
-  float:center;
-}
-
-hr.testimonial {
-  max-width: 100px;
-  text-align: center;
-}
-
-#munsters-best {
-  text-align: center;
-  padding-top: 80px;
-  padding-bottom: 50px;
-  opacity: 0.75;
 }
 
 #services-quote-button {
@@ -154,40 +173,59 @@ hr.testimonial {
     opacity: 1;
     transition: 0.3s;
 }
-/*-------Contact.html-*/
 
-#contact-methods {
-  background-color: #fafafa;
-  min-height: 500px;
-  max-width: 300px;
-  color: black;
-  border: 1px solid lightgray;
-  border-radius: 25px;
-  float: left;
-  padding-left: 20px;
+.radio-standard-input {
+  text-align: left;
+  margin-left: 20px;
   opacity: 0.75;
+}
 
+/*-------------------------------- Images ----------------------*/
 
+hr.testimonial {
+  max-width: 100px;
+  text-align: center;
+}
+
+img.service-pictures {
+border-radius: 25px;
+opacity: 0.75;
+}
+
+.testimonial {
+ border-radius: 5px;
+ height: 150px;
+ width: 200px;
+ overflow: hidden;
+ opacity: 0.8;
 
 }
 
-#hours {
-  background-color: #fafafa;
-  min-height: 500px;
-  max-width: 300px;
-  color: black;
-  border: 1px solid lightgrey;
-  border-radius: 25px;
-  float: right;
-  padding-left: 20px;
-  opacity: 0.75;
-
+img.testimonial{
+ height: auto;
+ width: 200px;
+ height: 150px;
+ border-radius: 5px;
+ opacity: 0.8;
+ overflow: hidden;
 }
 
-li {
-  list-style-type: none;
+/*-Font Awesome Rules-*/
+
+
+#phone-contact-icon {
+  padding-left: 22px;
 }
 
+#email-contact-icon {
+  padding-left: 45px;
+}
+
+#post-contact-icon {
+  padding-left: 22px;
+}
+
+/*------------------------------- Forms ------------------------*/
 #contact-form {
   background-color: #fafafa;
   min-height: 500px;
@@ -212,28 +250,15 @@ li {
   opacity: 0.75;
 }
 
-.radio-standard-input {
-  text-align: left;
-  margin-left: 20px;
-  opacity: 0.75;
-}
-
-
-
 #form {
   min-width: 150px;
   float:center;
   margin-left: 50px;
 }
 
-img.service-pictures {
-border-radius: 25px;
-opacity: 0.75;
-}
-
-.hr-contact {
-  max-width: 100px;
-  background-color: coral;
+#form-button {
+  float: center;
+  align-items: center;
 }
 
 .color-scheme {
@@ -249,54 +274,13 @@ opacity: 0.75;
   margin-left: -15px;
   padding-left: 10px;
   padding-right: 10px;
-}
-/* -------------------------- General Style Rules End-----------------------*/
-/* -------------------------- Image Style Rules start-----------------------*/
-.testimonial {
- border-radius: 5px;
- height: 150px;
- width: 200px;
- overflow: hidden;
- opacity: 0.8;
+  }
 
-}
-
-img.testimonial{
- height: auto;
- width: 200px;
- height: 150px;
- border-radius: 5px;
- opacity: 0.8;
- overflow: hidden;
-}
-
-
-/*--------------------------- Image style Rules end -----------------------*/
-/*--------------------------- Fa Rules Start -----------------------*/
-.fa-phone, .fa-cog, .fa-info {
-  padding-left: 10px;
-  font-size: 100%;
-}
-
-/* Contact style rules */
-
-#phone-contact-icon {
-  padding-left: 22px;
-}
-#email-contact-icon {
-  padding-left: 45px;
-
-}
-
-#post-contact-icon {
-  padding-left: 22px;
-
-
-}
-
-
-/*--------------------------- Fa Rules end -----------------------*/
+  .dropdown-standard-input {
+    font-size: 12px;
+  }
 /* ---------------------------Foooter Style Rules start -----------------------*/
+
 .bands-footer {
   position: inherit;
   width: 100%;
@@ -305,7 +289,6 @@ img.testimonial{
   text-align: center;
   left: 0;
   bottom: 0;
-  /*padding: 0 15px 0 15px;*/
 
 }
 
@@ -350,31 +333,9 @@ img.company-logo-footer {
 .about-hr-footer {
   padding-top: 50px;
 }
-/* ---------------------------Foooter Style Rules End -----------------------*/
-/* -------------------------- Colour Style Rules start -----------------------*/
 
 
-/* Change #fafafa to anything else to get back the surrounding boxes */
-.bands-col {
- border: 1px solid #fafafa;
-}
-
-.main-col {
- border: 1px solid #fafafa;
- }
-/*-- Setting the colours of the 1st 4 columns just to show as an example */
-.r1c1 .r1c2 .r1c3 .r1c4 .r1c5{
-background-color: #fafafa;
-}
-
-
-
-/* -------------------------- Colour Style Rules end -----------------------*/
-
-/* -------------------------- Media Query Rules start -----------------------*/
-
-
-/* If the screen size is 300px wide or less, hide the element */
+/* < 249px */
 @media only screen and (max-width: 249px) {
 
   img.company-logo {
@@ -382,141 +343,94 @@ background-color: #fafafa;
     padding-top: 0px;
   }
 
-  #bandsheading {
-    font-size: 24px;
-    text-align: left;
-}
-#contact, #services, #about {
-  font-size: 10px;
-}
+  div.r22c1, div.r22c2,div.r22c3, div.r22c4 {
+    text-align: center;
+  }
 
-#foot-face, #foot-instagram, #foot-twitter   {
-  font-size: 100%;
-}
-
-#quote-button {
-  margin-top: 40px;
-  font-size: 100%;
-  margin-left: 12px;
-}
-
-.fa-phone, .fa-cog, .fa-info{
-  display: none;
-}
-
-#email-contact-icon, #post-contact-icon {
+  .fa-phone, .fa-cog, .fa-info {
     display: none;
-}
+  }
 
-#p-contact-touch {
-  font-size: 14px;
-  text-align: center;
-}
+  .form-standard-input {
+    max-width: 80px;
+  }
 
-#ul-contact-touch {
-    font-size: 12px;
+  #quote-button {
+    margin-top: 40px;
+    font-size: 100%;
+    margin-left: 12px;
+  }
 
-}
-.form-standard-input {
-  max-width: 80px;
-}
-
-
-/*--------- Rules for about.html testimonails ------*/
-div.r22c1, div.r22c2,div.r22c3, div.r22c4{
-text-align: center;
+  #form-query-input {
+    max-width: 130px;
+    min-height: 350px;
   }
 
   #services {
-      max-width: 150px;
-      border-radius: 5px;
-      margin-left: 15px;
-      float: center;
+    max-width: 150px;
+    border-radius: 5px;
+    margin-left: 15px;
+    float: center;
     }
 
-    #form-query-input {
-      max-width: 130px;
-      min-height: 350px;
+  #bandsheading {
+    font-size: 24px;
+    text-align: left;
     }
 
-    #quote-form {
-        min-height: 1000px;
-        font-size: 80%;
-      }
+  #quote-form {
+    min-height: 1000px;
+    font-size: 80%;
+    }
 
-    
+  #contact, #services, #about {
+      font-size: 10px;
+    }
+
+  #foot-face, #foot-instagram, #foot-twitter {
+    font-size: 100%;
+    }
+
+  #email-contact-icon, #post-contact-icon {
+    display: none;
+    }
+
+  #p-contact-touch {
+    font-size: 14px;
+    text-align: center;
+    }
+
+  #ul-contact-touch {
+    font-size: 12px;
+    }
 }
+
+/* 250px - 499px */
 @media only screen and (min-width: 250px) and (max-width: 499px){
 
   img.company-logo {
-    width: 80px;
-    padding-top: 0px;
+     width: 80px;
+     padding-top: 0px;
   }
-  #bandsheading {
-    font-size: 24px;
+
+  div.r1c3,div.r1c4, div.r1c5 {
     text-align: left;
   }
-#contact, #services, #about {
-  font-size: 12px;
-}
 
-#foot-face, #foot-instagram, #foot-twitter   {
-  font-size: 100%;
-}
-    div.r1c3,div.r1c4, div.r1c5 {
-      text-align: left;
-    }
-
-    #quote-button {
-      margin-top: 50px;
-      font-size: 100%;
-      margin-left: 0px;
-    }
-#moto {
-  text-align: center;
-  margin-left: 0px;
-}
-
-
-.fa-phone, .fa-cog, .fa-info{
-  display: none;
-}
-
-.form-standard-input {
-  max-width: 150px;
-}
-/*--------- Rules for about.html testimonails ------*/
-div.r22c1, div.r22c2,div.r22c3, div.r22c4{
-text-align: center;
+  div.r22c1, div.r22c2,div.r22c3, div.r22c4 {
+    text-align: center;
   }
 
-  #services {
-      max-width: 150px;
-      border-radius: 5px;
-      margin-left: 0px;
-      float: center;
-    }
-    #email-contact-icon, #post-contact-icon {
-        display: none;
-    }
+  .fa-phone, .fa-cog, .fa-info {
+    display: none;
+  }
 
-    #p-contact-touch {
-      font-size: 14px;
-      text-align: left;
-    }
+  .form-standard-input {
+    max-width: 150px;
+  }
 
-    #ul-contact-touch {
-        font-size: 12px;
-        text-align: left;
-}
-
-#form-query-input {
-  max-width: 150px;
-  min-height: 350px;
-}
-
-.reset-button {
-  background-color: lightgrey;
+  .reset-button {
+    background-color: lightgrey;
     border: 1px solid coral;
     border-radius: 25px;
     color: #fafafa;
@@ -529,10 +443,10 @@ text-align: center;
     min-width: 100px;
     min-height: 30px;
 
-}
+  }
 
-.submit-button {
-  background-color: lightgrey;
+  .submit-button {
+    background-color: lightgrey;
     border: 1px solid coral;
     border-radius: 25px;
     color: black;
@@ -545,51 +459,97 @@ text-align: center;
     min-height: 30px;
     float:left;
 
-}
+  }
 
-#quote-form {
+  #quote-button {
+    margin-top: 50px;
+    font-size: 100%;
+    margin-left: 0px;
+  }
+
+  #form-query-input {
+    max-width: 150px;
+    min-height: 350px;
+  }
+
+  #bandsheading {
+    font-size: 24px;
+    text-align: left;
+  }
+
+  #contact, #services, #about {
+    font-size: 12px;
+  }
+
+  #services {
+    max-width: 150px;
+    border-radius: 5px;
+    margin-left: 0px;
+    float: center;
+  }
+
+  #quote-form {
     min-height: 1000px;
     font-size: 80%;
   }
 
+  #foot-face, #foot-instagram, #foot-twitter {
+    font-size: 100%;
+  }
+
+  #email-contact-icon, #post-contact-icon {
+     display: none;
+  }
+
+  #moto {
+    text-align: center;
+    margin-left: 0px;
+  }
+
+  #p-contact-touch {
+    font-size: 14px;
+    text-align: left;
+  }
+
+  #ul-contact-touch {
+    font-size: 12px;
+    text-align: left;
+  }
+
 }
+
+/* 500px - 767px */
 @media only screen and (min-width: 500px) and (max-width: 767px){
 
   img.company-logo {
     width: 90px;
     padding-top: 0px;
   }
-  #bandsheading {
-    font-size: 24px;
-    text-align: left;
+
+  div.r1c3,div.r1c4, div.r1c5 {
+    text-align: center;
   }
-#contact, #services, #about {
-  font-size: 12px;
-}
-#foot-face, #foot-instagram, #foot-twitter   {
-  font-size: 100%;
-}
 
-div.r1c3,div.r1c4, div.r1c5 {
-  text-align: center;
-}
+  div.r22c1, div.r22c2,div.r22c3, div.r22c4 {
+    text-align: center;
+  }
 
-    div.r1c3,div.r1c4, div.r1c5 {
-      text-align: left;
-    }
-#quote-button {
-  margin-top: 60px;
-  font-size: 100%;
+  .fa-phone, .fa-cog, .fa-info {
+    display: none;
+  }
 
-}
+  .form-standard-input {
+    max-width: 150px;
+  }
 
-.fa-phone, .fa-cog, .fa-info{
-  display: none;
-}
+  #quote-button {
+    margin-top: 60px;
+    font-size: 100%;
+  }
 
-/*--------- Rules for about.html testimonails ------*/
-div.r22c1, div.r22c2,div.r22c3, div.r22c4{
-text-align: center;
+  #form-query-input {
+    min-width: 350px;
+    min-height: 350px;
   }
 
   #services {
@@ -597,75 +557,66 @@ text-align: center;
       border-radius: 5px;
       margin-left: 0px;
       float: center;
-    }
+  }
 
-    #email-contact-icon, #post-contact-icon {
-        display: none;
-    }
-    .form-standard-input {
-      max-width: 150px;
-    }
+  #bandsheading {
+    font-size: 24px;
+    text-align: left;
+  }
 
-    #form-query-input {
-      min-width: 350px;
-      min-height: 350px;
-}
-
-#quote-form {
+  #quote-form {
     min-height: 1000px;
 
   }
 
+  #contact, #services, #about {
+    font-size: 12px;
+  }
+
+  #foot-face, #foot-instagram, #foot-twitter  {
+    font-size: 100%;
+  }
+
+  #email-contact-icon, #post-contact-icon {
+    display: none;
+  }
 
 }
-/*-------For mobile phones end */
 
+/* 767px - 991px */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 
   img.company-logo {
     width: 90px;
   }
 
-  #bandsheading {
-    font-size: 33px;
+  div.r1c3,div.r1c4, div.r1c5 {
     text-align: center;
   }
-  #contact, #services, #about {
-    font-size: 12px;
-}
 
-#foot-face, #foot-instagram, #foot-twitter   {
-  font-size: 100%;
-}
-    div.r1c3,div.r1c4, div.r1c5 {
-      text-align: center;
-    }
-/*--------- Rules for about.html testimonails ------*/
-      div.r22c1, div.r22c2,div.r22c3, div.r22c4{
-      text-align: center;
-    }
+  div.r2c1,div.r2c2, div.r2c3 {
+    text-align: left;
+  }
 
-/* ^^^^^^^^^^ Main content ^^^^^^^^^^^ */
-div.r2c1,div.r2c2, div.r2c3 {
-  text-align: left;
-}
+  div.r22c1, div.r22c2,div.r22c3, div.r22c4 {
+    text-align: center;
+  }
 
-#moto {
-  font-size: 80%;
-  margin-top: -15px;
-}
+  #quote-button {
+    margin-top: 60px;
+    font-size: 100%;
+  }
 
-#br-reasons {
-  font-size: 80%;
+  #form-query-input {
+    min-width: 450px;
+    min-height: 350px;
+  }
 
-}
+  #br-quote {
+    display:contents;
+  }
 
-#quote-button {
-  margin-top: 60px;
-  font-size: 100%;
-}
-
-#services {
+  #services {
     max-width: 250px;
     border-radius: 5px;
     margin-left: 45px;
@@ -679,162 +630,189 @@ div.r2c1,div.r2c2, div.r2c3 {
     float:center;
   }
 
+  #bandsheading {
+    font-size: 33px;
+    text-align: center;
+  }
+
+  #moto {
+    font-size: 80%;
+    margin-top: -15px;
+  }
+
+  #br-reasons {
+    font-size: 80%;
+
+  }
+  #contact, #services, #about {
+    font-size: 12px;
+  }
+
+  #foot-face, #foot-instagram, #foot-twitter {
+  font-size: 100%;
+  }
+
+}
+
+/* 992px - 1023px */
+@media only screen and (min-width: 992px) and (max-width: 1023px) {
+
+  img.company-logo {
+    width: 80px;
+  }
+
+  div.r1c3,div.r1c4, div.r1c5 {
+    text-align: center;
+  }
+
+  .hr-moto {
+    margin-left: -50px;
+  }
+
+  #quote-button {
+    margin-top: 75px;
+    font-size: 100%;
+  }
+
   #form-query-input {
     min-width: 450px;
     min-height: 350px;
-}
-
-#br-quote {
-display:contents;
-}
-
-.dropdown-standard-input {
-  font-size: 12px;
-}
   }
-/*-------For Tablets start */
 
-/* ----- For desktop start */
-@media only screen and (min-width: 992px) and (max-width: 1023px){
+  #br-quote {
+    display:contents;
+  }
 
-  img.company-logo {width: 80px;}
+  #services {
+    max-width: 250px;
+    border-radius: 5px;
+    margin-left: 100px;
+    float: center;
+  }
+
+  #services-heading {
+    margin-left: 100px;
+    max-width: 250px;
+    text-align: center;
+    float:center;
+  }
 
   #bandsheading {
     font-size: 40px;
     text-align: left;
-
   }
 
-  #contact, #services, #about {
-    font-size: 12px;
-      }
-
-    #foot-face, #foot-instagram, #foot-twitter   {
-      font-size: 100%;
-    }
-    div.r1c3,div.r1c4, div.r1c5 {
-      text-align: center;
-    }
-
-    #moto {
+  #moto {
     font-size: 90%;
   }
 
   #br-reasons {
     font-size: 90%;
   }
-  .hr-moto {
-    margin-left: -50px;
+  #contact, #services, #about {
+    font-size: 12px;
   }
-  #quote-button {
-    margin-top: 75px;
+
+  #foot-face, #foot-instagram, #foot-twitter {
     font-size: 100%;
+  }
 
 }
 
-#services {
-    max-width: 250px;
-    border-radius: 5px;
-    margin-left: 100px;
-    float: center;
-  }
-
-  #services-heading {
-    margin-left: 100px;
-    max-width: 250px;
-    text-align: center;
-    float:center;
-  }
-
-  #form-query-input {
-    min-width: 450px;
-    min-height: 350px;
-  }
-  #br-quote {
-  display:contents;
-  }
-}
+/* 1024px - 1200px */
 @media only screen and (min-width: 1024px) and (max-width: 1200px) {
 
-img.company-logo {width: 100px;}
+ img.company-logo {
+    width: 100px;
+ }
 
-  div.r1c3,div.r1c4, div.r1c5 {
+ div.r1c3,div.r1c4, div.r1c5 {
     text-align: center;
-  }
+ }
 
-
-  .fa-facebook-f {
+ .fa-facebook-f {
     padding: 0 30px 0 30px;
     font-size: 150%;
-  }
-  .fa-instagram-square {
+ }
+
+ .fa-instagram-square {
     padding: 0 30px 0 30px;
     font-size: 150%;
     border:
-  }
-  .fa-twitter-square {
+ }
+
+ .fa-twitter-square {
     padding: 0 30px 0 30px;
     font-size: 150%;
-  }
+ }
 
-  .hr-moto {
+ .hr-moto {
     margin-left: -50px;
-  }
-  #quote-button {
+ }
+
+ #quote-button {
     margin-top: 26px;
     font-size: 100%;
-}
+ }
 
-#services {
+ #form-query-input {
+    min-width: 550px;
+    min-height: 350px;
+ }
+
+ #br-quote {
+    display:contents;
+ }
+
+ #services {
     max-width: 250px;
     border-radius: 5px;
     margin-left: 100px;
     float: center;
-  }
+ }
 
-  #services-heading {
+ #services-heading {
     margin-left: 100px;
     max-width: 250px;
     text-align: center;
     float:center;
-  }
+ }
 
-  #form-query-input {
-    min-width: 550px;
-    min-height: 350px;
 }
 
-#br-quote {
-display:contents;
-}
-}
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-
+/* 1201px > */
 @media only screen and (min-width: 1201px) {
 
-img.company-logo {width: 120px;}
+img.company-logo {
+  width: 120px;
+  }
+
+
 h1.bands.heading {
   text-align: left;
-  font-size: 1px;}
+  font-size: 1px;
+  }
 
-
-
-  div.r1c3,div.r1c4, div.r1c5 {
+div.r1c3,div.r1c4, div.r1c5 {
     text-align: center;
   }
+
   .fa-facebook-f {
     padding: 0 30px 0 30px;
     font-size: 150%;
   }
+
   .fa-instagram-square {
     padding: 0 30px 0 30px;
     font-size: 150%;
     border:
   }
+
   .fa-twitter-square {
     padding: 0 30px 0 30px;
     font-size: 150%;
   }
+
   .hr-moto {
     margin-left: -50px;
   }
@@ -847,9 +825,9 @@ h1.bands.heading {
   #form-query-input {
     min-width: 650px;
     min-height: 350px;
-}
+  }
 
-#br-quote {
-display:contents;
-}
+  #br-quote {
+  display:contents;
+  }
 }
