@@ -140,7 +140,7 @@ The colour palette pdf created using content borrowed from https://www.Lakelandf
 
 The pictures on the services page were from the following sources https://istockphoto.com and https://www.indiamart.com/
 
-The pictures on the before and after pages were from the following sources, www.perfecthome.ie,
+The pictures on the before and after pages were from the following sources, Pic1&4 www.perfecthome.ie,Pic2 https://powellpaintingandhomeservices.com/, Pic3 https://www.yainnovationpainting.com/
 
 ###Acknowledgements
 I received inspiration for this project from a conversation with a local painter.
