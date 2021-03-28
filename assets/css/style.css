@@ -2,7 +2,6 @@
 
 /* --------------------------Body Style Rules -----------------------*/
 
-
  body {
    padding: 15px;
    background-color: #fafafa;
@@ -12,7 +11,7 @@
    list-style-type: none;
  }
 
- .hr-contact {
+ .hr-short {
    max-width: 100px;
    background-color: coral;
  }
@@ -71,9 +70,14 @@
 
  }
 
+ #about-padding {
+   margin-top: 75px;
+   margin-bottom: 75px;
+
+ }
   /*------------------ For Header and Navigation -----------------------------------*/
 
- .nav-links {
+ a.nav-links {
    text-decoration: none;
    color: black;
  }
@@ -93,22 +97,6 @@
    margin-left: -50px;
  }
 /*---------------------------- Buttons ----------------------*/
-
- .main-button {
-   background-color: lightgrey;
-   border: 1px solid coral;
-   border-radius: 25px;
-   color: white;
-   text-align: center;
-   font-size: 16px;
-   margin: 4px 2px;
-   opacity: 1;
-   transition: 0.3s;
- }
-
- .main-button: hover {
-   opacity: 0.1;
- }
 
 .submit-button {
    background-color: lightgrey;
@@ -164,20 +152,6 @@
    font-size: 18px;
  }
 
- #services-quote-button {
-   background-color: lightgrey;
-   min-width: 260px;
-   min-height: 80px;
-   border: 1px solid coral;
-   border-radius: 25px;
-   color: black;
-   text-align: center;
-   padding: 15px 15px 15px 15px;
-   font-size: 18px;
-   opacity: 0.75;
-   transition: 0.3s;
- }
-
  .radio-standard-input {
    text-align: left;
    margin-left: 20px;
@@ -185,11 +159,6 @@
  }
 
 /*-------------------------------- Images ----------------------*/
-
- hr.testimonial {
-   max-width: 100px;
-   text-align: center;
- }
 
  img.service-pictures {
    border-radius: 25px;
@@ -213,11 +182,11 @@
    overflow: hidden;
  }
 
-img.main-picture {
-  opacity: 0.6;
-}
+ img.main-picture {
+   opacity: 0.6;
+ }
 
-img.beforeandafter{
+img.beforeandafter {
   width: 380px;
   height: 380px;
   border-radius: 5px;
@@ -225,7 +194,7 @@ img.beforeandafter{
   overflow: hidden;
   border: 1px solid coral;
   margin-bottom: 20px;
-}
+ }
 
 /*-Font Awesome Rules-*/
 
@@ -242,16 +211,36 @@ img.beforeandafter{
  }
 
 /*------------------------------- Forms ------------------------*/
+
+.dropdown-standard-input {
+  font-size: 12px;
+}
+
+#color-scheme {
+   background-color: #fafafa;
+   min-height: 50px;
+   min-width: 150px;
+   color: black;
+   border: 1px solid coral;
+   border-radius: 25px;
+   text-align: center;
+   float: center;
+   opacity: 0.75;
+   margin-left: -15px;
+   padding-left: 10px;
+   padding-right: 10px;
+ }
+
  #contact-form {
-    background-color: #fafafa;
-    min-height: 500px;
-    max-width: 800px;
-    color: black;
-    border: 1px solid coral;
-    border-radius: 25px;
-    float: left;
-    padding-left: 20px;
-    opacity: 0.75;
+   background-color: #fafafa;
+   min-height: 500px;
+   max-width: 800px;
+   color: black;
+   border: 1px solid coral;
+   border-radius: 25px;
+   float: left;
+   padding-left: 20px;
+   opacity: 0.75;
  }
 
  #quote-form {
@@ -272,29 +261,6 @@ img.beforeandafter{
     margin-left: 50px;
  }
 
- #form-button {
-    float: center;
-    align-items: center;
- }
-
- .color-scheme {
-    background-color: #fafafa;
-    min-height: 50px;
-    min-width: 150px;
-    color: black;
-    border: 1px solid coral;
-    border-radius: 25px;
-    text-align: center;
-    float: center;
-    opacity: 0.75;
-    margin-left: -15px;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-  .dropdown-standard-input {
-    font-size: 12px;
-  }
 /* ---------------------------Foooter Style Rules start -----------------------*/
 
  .bands-footer {
@@ -353,6 +319,7 @@ img.beforeandafter{
 /*--------------------------- Media Query Rules ------------------*/
 
 /* < 249px */
+
 @media only screen and (max-width: 249px) {
 
   img.company-logo {
@@ -389,31 +356,19 @@ img.beforeandafter{
     font-size: 100%;
   }
 
-  #quote-button {
-    margin-top: 40px;
-    font-size: 100%;
-    margin-left: 12px;
+  .bandsheading {
+    font-size: 24px;
+    text-align: left;
+  }
+
+  .p-contact-touch {
+    font-size: 14px;
+    text-align: center;
   }
 
   #form-query-input {
     max-width: 130px;
     min-height: 350px;
-  }
-
-  #bandsheading {
-    font-size: 24px;
-    text-align: left;
-  }
-
-  #contact, #services, #about {
-      font-size: 10px;
-  }
-
-  #services {
-    max-width: 150px;
-    border-radius: 5px;
-    margin-left: 15px;
-    float: center;
   }
 
   #quote-form {
@@ -423,14 +378,9 @@ img.beforeandafter{
 
   #email-contact-icon, #post-contact-icon {
     display: none;
-    }
+  }
 
-  #p-contact-touch {
-    font-size: 14px;
-    text-align: center;
-    }
-
-  #ul-contact-touch {
+  .ul-contact-touch {
     font-size: 12px;
   }
 
@@ -506,10 +456,18 @@ img.beforeandafter{
     align-items: flex-start;
   }
 
-  #quote-button {
-    margin-top: 50px;
+  .bandsheading {
+    font-size: 24px;
+    text-align: left;
+  }
+
+  .foot-face, .foot-instagram, .foot-twitter {
     font-size: 100%;
-    margin-left: 0px;
+  }
+
+  .p-contact-touch {
+    font-size: 14px;
+    text-align: left;
   }
 
   #form-query-input {
@@ -517,41 +475,18 @@ img.beforeandafter{
     min-height: 350px;
   }
 
-  #bandsheading {
-    font-size: 24px;
-    text-align: left;
-  }
-
-  #contact, #services, #about {
-    font-size: 12px;
-  }
-
-  #services {
-    max-width: 150px;
-    border-radius: 5px;
-    margin-left: 0px;
-    float: center;
-  }
-
   #quote-form {
     min-height: 1000px;
     font-size: 80%;
-  }
-
-  .foot-face, .foot-instagram, .foot-twitter {
-    font-size: 100%;
   }
 
   #email-contact-icon, #post-contact-icon {
      display: none;
   }
 
-  #p-contact-touch {
-    font-size: 14px;
-    text-align: left;
-  }
 
-  #ul-contact-touch {
+
+  .ul-contact-touch {
     font-size: 12px;
     text-align: left;
   }
@@ -591,24 +526,12 @@ img.beforeandafter{
     margin-left: 50px;
   }
 
-  #quote-button {
-    margin-top: 60px;
-    font-size: 100%;
-  }
-
   #form-query-input {
     min-width: 350px;
     min-height: 350px;
   }
 
-  #services {
-      max-width: 200px;
-      border-radius: 5px;
-      margin-left: 0px;
-      float: center;
-  }
-
-  #bandsheading {
+  .bandsheading {
     font-size: 24px;
     text-align: left;
   }
@@ -616,10 +539,6 @@ img.beforeandafter{
   #quote-form {
     min-height: 1000px;
 
-  }
-
-  #contact, #services, #about {
-    font-size: 12px;
   }
 
   .foot-face, .foot-instagram, .foot-twitter  {
@@ -652,31 +571,19 @@ img.beforeandafter{
   }
   .beforeandafter {
    text-align: center;
- }
+  }
 
  img.beforeandafter {
     margin-left: 150px;
  }
 
-  #quote-button {
-    margin-top: 60px;
-    font-size: 100%;
-  }
-
-  #form-query-input {
+ #form-query-input {
     min-width: 450px;
     min-height: 350px;
   }
 
   #br-quote {
     display:contents;
-  }
-
-  #services {
-    max-width: 250px;
-    border-radius: 5px;
-    margin-left: 45px;
-    float: center;
   }
 
   #services-heading {
@@ -686,23 +593,19 @@ img.beforeandafter{
     float:center;
   }
 
-  #bandsheading {
+  .bandsheading {
     font-size: 33px;
     text-align: center;
   }
 
   #br-reasons {
     font-size: 80%;
-
-  }
-  #contact, #services, #about {
-    font-size: 12px;
   }
 
   .foot-face, .foot-instagram, .foot-twitter {
   font-size: 100%;
 }
-  }
+
 
 }
 
@@ -725,11 +628,6 @@ img.beforeandafter{
     margin-left: 25px;
   }
 
-  #quote-button {
-    margin-top: 75px;
-    font-size: 100%;
-  }
-
   #form-query-input {
     min-width: 450px;
     min-height: 350px;
@@ -739,13 +637,6 @@ img.beforeandafter{
     display:contents;
   }
 
-  #services {
-    max-width: 250px;
-    border-radius: 5px;
-    margin-left: 100px;
-    float: center;
-  }
-
   #services-heading {
     margin-left: 100px;
     max-width: 250px;
@@ -753,17 +644,13 @@ img.beforeandafter{
     float:center;
   }
 
-  #bandsheading {
+  .bandsheading {
     font-size: 40px;
     text-align: left;
   }
 
   #br-reasons {
     font-size: 90%;
-  }
-
-  #contact, #services, #about {
-    font-size: 12px;
   }
 
   .foot-face, .foot-instagram, .foot-twitter {
@@ -807,11 +694,6 @@ img.beforeandafter{
     margin-left: 25px;
  }
 
- #quote-button {
-    margin-top: 26px;
-    font-size: 100%;
- }
-
  #form-query-input {
     min-width: 550px;
     min-height: 350px;
@@ -821,14 +703,7 @@ img.beforeandafter{
     display:contents;
  }
 
- #services {
-    max-width: 250px;
-    border-radius: 5px;
-    margin-left: 100px;
-    float: center;
- }
-
- #services-heading {
+ .services-heading {
     margin-left: 100px;
     max-width: 250px;
     text-align: center;
@@ -882,7 +757,7 @@ div.r1c3,div.r1c4, div.r1c5 {
   .beforeandafter {
     text-align: center;
   }
-  
+
   img.beforeandafter {
     width: 400px;
     height: 400px;
@@ -890,11 +765,6 @@ div.r1c3,div.r1c4, div.r1c5 {
     opacity: 0.8;
     overflow: hidden;
     margin-left: 70px;
-  }
-
-  #quote-button {
-    margin-top: 65px;
-    font-size: 120%;
   }
 
   #form-query-input {
