@@ -8,8 +8,12 @@
  }
 
  li {
-   list-style-type: none;
- }
+   margin-left: -40px;
+  }
+
+ .ul-contact-touch > li {
+   list-style: none;
+  }
 
  .hr-short {
    max-width: 100px;
@@ -38,6 +42,12 @@
    float:center;
  }
 
+  .services-text {
+    font-size: 18px;
+    font-weight: 400;
+    text-align:left;
+  }
+
  .munsters-best {
    text-align: center;
    padding-top: 80px;
@@ -50,23 +60,25 @@
    min-height: 500px;
    max-width: 300px;
    color: black;
-   border: 1px solid lightgray;
+   border: 1px solid deepskyblue;
    border-radius: 25px;
    float: left;
    padding-left: 20px;
    opacity: 0.75;
- }
+   margin-top: 23px;
+   }
 
  #hours {
    background-color: #fafafa;
    min-height: 500px;
    max-width: 300px;
    color: black;
-   border: 1px solid lightgrey;
+   border: 1px solid deepskyblue;
    border-radius: 25px;
    float: right;
    padding-left: 20px;
    opacity: 0.75;
+   margin-top: 23px;
 
  }
 
@@ -74,6 +86,9 @@
    margin-top: 75px;
    margin-bottom: 75px;
 
+ }
+ #p-about-padding {
+    margin-top: 65px;
  }
   /*------------------ For Header and Navigation -----------------------------------*/
 
@@ -160,13 +175,24 @@
 
 /*-------------------------------- Images ----------------------*/
 
+
+#main-picture {
+  opacity: 0.75;
+  border-radius: 75px;
+  border: 2px solid deepskyblue;
+}
+
  img.service-pictures {
+   width: 350px;
+   height: 300px;
    border-radius: 25px;
    opacity: 0.75;
+   border: 2px solid deepskyblue;
+
  }
 
  .testimonial {
-   border-radius: 5px;
+   border-radius: 25px;
    height: 150px;
    width: 200px;
    overflow: hidden;
@@ -174,25 +200,21 @@
 
  }
 
- img.testimonial{
+ img.testimonial {
    width: 200px;
    height: 150px;
-   border-radius: 5px;
+   border-radius: 25px;
    opacity: 0.8;
-   overflow: hidden;
- }
-
- img.main-picture {
-   opacity: 0.6;
+   border: 2px solid deepskyblue;
  }
 
 img.beforeandafter {
   width: 380px;
   height: 380px;
-  border-radius: 5px;
+  border-radius: 25px;
   opacity: 0.8;
   overflow: hidden;
-  border: 1px solid coral;
+  border: 2px solid deepskyblue;;
   margin-bottom: 20px;
  }
 
@@ -327,7 +349,7 @@ img.beforeandafter {
     padding-top: 0px;
   }
 
-  div.r22c1, div.r22c2,div.r22c3, div.r22c4 {
+  div.col-testimonial {
     text-align: center;
   }
 
@@ -384,6 +406,9 @@ img.beforeandafter {
     font-size: 12px;
   }
 
+  ul.services-text > li {
+    list-style: none;
+  }
 }
 
 /* 250px - 499px */
@@ -394,12 +419,12 @@ img.beforeandafter {
      padding-top: 0px;
   }
 
-  div.r1c3,div.r1c4, div.r1c5 {
+  div.bands-contact,div.bands-services, div.bands-about {
     text-align: left;
     margin-top: 15px;
   }
 
-  div.r22c1, div.r22c2,div.r22c3, div.r22c4 {
+  div.col-testimonial {
     text-align: center;
   }
 
@@ -491,6 +516,15 @@ img.beforeandafter {
     text-align: left;
   }
 
+  img.service-pictures {
+  max-width: 150px;
+  max-height: 150px;
+  }
+
+  ul.services-text > li {
+    list-style: none;
+  }
+
 }
 
 /* 500px - 767px */
@@ -501,12 +535,12 @@ img.beforeandafter {
     padding-top: 0px;
   }
 
-  div.r1c3,div.r1c4, div.r1c5 {
+  div.bands-contact,div.bands-services, div.bands-about {
     text-align: left;
     margin-top: 15px;
   }
 
-  div.r22c1, div.r22c2,div.r22c3, div.r22c4 {
+  div.col-testimonial {
     text-align: center;
   }
 
@@ -549,6 +583,10 @@ img.beforeandafter {
     display: none;
   }
 
+  img.service-pictures {
+  margin-left: -10px;
+ }
+
 }
 
 /* 767px - 991px */
@@ -558,17 +596,14 @@ img.beforeandafter {
     width: 90px;
   }
 
-  div.r1c3,div.r1c4, div.r1c5 {
+  div.bands-contact,div.bands-services, div.bands-about {
     text-align: center;
   }
 
-  div.r2c1,div.r2c2, div.r2c3 {
-    text-align: left;
-  }
-
-  div.r22c1, div.r22c2,div.r22c3, div.r22c4 {
+  div.col-testimonial {
     text-align: center;
   }
+
   .beforeandafter {
    text-align: center;
   }
@@ -587,10 +622,9 @@ img.beforeandafter {
   }
 
   #services-heading {
-    margin-left: 55px;
     max-width: 250px;
-    text-align: center;
-    float:center;
+    text-align: left;
+
   }
 
   .bandsheading {
@@ -606,6 +640,9 @@ img.beforeandafter {
   font-size: 100%;
 }
 
+  img.service-pictures {
+  margin-left: -65px;
+}
 
 }
 
@@ -616,7 +653,7 @@ img.beforeandafter {
     width: 80px;
   }
 
-  div.r1c3,div.r1c4, div.r1c5 {
+  div.bands-contact,div.bands-services, div.bands-about {
     text-align: center;
   }
 
@@ -638,10 +675,9 @@ img.beforeandafter {
   }
 
   #services-heading {
-    margin-left: 100px;
     max-width: 250px;
-    text-align: center;
-    float:center;
+    text-align: left;
+
   }
 
   .bandsheading {
@@ -657,6 +693,10 @@ img.beforeandafter {
     font-size: 100%;
   }
 
+  img.service-pictures {
+    margin-left: -35px;
+  }
+
 }
 
 /* 1024px - 1200px */
@@ -666,7 +706,7 @@ img.beforeandafter {
     width: 100px;
  }
 
- div.r1c3,div.r1c4, div.r1c5 {
+ div.bands-contact,div.bands-services, div.bands-about {
     text-align: center;
  }
 
@@ -695,7 +735,7 @@ img.beforeandafter {
  }
 
  #form-query-input {
-    min-width: 550px;
+    min-width: 450px;
     min-height: 350px;
  }
 
@@ -704,10 +744,12 @@ img.beforeandafter {
  }
 
  .services-heading {
-    margin-left: 100px;
     max-width: 250px;
-    text-align: center;
-    float:center;
+    text-align: left;
+ }
+
+ img.service-pictures {
+   margin-left: -35px;
  }
 
 }
@@ -725,7 +767,7 @@ h1.bands.heading {
   font-size: 1px;
   }
 
-div.r1c3,div.r1c4, div.r1c5 {
+div.bands-contact,div.bands-services, div.bands-about {
     text-align: center;
   }
 
@@ -748,7 +790,7 @@ div.r1c3,div.r1c4, div.r1c5 {
   img.testimonial {
     width: 200px;
     height: 150px;
-    border-radius: 5px;
+    border-radius: 25px;
     opacity: 0.8;
     overflow: hidden;
     margin-left: 25px;
@@ -767,12 +809,26 @@ div.r1c3,div.r1c4, div.r1c5 {
     margin-left: 70px;
   }
 
+  img.service-pictures {
+    margin-left: -15px;
+  }
+
   #form-query-input {
-    min-width: 650px;
+    min-width: 450px;
     min-height: 350px;
   }
 
   #br-quote {
   display:contents;
+  }
+
+  #contact-methods,  {
+    margin-left: 0px;
+
+
+  }
+
+  #hours {
+    margin-left: -150px;
   }
 }
