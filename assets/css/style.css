@@ -196,10 +196,12 @@
 }
 
 .main-picture-gallery {
+  padding-top: 35px;
   border-radius: 25px;
   border: 1px solid deepskyblue;
-  max-width: 300px;
-  /*margin-left: -50px; */
+  max-width: 1000px;
+  max-height: 400px;
+  margin-left: 50px;
 }
 
  img.service-pictures {
@@ -538,15 +540,17 @@ img.beforeandafter {
     padding-bottom: 40px;
     opacity: 0.75;
     font-size: 15px;
-    
+
   }
 
   .main-picture-gallery {
+    padding-top: 35px;
     border-radius: 25px;
     border: 1px solid deepskyblue;
-    max-width: 200px;
-    align-self:  flex-end;
-    display: block;
+    max-width: 400px;
+    max-height: 350px;
+    margin-left: 1px;
+    }
 
 
   }
@@ -614,6 +618,16 @@ img.beforeandafter {
     margin-left: 50px;
   }
 
+  .main-picture-gallery {
+    padding-top: 35px;
+    border-radius: 25px;
+    border: 1px solid deepskyblue;
+     /*max-width: 300px;
+    max-height: 350px; */
+    margin-left: -1000px;
+
+  }
+
   #form-query-input {
     min-width: 350px;
     min-height: 350px;
@@ -671,6 +685,15 @@ img.beforeandafter {
     min-height: 350px;
   }
 
+  .main-picture-gallery {
+    padding-top: 35px;
+    border-radius: 25px;
+    border: 1px solid deepskyblue;
+    max-width: 600px;
+    max-height: 400px;
+    margin-left: 40px;
+  }
+
   .br-quote {
     display:contents;
   }
@@ -717,6 +740,15 @@ img.beforeandafter {
 
   img.beforeandafter {
     margin-left: 25px;
+  }
+
+  .main-picture-gallery {
+    padding-top: 35px;
+    border-radius: 25px;
+    border: 1px solid deepskyblue;
+    max-width: 700px;
+    max-height: 400px;
+    margin-left: 120px;
   }
 
   #form-query-input {
@@ -786,6 +818,15 @@ img.beforeandafter {
 
  img.beforeandafter {
     margin-left: 25px;
+ }
+
+ .main-picture-gallery {
+   padding-top: 35px;
+   border-radius: 25px;
+   border: 1px solid deepskyblue;
+   max-width: 800px;
+   max-height: 400px;
+   margin-left: 60px;
  }
 
  #form-query-input {
