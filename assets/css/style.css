@@ -11,9 +11,15 @@
    margin-left: -40px;
   }
 
- .ul-contact-touch > li {
+ .ul-hours-touch > li {
    list-style: none;
+   margin-top: 3px;
   }
+
+  .ul-contact-touch > li {
+    list-style: none;
+    margin-top: 10px;
+   }
 
  .hr-short {
    max-width: 100px;
@@ -39,7 +45,7 @@
    font-size: 18px;
    font-weight: 400;
    text-align: center;
-   float:center;
+
  }
 
   .services-text {
@@ -53,6 +59,14 @@
    padding-top: 80px;
    padding-bottom: 50px;
    opacity: 0.75;
+ }
+
+ .main-caption-text {
+   padding-top: 50px;
+   padding-bottom: 50px;
+   opacity: 0.75;
+   position: inherit;
+
  }
 
  #contact-methods {
@@ -106,7 +120,6 @@
    font-size: 18px;
    font-weight: 400;
    text-align: center;
-   float:center;
    min-width: 300px;
    padding-top: 15px;
    margin-left: -50px;
@@ -185,7 +198,8 @@
 .main-picture-gallery {
   border-radius: 25px;
   border: 1px solid deepskyblue;
-  max-width: 450px;
+  max-width: 300px;
+  /*margin-left: -50px; */
 }
 
  img.service-pictures {
@@ -252,7 +266,6 @@ img.beforeandafter {
    border: 1px solid coral;
    border-radius: 25px;
    text-align: center;
-   float: center;
    opacity: 0.75;
    margin-left: -15px;
    padding-left: 10px;
@@ -285,7 +298,6 @@ img.beforeandafter {
 
  #form {
     min-width: 150px;
-    float:center;
     margin-left: 50px;
  }
 
@@ -316,7 +328,7 @@ img.beforeandafter {
  .fa-instagram-square {
     padding: 0 20px 0 20px;
     font-size: 150%;
-    border:
+
  }
 
  .fa-twitter-square {
@@ -337,7 +349,6 @@ img.beforeandafter {
     font-size: 20px;
     font-weight: 400;
     text-align: center;
-    float:center;
  }
 
  .about-hr-footer {
@@ -364,7 +375,7 @@ img.beforeandafter {
   }
 
   .form-standard-input {
-    max-width: 80px;
+    max-width: 150px;
   }
 
   .beforeandafter {
@@ -392,6 +403,27 @@ img.beforeandafter {
   .p-contact-touch {
     font-size: 14px;
     text-align: center;
+  }
+
+  .ul-hours-touch {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .main-caption-text {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    opacity: 0.75;
+    position: inherit;
+    font-size: 15px;
+    margin-left: 15px;
+  }
+
+  .main-picture-gallery {
+    border-radius: 25px;
+    border: 1px solid deepskyblue;
+    max-width: 200px;
+
   }
 
   #form-query-input {
@@ -439,7 +471,7 @@ img.beforeandafter {
   }
 
   .form-standard-input {
-    max-width: 150px;
+    max-width: 180px;
   }
 
   .reset-button {
@@ -497,10 +529,27 @@ img.beforeandafter {
   }
 
   .p-contact-touch {
-    font-size: 14px;
+    font-size: 18px;
     text-align: left;
   }
 
+  .main-caption-text {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    opacity: 0.75;
+    font-size: 15px;
+    
+  }
+
+  .main-picture-gallery {
+    border-radius: 25px;
+    border: 1px solid deepskyblue;
+    max-width: 200px;
+    align-self:  flex-end;
+    display: block;
+
+
+  }
   #form-query-input {
     max-width: 150px;
     min-height: 350px;
@@ -516,10 +565,9 @@ img.beforeandafter {
   }
 
 
-
   .ul-contact-touch {
-    font-size: 12px;
-    text-align: left;
+    font-size: 16px;
+    text-align: center;
   }
 
   img.service-pictures {
@@ -555,7 +603,7 @@ img.beforeandafter {
   }
 
   .form-standard-input {
-    max-width: 150px;
+    max-width: 280px;
   }
 
   .beforeandafter {
@@ -623,7 +671,7 @@ img.beforeandafter {
     min-height: 350px;
   }
 
-  #br-quote {
+  .br-quote {
     display:contents;
   }
 
@@ -676,7 +724,7 @@ img.beforeandafter {
     min-height: 350px;
   }
 
-  #br-quote {
+  .br-quote {
     display:contents;
   }
 
@@ -724,7 +772,7 @@ img.beforeandafter {
  .fa-instagram-square {
     padding: 0 30px 0 30px;
     font-size: 150%;
-    border:
+
  }
 
  .fa-twitter-square {
@@ -745,7 +793,7 @@ img.beforeandafter {
     min-height: 350px;
  }
 
- #br-quote {
+ .br-quote {
     display:contents;
  }
 
@@ -785,7 +833,7 @@ div.bands-contact,div.bands-services, div.bands-about {
   .fa-instagram-square {
     padding: 0 30px 0 30px;
     font-size: 150%;
-    border:
+
   }
 
   .fa-twitter-square {
@@ -824,7 +872,7 @@ div.bands-contact,div.bands-services, div.bands-about {
     min-height: 350px;
   }
 
-  #br-quote {
+  .br-quote {
   display:contents;
   }
 

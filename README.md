@@ -101,6 +101,11 @@ Testing</p>
 
 <li>Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.</li>
 
+For the html5 code I used https://validator.w3.org/ and used the direct input method, scanning the errors and trying to understand how the flow of the page was interrupted by usually a stray or missing closing tag.
+Ususally correcting one of these fixed more than 1 error found by the validator, I then updated my project with each fix found.
+
+For the CSS3 code I used https://jigsaw.w3.org/css-validator/ and again used the direct input method rather than uploading the file. Here I found some parse errors from not giving the parameters a value under 2 of the media queries.
+
 <li>For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:</li>
 
 <li>Contact form:
@@ -133,7 +138,7 @@ The text for all sections was created by myself derived from a conversation with
 The photos used in this site were obtained from
 The braggandsons logo was borrowed from www.brandcrowd.com.
 The logo was picked out I addded the text and style I then saved a screenshot.
-I understand that this is not the correct way to acquire or borrow images but to purchase the icon was quiet expensive and since I will only be using this for educational purposes i did not see an issue with it.
+
 The testimonails on the about page were created by myself just the images we borrowed by doing a google search of "picture of a happy person", "picture of a smiling person", picture of a smiling older person, "picture of a smiling couple in new house", "picture of a smiling older couple"
 
 The colour palette pdf created using content borrowed from https://www.Lakelandfurniture.co.uk
@@ -144,4 +149,5 @@ The pictures on the before and after pages were from the following sources, Pic1
 
 ###Acknowledgements
 I received inspiration for this project from a conversation with a local painter.
+Fenton - Stsck overflow for the soloution on how to wrap the button in a form.
 The name Bragg&Sons and any contact information is ficticious and does not represent the actual painters details to protect his identity.
