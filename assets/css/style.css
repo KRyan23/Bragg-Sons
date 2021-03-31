@@ -7,6 +7,11 @@
    background-color: #fafafa;
  }
 
+ a {
+   text-decoration: none;
+   color: black;
+  }
+
  li {
    margin-left: -40px;
   }
@@ -45,9 +50,20 @@
    font-size: 18px;
    font-weight: 400;
    text-align: center;
-
+}
+   .reasons {
+     font-size: 20px;
+     font-weight: 600;
+     text-align: center;
+     opacity: 0.75;
+     padding-bottom: 45px;
  }
-
+  .image-caption {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    opacity: 0.75;
+    text-align: center;
+  }
   .services-text {
     font-size: 18px;
     font-weight: 400;
@@ -58,14 +74,15 @@
    text-align: center;
    padding-top: 80px;
    padding-bottom: 50px;
-   opacity: 0.75;
+   opacity: 0.6;
  }
 
  .main-caption-text {
-   padding-top: 50px;
+   margin-top: -30px;
    padding-bottom: 50px;
    opacity: 0.75;
-   position: inherit;
+   text-align: center;
+
 
  }
 
@@ -104,7 +121,17 @@
  #p-about-padding {
     margin-top: 65px;
  }
+
+ #hr-reasons {
+   margin-top: 80px;
+   margin-bottom: 80px;
+   max-width: 400px;
+ }
   /*------------------ For Header and Navigation -----------------------------------*/
+
+ .company-name {
+   opacity: 0.55;
+ }
 
  a.nav-links {
    text-decoration: none;
@@ -158,7 +185,7 @@
 
  .gallery-button {
    text-decoration: none;
-   border: 1px solid darkgreen;
+   border: 1px solid deepskyblue;
    background-color: #fafafa;
    border-radius: 5px;
    text-align: center;
@@ -174,18 +201,45 @@
    padding: 15px 15px 15px 15px;
    opacity: 0.75;
    margin-top: 50px;
-   min-width: 190px;
-   min-height: 30px;
-   margin-left: -15px;
-   font-size: 18px;
- }
+  }
 
+  .quote-button {
+    background-color: lightgrey;
+    border: 1px solid coral;
+    border-radius: 25px;
+    color: black;
+    text-align: center;
+    padding: 15px 15px 15px 15px;
+    opacity: 0.75;
+    margin-top: 50px;
+   }
+   
  .radio-standard-input {
    text-align: left;
    margin-left: 20px;
    opacity: 0.75;
  }
 
+ .shrink-effect:hover
+ {
+         -webkit-transform: scale(0.8);
+         -ms-transform: scale(0.8);
+         transform: scale(0.8);
+ }
+
+ .grow-effect:hover
+{
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+}
+
+.grow-effect-scheme:hover
+{
+       -webkit-transform: scale(1.03);
+       -ms-transform: scale(1.03);
+       transform: scale(1.03);
+}
 /*-------------------------------- Images ----------------------*/
 
 
@@ -198,10 +252,10 @@
 .main-picture-gallery {
   padding-top: 35px;
   border-radius: 25px;
-  border: 1px solid deepskyblue;
-  max-width: 1000px;
+  border: 1px solid coral;
+  max-width: 600px;
   max-height: 400px;
-  margin-left: 50px;
+  margin-left: 250px;
 }
 
  img.service-pictures {
@@ -254,14 +308,32 @@ img.beforeandafter {
     padding-left: 22px;
  }
 
+ #experience-icon {
+   padding-left: 24px;
+   padding-right: 10px;
+   padding-top: 25px;
+ }
+
+ #flexible-icon {
+   padding-left: 94px;
+   padding-right: 10px;
+   padding-top: 25px;
+ }
+
+ #money-icon {
+   padding-left: 210px;
+   padding-right: 12px;
+   padding-top: 25px;
+ }
+
 /*------------------------------- Forms ------------------------*/
 
 .dropdown-standard-input {
   font-size: 12px;
 }
 
-#color-scheme {
-   background-color: #fafafa;
+#colour-scheme {
+   background-color: lightgray;
    min-height: 50px;
    min-width: 150px;
    color: black;
@@ -269,7 +341,7 @@ img.beforeandafter {
    border-radius: 25px;
    text-align: center;
    opacity: 0.75;
-   margin-left: -15px;
+   margin-left: -5px;
    padding-left: 10px;
    padding-right: 10px;
  }
@@ -412,22 +484,14 @@ img.beforeandafter {
     text-align: center;
   }
 
-  .main-caption-text {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    opacity: 0.75;
-    position: inherit;
-    font-size: 15px;
-    margin-left: 15px;
-  }
-
   .main-picture-gallery {
-    border-radius: 25px;
-    border: 1px solid deepskyblue;
-    max-width: 200px;
+    max-width: 150px;
+    margin-left: 10px;
 
   }
-
+  .main-caption-text {
+    font-size: 16px;
+  }
   #form-query-input {
     max-width: 130px;
     min-height: 350px;
@@ -442,6 +506,13 @@ img.beforeandafter {
     display: none;
   }
 
+  #experience-icon, #flexible-icon, #money-icon {
+    display: none;
+  }
+
+  .reasons, .image-caption {
+    font-size: 15px;
+  }
   .ul-contact-touch {
     font-size: 12px;
   }
@@ -452,7 +523,7 @@ img.beforeandafter {
 }
 
 /* 250px - 499px */
-@media only screen and (min-width: 250px) and (max-width: 499px){
+@media only screen and (min-width: 250px) and (max-width: 499px) {
 
   img.company-logo {
      width: 80px;
@@ -536,7 +607,6 @@ img.beforeandafter {
   }
 
   .main-caption-text {
-    padding-top: 40px;
     padding-bottom: 40px;
     opacity: 0.75;
     font-size: 15px;
@@ -544,16 +614,15 @@ img.beforeandafter {
   }
 
   .main-picture-gallery {
-    padding-top: 35px;
-    border-radius: 25px;
-    border: 1px solid deepskyblue;
     max-width: 400px;
     max-height: 350px;
-    margin-left: 1px;
-    }
-
-
+    margin-left: -1px;
   }
+
+  .reasons, .image-caption {
+      font-size: 15px;
+  }
+
   #form-query-input {
     max-width: 150px;
     min-height: 350px;
@@ -568,6 +637,13 @@ img.beforeandafter {
      display: none;
   }
 
+  #experience-icon, #flexible-icon, #money-icon {
+    display: none;
+  }
+
+  .reasons {
+    font-size: 15px;
+  }
 
   .ul-contact-touch {
     font-size: 16px;
@@ -583,10 +659,14 @@ img.beforeandafter {
     list-style: none;
   }
 
+  .painter-button {
+    margin-top: 160px;
+    margin-left: -20px;
+  }
 }
 
 /* 500px - 767px */
-@media only screen and (min-width: 500px) and (max-width: 767px){
+@media only screen and (min-width: 500px) and (max-width: 767px) {
 
   img.company-logo {
     width: 90px;
@@ -619,12 +699,9 @@ img.beforeandafter {
   }
 
   .main-picture-gallery {
-    padding-top: 35px;
-    border-radius: 25px;
-    border: 1px solid deepskyblue;
-     /*max-width: 300px;
-    max-height: 350px; */
-    margin-left: -1000px;
+    max-width: 500px;
+    max-height: 350px;
+    margin-left: 1px;
 
   }
 
@@ -653,6 +730,10 @@ img.beforeandafter {
 
   img.service-pictures {
   margin-left: -10px;
+ }
+
+ .painter-button {
+   margin-left: 120px;
  }
 
 }
@@ -686,9 +767,6 @@ img.beforeandafter {
   }
 
   .main-picture-gallery {
-    padding-top: 35px;
-    border-radius: 25px;
-    border: 1px solid deepskyblue;
     max-width: 600px;
     max-height: 400px;
     margin-left: 40px;
@@ -721,6 +799,10 @@ img.beforeandafter {
   margin-left: -65px;
 }
 
+ .painter-button {
+  margin-left: 210px;
+ }
+
 }
 
 /* 992px - 1023px */
@@ -743,12 +825,9 @@ img.beforeandafter {
   }
 
   .main-picture-gallery {
-    padding-top: 35px;
-    border-radius: 25px;
-    border: 1px solid deepskyblue;
-    max-width: 700px;
+    max-width: 600px;
     max-height: 400px;
-    margin-left: 120px;
+    margin-left: 160px;
   }
 
   #form-query-input {
@@ -777,6 +856,10 @@ img.beforeandafter {
 
   .foot-face, .foot-instagram, .foot-twitter {
     font-size: 100%;
+  }
+
+  .painter-button {
+    margin-left: 250px;
   }
 
   img.service-pictures {
@@ -821,12 +904,9 @@ img.beforeandafter {
  }
 
  .main-picture-gallery {
-   padding-top: 35px;
-   border-radius: 25px;
-   border: 1px solid deepskyblue;
-   max-width: 800px;
+   max-width: 600px;
    max-height: 400px;
-   margin-left: 60px;
+   margin-left: 160px;
  }
 
  #form-query-input {
@@ -841,6 +921,10 @@ img.beforeandafter {
  .services-heading {
     max-width: 250px;
     text-align: left;
+ }
+
+ .painter-button {
+   margin-left: 250px;
  }
 
  img.service-pictures {
@@ -908,6 +992,9 @@ div.bands-contact,div.bands-services, div.bands-about {
     margin-left: -15px;
   }
 
+ .painter-button {
+   margin-left: 250px;
+ }
   #form-query-input {
     min-width: 450px;
     min-height: 350px;

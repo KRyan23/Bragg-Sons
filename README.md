@@ -68,7 +68,7 @@ Please find the 5 strategy planes discussing the scope and needs of the project.
 <hr>
 
 ### Wireframes
-<p> Please find links to the wireframes below, all wer created using Balsamic 4.2.1 on windows.</p>
+<p> Please find links to the wireframes below, all were created using Balsamic 4.2.1 on Windows.</p>
 
 <ul>
 <a href="C:\Users\User\Desktop\CodeInst\MileStoneProject1\MileStone For real project\Bragg & Sons Idea\Wireframe Pdfs\Phone Wireframes\MobilePhonePages.pdf"><li>Mobile</li></a>
@@ -108,16 +108,45 @@ For the CSS3 code I used https://jigsaw.w3.org/css-validator/ and again used the
 
 <li>For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:</li>
 
-<li>Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+<li>Testing Section:
 
-(You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.)
+The Contact Page:
+
+Testing:
+
+The form was tested many times in the different browsers and I used the formdump from codeinstitute to validate that the from was sent / recieved.
+Along with this the necessary "required" fields prevented users submitting a half filled form.
+The reset button on the form was also tested and did indeed clear the form so the user could re-enter their details.
+
+The Quote Page:
+
+Testing:
+
+The quote form was also tested many times in the different browsers and again I used the formdump from codeinstitute to validate that the from was sent / recieved.
+Along with this I set the necessary radio groups buttons to "required" to prevent a half filled form being submitted.
+The "Colour Palette Link" on the quote from page was tested with various browsers to make it opened up a as intended.
+Cross Browser Testing:
+
+
+I mainly used Chrome and its dev tools from the entireity of the project since it was just faster to use the responsive method to check aligment on differnt viewports configurations.
+
+Since I used Atom for all the development (beacuse of the 50hr monthly limit in Gitpod) I was able to run a local webserver which was great for checking compatibility in other browsers.
+
+These included:
+
+ <li>Chrome</li>
+ <li>Opera</li>
+ <li>Firefox</li>
+ <li>Edge</li>
+ <li>IE11</li>
+
+
+
 One of the initial challenges which im sure is quiet normal when writing code was the accidental deletion or addition of a parenthesis,
-when editing code. The knockon effect being the whole layout of the site suddenly not looking right. Intially I tried to find these manually until I realised that I could just use the online css/html code validators and use the direct input method to quickly scan the code which saved a lot of time.
+when editing code. The knockon effect being the whole layout of the site suddenly not looking right.
+Intially I tried to find these manually until the Css file grew quite large and it took longer and longer to find the issue.
+I realised that I could just use the online css/html code validators and use the direct input method to quickly scan the code which saved a lot of time, the "Parse Error" output would then help you zone in on the issue.
+
 </li>
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
@@ -146,6 +175,9 @@ The colour palette pdf created using content borrowed from https://www.Lakelandf
 The pictures on the services page were from the following sources https://istockphoto.com and https://www.indiamart.com/
 
 The pictures on the before and after pages were from the following sources, Pic1&4 www.perfecthome.ie,Pic2 https://powellpaintingandhomeservices.com/, Pic3 https://www.yainnovationpainting.com/
+
+A Code snippit for the shrink effect on the links was used from here
+https://www.webdesignerdepot.com/2014/05/8-simple-css3-transitions-that-will-wow-your-users/
 
 ###Acknowledgements
 I received inspiration for this project from a conversation with a local painter.
