@@ -2,17 +2,17 @@
 
 /*-------------------------- Body Style Rules --------------------------------*/
 
- body {
+body {
    padding: 15px;
    background-color: #fafafa;
  }
 
- a {
+a {
    text-decoration: none;
    color: black;
   }
 
- li {
+li {
    margin-left: -40px;
   }
 
@@ -21,82 +21,83 @@
    margin-top: 3px;
   }
 
-  .ul-contact-touch > li {
+.ul-contact-touch > li {
     list-style: none;
     margin-top: 10px;
-   }
+  }
 
- .hr-short {
+.hr-short {
    max-width: 100px;
    background-color: coral;
- }
+  }
 
- .hr-moto {
+.hr-moto {
    border: 1px solid darkorange;
    text-align: center;
    border-radius: 1px;
+  }
 
- }
-
- .gallery-top {
+.gallery-top {
    margin-bottom: 80px;
    text-align: center;
    font-size: 18px;
    font-weight: 400;
+  }
 
- }
-
- .p-about {
+.p-about {
    font-size: 18px;
    font-weight: 400;
    text-align: center;
    opacity: 0.75;
-}
-   .reasons {
+  }
+
+.reasons {
      font-size: 20px;
      font-weight: 600;
      text-align: center;
      opacity: 0.75;
      padding-bottom: 45px;
- }
-  .image-caption {
+  }
+
+.image-caption {
     padding-top: 40px;
     padding-bottom: 40px;
     opacity: 0.75;
     text-align: center;
   }
-  .services-text {
+
+.services-text {
     font-size: 18px;
     font-weight: 400;
     text-align:left;
     opacity: 0.75;
   }
 
- .munsters-best {
+.munsters-best {
    text-align: center;
    padding-top: 80px;
    padding-bottom: 50px;
    opacity: 0.6;
- }
+  }
 
- .main-caption-text {
+.main-caption-text {
    margin-top: -30px;
    padding-bottom: 50px;
    opacity: 0.75;
    text-align: center;
- }
+  }
 
- .hr-reasons {
+.hr-reasons {
    margin-top: 80px;
    margin-bottom: 80px;
    max-width: 400px;
- }
+  }
 
- .services-heading {
+.services-heading {
    opacity: 0.75;
- }
+  }
 
- #contact-methods {
+#contact-methods {
    background-color: #fafafa;
    min-height: 500px;
    max-width: 300px;
@@ -107,9 +108,9 @@
    padding-left: 20px;
    opacity: 0.75;
    margin-top: 23px;
-   }
+  }
 
- #hours {
+#hours {
    background-color: #fafafa;
    min-height: 500px;
    max-width: 300px;
@@ -120,42 +121,41 @@
    padding-left: 20px;
    opacity: 0.75;
    margin-top: 23px;
+  }
 
- }
-
- #about-padding {
+#about-padding {
    margin-top: 75px;
    margin-bottom: 75px;
+  }
 
- }
- #p-about-padding {
+#p-about-padding {
     margin-top: 65px;
- }
+  }
 
 /*--------------------------  For Header and Navigation --------------------------------*/
 
- .company-name {
+.company-name {
    opacity: 0.55;
- }
+  }
 
- a.nav-links {
+a.nav-links {
    text-decoration: none;
    color: black;
- }
+  }
 
- .fa-phone, .fa-cog, .fa-info {
+.fa-phone, .fa-cog, .fa-info {
    padding-left: 10px;
    font-size: 100%;
- }
+  }
 
- .moto {
+.moto {
    font-size: 18px;
    font-weight: 400;
    text-align: center;
    min-width: 300px;
    padding-top: 15px;
    margin-left: -50px;
- }
+  }
 
 /*--------------------------  Buttons --------------------------------*/
 
@@ -171,9 +171,9 @@
    transition: 0.3s;
    min-width: 150px;
    min-height: 30px;
- }
+  }
 
- .reset-button {
+.reset-button {
    background-color: lightgrey;
    border: 1px solid coral;
    border-radius: 25px;
@@ -186,9 +186,9 @@
    transition: 0.3s;
    min-width: 140px;
    min-height: 30px;
- }
+  }
 
- .gallery-button {
+.gallery-button {
    text-decoration: none;
    border: 1px solid deepskyblue;
    background-color: #fafafa;
@@ -197,7 +197,7 @@
    min-width: 190px;
  }
 
- .painter-button {
+.painter-button {
    background-color: lightgrey;
    border: 1px solid coral;
    border-radius: 25px;
@@ -206,9 +206,9 @@
    padding: 15px 15px 15px 15px;
    opacity: 0.75;
    margin-top: 50px;
-  }
+ }
 
-  .quote-button {
+.quote-button {
     background-color: lightgrey;
     border: 1px solid coral;
     border-radius: 25px;
@@ -217,71 +217,67 @@
     padding: 15px 15px 15px 15px;
     opacity: 0.75;
     margin-top: 50px;
-   }
+ }
 
- .radio-standard-input {
+.radio-standard-input {
    text-align: left;
    margin-left: 20px;
    opacity: 0.75;
  }
   /*-- Grow and Shrink effects adapted from https://www.webdesignerdepot.com/2014/05/8-simple-css3-transitions-that-will-wow-your-users/ --*/
- .shrink-effect:hover
- {
-         -webkit-transform: scale(0.8);
-         -ms-transform: scale(0.8);
-         transform: scale(0.8);
+
+.shrink-effect:hover {
+   -webkit-transform: scale(0.8);
+   -ms-transform: scale(0.8);
+   transform: scale(0.8);
  }
 
- .grow-effect:hover
-{
-        -webkit-transform: scale(1.2);
-        -ms-transform: scale(1.2);
-        transform: scale(1.2);
-}
+.grow-effect:hover {
+   -webkit-transform: scale(1.2);
+   -ms-transform: scale(1.2);
+   transform: scale(1.2);
+ }
 
-.grow-effect-scheme:hover
-{
-       -webkit-transform: scale(1.03);
-       -ms-transform: scale(1.03);
-       transform: scale(1.03);
-}
+.grow-effect-scheme:hover {
+   -webkit-transform: scale(1.03);
+   -ms-transform: scale(1.03);
+   transform: scale(1.03);
+ }
 
 /*--------------------------  Images --------------------------------*/
 
 #main-picture {
-  opacity: 0.75;
-  border-radius: 75px;
-  border: 2px solid deepskyblue;
-}
+   opacity: 0.75;
+   border-radius: 75px;
+   border: 2px solid deepskyblue;
+ }
 
 .main-picture-gallery {
-  padding-top: 35px;
-  border-radius: 25px;
-  border: 1px solid coral;
-  max-width: 600px;
-  max-height: 400px;
-  margin-left: 250px;
-}
+   padding-top: 35px;
+   border-radius: 25px;
+   border: 1px solid coral;
+   max-width: 600px;
+   max-height: 400px;
+   margin-left: 250px;
+ }
 
- img.service-pictures {
+img.service-pictures {
    width: 350px;
    height: 300px;
    border-radius: 25px;
    opacity: 0.75;
    border: 2px solid deepskyblue;
-
  }
 
- .testimonial {
+.testimonial {
    border-radius: 25px;
    height: 150px;
    width: 200px;
    overflow: hidden;
    opacity: 0.8;
-
  }
 
- img.testimonial {
+img.testimonial {
    width: 200px;
    height: 150px;
    border-radius: 25px;
@@ -301,31 +297,31 @@ img.beforeandafter {
 
 /*-------------------------- Font Awesome Rules --------------------------------*/
 
- #phone-contact-icon {
+#phone-contact-icon {
    padding-left: 22px;
  }
 
- #email-contact-icon {
+#email-contact-icon {
     padding-left: 45px;
  }
 
- #post-contact-icon {
+#post-contact-icon {
     padding-left: 22px;
  }
 
- #experience-icon {
+#experience-icon {
    padding-left: 24px;
    padding-right: 10px;
    padding-top: 25px;
  }
 
- #flexible-icon {
+#flexible-icon {
    padding-left: 94px;
    padding-right: 10px;
    padding-top: 25px;
  }
 
- #money-icon {
+#money-icon {
    padding-left: 210px;
    padding-right: 12px;
    padding-top: 25px;
@@ -335,7 +331,7 @@ img.beforeandafter {
 
 .dropdown-standard-input {
   font-size: 12px;
-}
+ }
 
 #colour-scheme {
    background-color: lightgray;
@@ -351,7 +347,7 @@ img.beforeandafter {
    padding-right: 10px;
  }
 
- #contact-form {
+#contact-form {
    background-color: #fafafa;
    min-height: 500px;
    max-width: 800px;
@@ -363,75 +359,74 @@ img.beforeandafter {
    opacity: 0.75;
  }
 
- #quote-form {
-    background-color: #fafafa;
-    min-height: 800px;
-    max-width: 800px;
-    color: black;
-    border: 1px solid coral;
-    border-radius: 25px;
-    float: left;
-    padding-left: 20px;
-    opacity: 0.75;
+#quote-form {
+   background-color: #fafafa;
+   min-height: 800px;
+   max-width: 800px;
+   color: black;
+   border: 1px solid coral;
+   border-radius: 25px;
+   float: left;
+   padding-left: 20px;
+   opacity: 0.75;
  }
 
- #form {
-    min-width: 150px;
-    margin-left: 50px;
+#form {
+   min-width: 150px;
+   margin-left: 50px;
  }
 
 /*-------------------------- Foooter Style Rules --------------------------------*/
 
- .bands-footer {
-    position: inherit;
-    width: 100%;
-    height: 85px;
-    background-color: #fafafa;
-    text-align: center;
-    left: 0;
-    bottom: 0;
+.bands-footer {
+   position: inherit;
+   width: 100%;
+   height: 85px;
+   background-color: #fafafa;
+   text-align: center;
+   left: 0;
+   bottom: 0;
  }
 
- .hr-footer {
-    height: 1px;
-    background-color: lightgrey;
-    border: none;
-    margin-top: 100px;
+.hr-footer {
+   height: 1px;
+   background-color: lightgrey;
+   border: none;
+   margin-top: 100px;
  }
 
- .fa-facebook-f {
-    padding: 0 20px 0 20px;
-    font-size: 150%;
+.fa-facebook-f {
+   padding: 0 20px 0 20px;
+   font-size: 150%;
  }
 
- .fa-instagram-square {
-    padding: 0 20px 0 20px;
-    font-size: 150%;
-
+.fa-instagram-square {
+   padding: 0 20px 0 20px;
+   font-size: 150%;
  }
 
- .fa-twitter-square {
-    padding: 0 20px 0 20px;
-    font-size: 150%;
+.fa-twitter-square {
+   padding: 0 20px 0 20px;
+   font-size: 150%;
  }
 
- .bands-sub-footer {
-    max-width: 300px;
+.bands-sub-footer {
+   max-width: 300px;
  }
 
- img.company-logo-footer {
-    max-width: 60px;
-    margin-left: -10px;
+img.company-logo-footer {
+   max-width: 60px;
+   margin-left: -10px;
  }
 
- .contact-footer {
-    font-size: 20px;
-    font-weight: 400;
-    text-align: center;
+.contact-footer {
+   font-size: 20px;
+   font-weight: 400;
+   text-align: center;
  }
 
- .about-hr-footer {
-    padding-top: 50px;
+.about-hr-footer {
+   padding-top: 50px;
  }
 
 /*--------------------------  Media Query Rules --------------------------------*/
@@ -443,23 +438,23 @@ img.beforeandafter {
   img.company-logo {
     width: 70px;
     padding-top: 0px;
-  }
+ }
 
   div.col-testimonial {
     text-align: center;
-  }
+ }
 
   .fa-phone, .fa-cog, .fa-info {
     display: none;
-  }
+ }
 
   .form-standard-input {
     max-width: 150px;
-  }
+ }
 
   .beforeandafter {
     text-align: center;
-  }
+ }
 
   img.beforeandafter {
     width: 250px;
@@ -468,64 +463,64 @@ img.beforeandafter {
     opacity: 0.8;
     overflow: hidden;
     margin-left: -20px;
-  }
+ }
 
   .foot-face, .foot-instagram, .foot-twitter {
     font-size: 100%;
-  }
+ }
 
   .bandsheading {
     font-size: 24px;
     text-align: left;
-  }
+ }
 
   .p-contact-touch {
     font-size: 14px;
     text-align: center;
-  }
+ }
 
   .ul-hours-touch {
     font-size: 14px;
     text-align: center;
-  }
+ }
 
   .main-picture-gallery {
     max-width: 150px;
     margin-left: 10px;
+ }
 
-  }
   .main-caption-text {
     font-size: 16px;
-  }
+ }
 
   .reasons, .image-caption {
     font-size: 15px;
-  }
+ }
   .ul-contact-touch {
     font-size: 12px;
-  }
+ }
 
   ul.services-text > li {
     list-style: none;
-  }
+ }
 
   #form-query-input {
     max-width: 130px;
     min-height: 350px;
-  }
+ }
 
   #quote-form {
     min-height: 1000px;
     font-size: 80%;
-  }
+ }
 
   #email-contact-icon, #post-contact-icon {
     display: none;
-  }
+ }
 
   #experience-icon, #flexible-icon, #money-icon {
     display: none;
-  }
+ }
 
 }
 
@@ -536,24 +531,24 @@ img.beforeandafter {
   img.company-logo {
      width: 80px;
      padding-top: 0px;
-  }
+ }
 
   div.bands-contact,div.bands-services, div.bands-about {
     text-align: left;
     margin-top: 15px;
-  }
+ }
 
   div.col-testimonial {
     text-align: center;
-  }
+ }
 
   .fa-phone, .fa-cog, .fa-info {
     display: none;
-  }
+ }
 
   .form-standard-input {
     max-width: 180px;
-  }
+ }
 
   .reset-button {
     background-color: lightgrey;
@@ -568,7 +563,7 @@ img.beforeandafter {
     transition: 0.3s;
     min-width: 100px;
     min-height: 30px;
-  }
+ }
 
   .submit-button {
     background-color: lightgrey;
@@ -583,11 +578,11 @@ img.beforeandafter {
     min-width: 100px;
     min-height: 30px;
     float:left;
-  }
+ }
 
   .beforeandafter {
     text-align: left;
-  }
+ }
 
   img.beforeandafter {
     width: 250px;
@@ -596,78 +591,78 @@ img.beforeandafter {
     opacity: 0.8;
     overflow: hidden;
     align-items: flex-start;
-  }
+ }
 
   .bandsheading {
     font-size: 24px;
     text-align: left;
-  }
+ }
 
   .foot-face, .foot-instagram, .foot-twitter {
     font-size: 100%;
-  }
+ }
 
   .p-contact-touch {
     font-size: 18px;
     text-align: left;
-  }
+ }
 
   .main-caption-text {
     padding-bottom: 40px;
     opacity: 0.75;
     font-size: 15px;
-  }
+ }
 
   .main-picture-gallery {
     max-width: 400px;
     max-height: 350px;
     margin-left: -1px;
-  }
+ }
 
   .reasons, .image-caption {
       font-size: 15px;
-  }
+ }
 
   .reasons {
     font-size: 15px;
-  }
+ }
 
   .ul-contact-touch {
     font-size: 16px;
     text-align: center;
-  }
+ }
 
   img.service-pictures {
-  max-width: 150px;
-  max-height: 150px;
-  }
+    max-width: 150px;
+    max-height: 150px;
+ }
 
   ul.services-text > li {
     list-style: none;
-  }
+ }
 
   .painter-button {
     margin-top: 160px;
     margin-left: -20px;
-  }
+ }
 
   #form-query-input {
     max-width: 150px;
     min-height: 350px;
-  }
+ }
 
   #quote-form {
     min-height: 1000px;
     font-size: 80%;
-  }
+ }
 
   #email-contact-icon, #post-contact-icon {
-     display: none;
-  }
+    display: none;
+ }
 
   #experience-icon, #flexible-icon, #money-icon {
     display: none;
-  }
+ }
 
 }
 
@@ -678,67 +673,67 @@ img.beforeandafter {
   img.company-logo {
     width: 90px;
     padding-top: 0px;
-  }
+ }
 
   div.bands-contact,div.bands-services, div.bands-about {
     text-align: left;
     margin-top: 15px;
-  }
+ }
 
   div.col-testimonial {
     text-align: center;
-  }
+ }
 
   .fa-phone, .fa-cog, .fa-info {
     display: none;
-  }
+ }
 
   .form-standard-input {
     max-width: 280px;
-  }
+ }
 
   .beforeandafter {
-   text-align: center;
-  }
+    text-align: center;
+ }
 
   img.beforeandafter {
     margin-left: 50px;
-  }
+ }
 
   .main-picture-gallery {
     max-width: 500px;
     max-height: 350px;
     margin-left: 1px;
-  }
+ }
 
   .bandsheading {
     font-size: 24px;
     text-align: left;
-  }
+ }
 
   .foot-face, .foot-instagram, .foot-twitter  {
     font-size: 100%;
-  }
+ }
 
   img.service-pictures {
-  margin-left: -10px;
+    margin-left: -10px;
  }
 
- .painter-button {
-   margin-left: 120px;
+  .painter-button {
+    margin-left: 120px;
  }
 
- #form-query-input {
-   min-width: 350px;
-   min-height: 350px;
+  #form-query-input {
+    min-width: 350px;
+    min-height: 350px;
  }
 
- #email-contact-icon, #post-contact-icon {
-   display: none;
+  #email-contact-icon, #post-contact-icon {
+    display: none;
  }
 
- #quote-form {
-   min-height: 1000px;
+  #quote-form {
+    min-height: 1000px;
  }
 
 }
@@ -748,21 +743,21 @@ img.beforeandafter {
 
   img.company-logo {
     width: 90px;
-  }
+ }
 
   div.bands-contact,div.bands-services, div.bands-about {
     text-align: center;
-  }
+ }
 
   div.col-testimonial {
     text-align: center;
-  }
+ }
 
   .beforeandafter {
-   text-align: center;
-  }
+    text-align: center;
+ }
 
- img.beforeandafter {
+  img.beforeandafter {
     margin-left: 150px;
  }
 
@@ -770,43 +765,43 @@ img.beforeandafter {
     max-width: 600px;
     max-height: 400px;
     margin-left: 40px;
-  }
+ }
 
   .br-quote {
     display:contents;
-  }
+ }
 
   .services-heading {
     max-width: 250px;
     text-align: left;
     opacity: 0.75;
-  }
+ }
 
   .bandsheading {
     font-size: 33px;
     text-align: center;
-  }
+ }
 
   .foot-face, .foot-instagram, .foot-twitter {
-  font-size: 100%;
-}
+    font-size: 100%;
+ }
 
   img.service-pictures {
-  margin-left: -65px;
-}
-
- .painter-button {
-  margin-left: 210px;
+    margin-left: -65px;
  }
 
- #br-reasons {
-   font-size: 80%;
+  .painter-button {
+    margin-left: 210px;
  }
 
- #form-query-input {
+  #br-reasons {
+    font-size: 80%;
+ }
+
+  #form-query-input {
     min-width: 450px;
     min-height: 350px;
-  }
+ }
 
 }
 
@@ -815,123 +810,123 @@ img.beforeandafter {
 
   img.company-logo {
     width: 80px;
-  }
+ }
 
   div.bands-contact,div.bands-services, div.bands-about {
     text-align: center;
-  }
+ }
 
   .beforeandafter {
-   text-align: center;
-  }
+    text-align: center;
+ }
 
   img.beforeandafter {
     margin-left: 25px;
-  }
+ }
 
   .main-picture-gallery {
     max-width: 600px;
     max-height: 400px;
     margin-left: 160px;
-  }
+ }
 
   .br-quote {
     display:contents;
-  }
+ }
 
   .services-heading {
     max-width: 250px;
     text-align: left;
     opacity: 0.75;
-  }
+ }
 
   .bandsheading {
     font-size: 40px;
     text-align: left;
-  }
+ }
 
   .foot-face, .foot-instagram, .foot-twitter {
     font-size: 100%;
-  }
+ }
 
   .painter-button {
     margin-left: 250px;
-  }
+ }
 
   img.service-pictures {
     margin-left: -35px;
-  }
+ }
 
   #br-reasons {
     font-size: 90%;
-  }
+ }
 
   #form-query-input {
     min-width: 450px;
     min-height: 350px;
-  }
+ }
 
 }
 
 /*- 1024px - 1200px -*/
 @media only screen and (min-width: 1024px) and (max-width: 1200px) {
 
- img.company-logo {
+  img.company-logo {
     width: 100px;
  }
 
- div.bands-contact,div.bands-services, div.bands-about {
+  div.bands-contact,div.bands-services, div.bands-about {
     text-align: center;
  }
 
- .fa-facebook-f {
+  .fa-facebook-f {
     padding: 0 30px 0 30px;
     font-size: 150%;
  }
 
- .fa-instagram-square {
+  .fa-instagram-square {
     padding: 0 30px 0 30px;
     font-size: 150%;
  }
 
- .fa-twitter-square {
+  .fa-twitter-square {
     padding: 0 30px 0 30px;
     font-size: 150%;
  }
 
   .beforeandafter {
-   text-align: center;
+    text-align: center;
  }
 
- img.beforeandafter {
+  img.beforeandafter {
     margin-left: 25px;
  }
 
- .main-picture-gallery {
-   max-width: 600px;
-   max-height: 400px;
-   margin-left: 160px;
+  .main-picture-gallery {
+    max-width: 600px;
+    max-height: 400px;
+    margin-left: 160px;
  }
 
- .br-quote {
+  .br-quote {
     display:contents;
  }
 
- .services-heading {
+  .services-heading {
     max-width: 250px;
     text-align: left;
     opacity: 0.75;
  }
 
- .painter-button {
-   margin-left: 250px;
+  .painter-button {
+    margin-left: 250px;
  }
 
- img.service-pictures {
-   margin-left: -35px;
+  img.service-pictures {
+    margin-left: -35px;
  }
 
- #form-query-input {
+  #form-query-input {
     min-width: 450px;
     min-height: 350px;
  }
@@ -941,34 +936,34 @@ img.beforeandafter {
 /*- 1201px > -*/
 @media only screen and (min-width: 1201px) {
 
-img.company-logo {
-  width: 120px;
-  }
+  img.company-logo {
+    width: 120px;
+ }
 
 
-h1.bands.heading {
-  text-align: left;
-  font-size: 1px;
-  }
+  h1.bands.heading {
+    text-align: left;
+    font-size: 1px;
+ }
 
-div.bands-contact,div.bands-services, div.bands-about {
+  div.bands-contact,div.bands-services, div.bands-about {
     text-align: center;
-  }
+ }
 
   .fa-facebook-f {
     padding: 0 30px 0 30px;
     font-size: 150%;
-  }
+ }
 
   .fa-instagram-square {
     padding: 0 30px 0 30px;
     font-size: 150%;
-  }
+ }
 
   .fa-twitter-square {
     padding: 0 30px 0 30px;
     font-size: 150%;
-  }
+ }
 
   img.testimonial {
     width: 200px;
@@ -977,11 +972,11 @@ div.bands-contact,div.bands-services, div.bands-about {
     opacity: 0.8;
     overflow: hidden;
     margin-left: 25px;
-  }
+ }
 
   .beforeandafter {
     text-align: center;
-  }
+ }
 
   img.beforeandafter {
     width: 400px;
@@ -990,26 +985,28 @@ div.bands-contact,div.bands-services, div.bands-about {
     opacity: 0.8;
     overflow: hidden;
     margin-left: 70px;
-  }
+ }
 
   img.service-pictures {
     margin-left: -15px;
-  }
-
- .painter-button {
-   margin-left: 250px;
  }
 
- .br-quote {
- display:contents;
+  .painter-button {
+    margin-left: 250px;
  }
 
- #form-query-input {
+  .br-quote {
+    display:contents;
+ }
+
+  #form-query-input {
     min-width: 450px;
     min-height: 350px;
-  }
+ }
 
- #hours {
+  #hours {
     margin-left: -150px;
-  }
+ }
 }
+
+/*-------------------------- End of Sheet --------------------------------*/
