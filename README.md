@@ -1,17 +1,32 @@
-# Bragg&Sons
-<hr>
-<p> Bragg&Sons are a family of local painters that have been in the business for a very long time.</p><p>
-They have a very established long standing customer base but would like to grow new business on a yearly basis.</p>
-<p>They have tried social media without much sucess, so we have suggested Bragg&Sons have their own website on which they can tie it all together.
-<hr>
-#The UX
-<p>
+
+#Ux
+***
+
+##Project Goals
+
+* The primary goal of the project is to provide an easy to use central point of contact for new and existing customers.
+
+
+
+##Business Goals
+* The main purpose of the project is to give the Bragg&Sons businees a central online area where they can direct new and existing customers to.
+* With the company expanding it aims to modernise its information gathering and use the website to later on build a digital database of it customers.
+*
+
+  are a family of local painters that have been in the business for a very long time.
+They have a very established long standing customer base but would like to grow new business on a yearly basis.
+They have tried social media without much sucess, so we have suggested Bragg&Sons have their own website on which they can tie it all together.
+
+
+* User Stories
+
+As a member of the Business I would like.
+
+
+As a new or existing customer I would like
+
+
 Please find the 5 strategy planes discussing the scope and needs of the project.
-
-
-
-
-
 
 
 ### Strategy
