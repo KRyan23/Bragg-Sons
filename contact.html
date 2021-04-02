@@ -13,31 +13,31 @@
 </head>
 
 <body>
-  <header>
-    <nav>
+  <header aria-label="header" title="header">
+    <nav aria-label="navigation" title="navigation">
       <div class="container">
         <div class="row no-gutters">
           <div class="col-2 align-self-end">
-            <a href="index.html" class="nav-links"><img src="/assets/images/logo.s.png" alt="Company Logo" class="company-logo"></a>
+            <a href="index.html" class="nav-links" aria-label="home" title="home"><img src="/assets/images/logo.s.png" alt="Company Logo" class="company-logo"></a>
           </div>
           <div class="col-md-4 align-self-end shrink-effect">
-            <a href="index.html" class="nav-links"><h1 class="bandsheading  company-name">Bragg&Sons</h1></a>
+            <a href="index.html" class="nav-links" aria-label="home" title="home"><h1 class="bandsheading  company-name">Bragg&Sons</h1></a>
           </div>
           <div class="col-md-2 bands-contact align-self-end shrink-effect">
-            <h6><a href="contact.html" class="nav-links">Contact<i class="fas fa-phone"></i></a></h6>
+            <h6><a href="contact.html" class="nav-links" aria-label="contact" title="contact">Contact<i class="fas fa-phone"></i></a></h6>
           </div>
           <div class="col-md-2 bands-services align-self-end shrink-effect">
-            <h6><a href="services.html" class="nav-links">Services<i class="fas fa-cog"></i></a></h6>
+            <h6><a href="services.html" class="nav-links" aria-label="services" title="services">Services<i class="fas fa-cog"></i></a></h6>
           </div>
           <div class="col-md-2 col-sm-1 bands-about align-self-end shrink-effect">
-            <h6><a href="about.html" class="nav-links">About<i class="fas fa-info"></i></a></h6>
+            <h6><a href="about.html" class="nav-links" aria-label="about" title="about">About<i class="fas fa-info"></i></a></h6>
           </div>
         </div>
       </div>
       <hr>
     </nav>
   </header>
-  <main>
+  <main aria-label="main-content" title="main-content">
     <div class="container">
       <div class="row justify-content-end no-gutters">
         <div class="col-md-12 align-self-between">
@@ -57,9 +57,9 @@
             <h6 class="p-contact-touch">Get In Touch </h6>
             <br>
             <ul class="ul-contact-touch">
-              <li><a href="tel:0214220222" class="nav-links">Call us on 0214220222 <i class="fas fa-phone" id="phone-contact-icon"></i></a></li>
-              <li><a href="mailto:info@bragg&sons.ie" class="nav-links">Contact us by email<i class="far fa-envelope" id="email-contact-icon"></i></a></li>
-              <li><a class="ul-contact-touch nav-links" href="https://www.google.ie/maps/place/Cork,+T23+ET21/@51.9189353,-8.4878787,15z/data=!3m1!4b1!4m5!3m4!1s0x484490656a535007:0x911342f8d486e9f1!8m2!3d51.9189229!4d-8.4791239" target="_blank">By Post at this address <i class="fas fa-envelope-open-text" id="post-contact-icon"></i></a></li>
+              <li><a href="tel:0214220222" class="nav-links" aria-label="telephone" title="telephone">Call us on 0214220222 <i class="fas fa-phone" id="phone-contact-icon"></i></a></li>
+              <li><a href="mailto:info@bragg&sons.ie" class="nav-links" aria-label="email" title="email">Contact us by email<i class="far fa-envelope" id="email-contact-icon"></i></a></li>
+              <li><a href="https://www.google.ie/maps/place/Cork,+T23+ET21/@51.9189353,-8.4878787,15z/data=!3m1!4b1!4m5!3m4!1s0x484490656a535007:0x911342f8d486e9f1!8m2!3d51.9189229!4d-8.4791239" class="ul-contact-touch nav-links" aria-label="location" title="location" target="_blank">By Post at this address <i class="fas fa-envelope-open-text" id="post-contact-icon"></i></a></li>
               <li>Bragg & Sons Ltd</li>
               <li> The Commons Road</li>
               <li>Cork City</li>
@@ -99,27 +99,27 @@
         <div class="row justify-content-around">
           <div class="col align-self-between" id="contact-form">
             <br>
-            <form action="https://formdump.codeinstitute.net/" method="post">
+            <form aria-label="form" title="form" action="https://formdump.codeinstitute.net/" method="post">
               <fieldset>
                 <legend>
                   <h5>Your Details</h5></legend>
                 <br>
-                <input class="form-standard-input" id="firstname" type="text" name="First Name" placeholder="First Name" required/>
+                <input class="form-standard-input" id="firstname" type="text" name="First Name" placeholder="First Name" aria-label="First Name" title="First Name" required/>
                 <br>
                 <br>
-                <input class="form-standard-input" id="secondname" type="text" name="Last Name" placeholder="Last Name" required/>
+                <input class="form-standard-input" id="secondname" type="text" name="Last Name" placeholder="Last Name" aria-label="Last Name" title="Last Name"required/>
                 <br>
                 <br>
-                <input class="form-standard-input" id="phone" type="text" name="Phone Number" placeholder="Phone Number" required/>
+                <input class="form-standard-input" id="phone" type="text" name="Phone Number" placeholder="Phone Number" aria-label="Phone Number" title="Phone Number" required/>
                 <br>
                 <br>
-                <input class="form-standard-input" id="email" type="email" name="Email" placeholder="Email" required/>
+                <input class="form-standard-input" id="email" type="email" name="Email" placeholder="Email" aria-label="Email" title="Email"required/>
                 <br>
                 <br>
-                <textarea class="form-standard-input" id="query" placeholder="Query / Description of work" rows="10" cols="70" required></textarea>
+                <textarea class="form-standard-input" aria-label="description of work" title="description of work" id="query" placeholder="Query / Description of work" rows="10" cols="70" required></textarea>
                 <br><br>
                   <button class="submit-button grow-effect" type="submit">Send</button>
-                  <input id="form-standard-input" class="reset-button grow-effect" type="reset" value="Clear Form" />
+                  <input id="form-standard-input" class="reset-button grow-effect" type="reset" value="Clear Form" aria-label="reset"  />
                   <br>
               </fieldset>
             </form>
@@ -129,7 +129,7 @@
       <br>
     </section>
   </main>
-  <footer>
+  <footer aria-label="footer" title="footer">
     <div class="bands-footer">
       <br>
       <div class="container">
@@ -137,7 +137,7 @@
           <div class="col-md-12 align-self-between">
             <hr class="hr-footer">
             <br>
-            <img src="/assets/images/logo.s.png" alt="Company Logo Footer" class="company-logo-footer shrink-effect">
+            <a href="index.html" aria-label="home" title="home"><img src="/assets/images/logo.s.png" alt="Company Logo" class="company-logo-footer shrink-effect" aria-label="home" title="home"></a>
             <br>
             <br>
             <p class="contact-footer">0214220222</p>
@@ -148,11 +148,12 @@
         </div>
       </div>
       <br>
-      <a class="nav-links" href="https://www.facebook.com/" target="_blank" title="link to Facebook"><i class="fab fa-facebook-f foot-face"></i></a>
-      <a class="nav-links" href="https://www.instagram.com/" target="_blank" title="link to Instagram"><i class="fab fa-instagram-square foot-instagram"></i></a>
-      <a class="nav-links" href="https://twitter.com/?lang=en" target="_blank" title="link to Twitter"><i class="fab fa-twitter-square foot-twitter"></i></a>
+      <a href="https://www.facebook.com/" class="nav-links" target="_blank" aria-label="facebook" title="facebook"><i class="fab fa-facebook-f foot-face"></i></a>
+      <a href="https://www.instagram.com/" class="nav-links" target="_blank" aria-label="instagram" title="instagram"><i class="fab fa-instagram-square foot-instagram"></i></a>
+      <a href="https://twitter.com/?lang=en/" class="nav-links" target="_blank" aria-label="twitter" title="twitter"><i class="fab fa-twitter-square foot-twitter"></i></a>
       <br>
       <br>
+      <!-- Copyright code from https://en.wikipedia.org/wiki/Copyright_symbol -->
       <p>Copyright 2021<strong>&#169;</strong>. All rights reserved. Bragg&Sons ltd.</p>
       <br>
     </div>
