@@ -10,6 +10,14 @@ This is a new website for Bragg&Sons painters. It is designed to be straightforw
 
 -   ### User stories
 
+####Business Goals
+* The main purpose of the project is to give the Bragg&Sons business a central  area where they can direct new and existing customers to.
+* With the company expanding it aims to modernise its information gathering and speed up communication use digital technologies.
+* To clearly display its services and showcase the result of its efforts in a gallery.
+
+####User Goals
+* Due to a recent survey, the number 1 issue were that came up is the confusing and unrelible contact methods for the business. Their customers demand a central area thats easy to use and a variety of contact methods.
+
     -   #### First Time Visitor Goals
 
         1. As a First Time Visitor, I want to easily understand the main purpose of the site.
@@ -24,7 +32,7 @@ This is a new website for Bragg&Sons painters. It is designed to be straightforw
         3. As a Returning Visitor, I would like to provide feedback via their social media pages.
 
     -   #### Frequent User Goals
-        1. As a Frequent User, I would like to check their social media sites for offers and updates.
+        1. As a Frequent User, I would like to check their site and social media for any offers and updates.
         2. As a Frequent User, I would like an easy way to get a quote for my various properties.
 
 -   ### Design
@@ -50,6 +58,8 @@ This is a new website for Bragg&Sons painters. It is designed to be straightforw
 -   Responsive on all device sizes
 
 -   Interactive elements
+
+-   Link to an Colour Scheme pdf file
 
 ## Technologies Used
 
@@ -86,20 +96,39 @@ The W3C Markup Validator and W3C CSS Jigsaw Validator Services were used to vali
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
 
+  - Lighthouse was used in Chrome Developer Tools to test perfomance of the website see link here [Results](https://www.google.ie)
 ### Testing User Stories from User Experience (UX) Section
 
+###Business Stories
+
+  1. Due to a recent survey we need to address the issue of communication and information gathering within for the business, we want to start with something relativlty basic that meets our current needs and in the future if it works for us we would like to build on it to take payments from customers.
+
+  2.  The staff at Bragg&Sons pride themselves in the work they do, but we would like to show some of that off to the greater public.
+
+  3.  Theres rarely a bad word to be said about the service we provide and again we would like to get that message out there.
+
+  4.  Social Media is a great communicator but the various pages we have on facebook,twitter and instagram just feel too fragmented we need a website to tie them together.
+- #### Addressing the Business needs
+
+  1. In this scenario it was easy to identify that a comprehensive contact page was important to the sucess of the Bragg&Sons website.
+  2. The business already uses social media to showcase some of its work but they felt a dedicated gallery page is needed to reinforce this.
+  3. Bragg&Sons has a very good reputation locally and agin we needed to reinforce this with a feedback section.
+  4. This was addressed by having social media links consistantly visible throughout the project.
+
+
+###Users Stories
 -   #### First Time Visitor Goals
 
     1. As a First Time Visitor, I want to easily understand the main purpose of the site.
 
 
         1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with text above it "Munsters Most Trusted Painters".
-        2. The main points are immediately met with the brief description of what the business is reinforced wit the puicture of a newly decorated room.
+        2. The main points are immediately met with the brief description of what the business is reinforced with the puicture of a newly decorated room.
         3. The user has three options, scroll down and click the Gallery or the Testimonal page, or scroll down futher and click the call to action button "Get Your Free Quote Today", the link for the Gallery brings them to the gallery page, the link for the Testimonals bring them to the testimonial page and the "Get Your Free Quote Today" brings them to the quote page.
 
     2. As a First Time Visitor, I want to easily be able to navigate throughout the site to find contact information.
 
-        1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page the user will end up at.
+        1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page is and where the user will end up.
         2. At the bottom of the index,services,about and gallery pages there is a call to action "Top of page" to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
         3. On the Contact and Quote pages, after a form response is submitted, the formdump.codeinstitute.net service displays the values inputed from the user, if this were a prduction site the user would be redirected to a landing page with all the familiar navigation and message to say the response was recieved.
 
@@ -127,32 +156,30 @@ The W3C Markup Validator and W3C CSS Jigsaw Validator Services were used to vali
         1. Under the navigation menus the user will see a link to the services page.
         2. From here there is a list of the services provided and 'What to expect from our ... Service' section underneath.
 
-    3. As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
-        1. The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
-        2. Alternatively, the user can scroll to the bottom of the Home page to find the Facebook Group redirect card and can easily join by clicking the "Join Now!" button which like any external link, will open in a new tab to ensure they can get back to the website easily.
-        3. If the user is on the "Our Favourites" page they will also be greeted with a call to action button to invite the user to the Facebook group. The user is incentivized as they are told there is a weekly favourite product posted in the group.
+    3. As a Returning Visitor, I would like to provide feedback via their social media pages.
+        1. The Twitter icon can be found on the footer of every page and will open a new tab for the user to allow them to send a tweet.
+        2. The Facebook icon can also be found on the footer of every page and will open a new tab for the user.
+        (The reason I put the social media links at the bottom of the page is to expose the user to site  content in order for them to make a better decision prior to utlising social media)
 
 -   #### Frequent User Goals
 
-    1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
+    1. As a Frequent User, I would like to check their site and social media for offers and updates.
 
-        1. The user would already be comfortable with the website layout and can easily click the banner message.
+        1. Any special offer availible at the time the user lands on the home page will be obvious due to a site update.
+        2. The user can choose follow or sign up to the BraggandSons social media pages for all other offers and updates to stay in touch.
 
-    2. As a Frequent User, I want to check to see if there are any new blog posts.
+    2. As a Frequent User, I would like an easy way to get a quote for my various properties.
+        1. The user should be comfortable with the sites layout and can simply click any of the call to action buttons labelled "Get Your Free Quote Today".
+        2. The user can submit the quotation form as many times as many times as they like using and number of specific criteria.
 
-        1. The user would already be comfortable with the website layout and can easily click the blog link
-
-    3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
-        1. At the bottom of every page their is a footer which content is consistent throughout all pages.
-        2. To the right hand side of the footer the user can see "Subscribe to our Newsletter" and are prompted to Enter their email address.
-        3. There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.
 
 ### Further Testing
 
--   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
--   A large amount of testing was done to ensure that all pages were linking correctly.
--   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+-   The Website was tested on Google Chrome, Opera, Internet Explorer 11, Microsoft Edge and Firefox browsers.
+  - Lighthouse from Chrome Developer tools was ran on the local server, the performance report can be accessed [Here](Lighthouse-test.html) 
+-   The website was continually checked on a variety of emulated devices under Chromes Developer tools, these included Desktop, Moto4, GalaxyS5, Pixel, IPhones5,6,7,8,X, Ipad/Pro and the Surface Duo.
+-   Internal and external linking were continually tested thoughtout the project to ensure functionality.
+-   Family members were asked to review the site and to give their inital thoughs and feedback. Their input were then fed back into 2 of user stories and the colour scheme choice was slightly altered after a review.
 
 ### Known Bugs
 
