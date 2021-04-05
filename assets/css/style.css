@@ -1,10 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap'),'Sans-Serif';
 
 /*-------------------------- Body Style Rules --------------------------------*/
-{
-  "theme_color": "#fafafa"
 
-}
 body {
    padding: 15px;
    background-color: #fafafa;
@@ -80,7 +77,8 @@ li {
    text-align: center;
    padding-top: 80px;
    padding-bottom: 50px;
-   opacity: 0.6;
+   opacity: 0.9;
+   font-size: 130%;
   }
 
 .main-caption-text {
@@ -109,7 +107,7 @@ h4.main-caption-text {
    min-height: 500px;
    max-width: 300px;
    color: black;
-   border: 1px solid deepskyblue;
+   border: 1px solid silver;
    border-radius: 25px;
    float: left;
    padding-left: 20px;
@@ -122,7 +120,7 @@ h4.main-caption-text {
    min-height: 500px;
    max-width: 300px;
    color: black;
-   border: 1px solid deepskyblue;
+   border: 1px solid silver;
    border-radius: 25px;
    float: right;
    padding-left: 20px;
@@ -261,11 +259,12 @@ a.nav-links {
 
 .main-picture-gallery {
    padding-top: 35px;
-   border-radius: 25px;
+   border-radius: 75px;
    border: 1px solid  lightgray;
+   margin-left: 250px;
    max-width: 600px;
    max-height: 400px;
-   margin-left: 250px;
+
  }
 
 img.service-pictures {
@@ -273,7 +272,7 @@ img.service-pictures {
    height: 300px;
    border-radius: 25px;
    opacity: 0.75;
-   border: 2px solid deepskyblue;
+   border: 2px solid silver;
  }
 
 .testimonial {
@@ -287,9 +286,9 @@ img.service-pictures {
 img.testimonial {
    width: 200px;
    height: 150px;
-   border-radius: 25px;
+   border-radius: 75px;
    opacity: 0.8;
-   border: 2px solid deepskyblue;
+   border: 2px solid silver;
  }
 
 img.beforeandafter {
@@ -422,7 +421,8 @@ img.beforeandafter {
  }
 
 img.company-logo-footer {
-   max-width: 60px;
+   max-height: 100px;
+   max-width: 100px;
    margin-left: -10px;
  }
 
@@ -443,7 +443,8 @@ img.company-logo-footer {
 @media only screen and (max-width: 249px) {
 
   img.company-logo {
-    width: 70px;
+    max-height: 60px;
+    max-width: 70px;
     padding-top: 0px;
  }
 
@@ -461,6 +462,7 @@ img.company-logo-footer {
 
   .form-standard-input {
     max-width: 150px;
+    text-align: center;
  }
 
   .beforeandafter {
@@ -540,8 +542,9 @@ img.company-logo-footer {
 @media only screen and (min-width: 250px) and (max-width: 499px) {
 
   img.company-logo {
-     width: 80px;
-     padding-top: 0px;
+    max-height: 60px;
+    max-width: 70px;
+    padding-top: 0px;
  }
 
   h2.nav-links {
@@ -617,9 +620,14 @@ img.company-logo-footer {
     font-size: 100%;
  }
 
+ .ul-hours-touch {
+   font-size: 14px;
+   text-align: center;
+ }
+
   .p-contact-touch {
     font-size: 18px;
-    text-align: left;
+    text-align: center;
  }
 
   .main-caption-text {
@@ -661,6 +669,11 @@ img.company-logo-footer {
     margin-left: -20px;
  }
 
+  .munsters-best {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
   #form-query-input {
     max-width: 150px;
     min-height: 350px;
@@ -685,11 +698,12 @@ img.company-logo-footer {
 
 @media only screen and (min-width: 500px) and (max-width: 767px) {
 
-  img.company-logo {
-    width: 90px;
+    img.company-logo {
+    max-height: 60px;
+    max-width: 70px;
     text-align:left;
     padding-top: 0px;
- }
+  }
 
  h2.nav-links {
   font-size: 80%;
@@ -763,7 +777,8 @@ img.company-logo-footer {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 
   img.company-logo {
-    width: 90px;
+    max-height: 70px;
+    max-width: 80px;
     text-align:left;
  }
 
@@ -835,7 +850,8 @@ img.company-logo-footer {
 @media only screen and (min-width: 992px) and (max-width: 1023px) {
 
   img.company-logo {
-    width: 80px;
+    max-height: 90px;
+    max-width: 90px;
  }
 
  h2.nav-links {
@@ -902,7 +918,8 @@ img.company-logo-footer {
 @media only screen and (min-width: 1024px) and (max-width: 1200px) {
 
   img.company-logo {
-    width: 100px;
+    max-height: 90px;
+    max-width: 90px;
  }
 
  h2.nav-links {
@@ -971,7 +988,9 @@ img.company-logo-footer {
 @media only screen and (min-width: 1201px) {
 
   img.company-logo {
-    width: 120px;
+    max-height: 100px;
+    max-width: 100px;
+
  }
 
   h2.nav-links {
@@ -1005,7 +1024,7 @@ img.company-logo-footer {
   img.testimonial {
     width: 200px;
     height: 150px;
-    border-radius: 25px;
+    border-radius: 75px;
     opacity: 0.8;
     overflow: hidden;
     margin-left: 25px;
