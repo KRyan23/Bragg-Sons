@@ -96,10 +96,9 @@ Done to here
 
 The W3C Markup Validator and W3C CSS Jigsaw Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](/assets/documents/Css&Html-Results.pdf)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](/assets/documents/Css&Html-Results.pdf)
 
-  - Lighthouse was used in Chrome Developer Tools to test perfomance of the website see link here [Results](Lighthouse-test.html)
 ### Testing User Stories from User Experience (UX) Section
 
 ###Business Stories
