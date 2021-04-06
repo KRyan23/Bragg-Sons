@@ -1,10 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap'),'Sans-Serif';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
 
 /*-------------------------- Body Style Rules --------------------------------*/
 
 body {
    padding: 15px;
    background-color: #fafafa;
+   font-family: 'Noto Sans' ,sans-serif;
  }
 
 a {
@@ -38,10 +40,10 @@ li {
   }
 
 .gallery-top {
-   margin-bottom: 80px;
+   font-size: 20px;
+   font-weight: 600;
    text-align: center;
-   font-size: 18px;
-   font-weight: 400;
+   opacity: 0.75;
   }
 
 .p-about {
@@ -90,7 +92,11 @@ li {
 
 h4.main-caption-text {
   opacity: 0.9;
-}
+ }
+
+ form {
+   text-align:center;
+ }
 
 .hr-reasons {
    margin-top: 80px;
@@ -99,7 +105,13 @@ h4.main-caption-text {
   }
 
 .services-heading {
+  text-align: center;
    opacity: 0.75;
+  }
+
+ .beforeandafter {
+    text-align: center;
+
   }
 
 #contact-methods {
@@ -171,10 +183,10 @@ a.nav-links {
    color: black;
    text-align: center;
    font-size: 16px;
-   margin: 4px 2px;
+   margin: 40px 20px;
    opacity: 1;
    transition: 0.3s;
-   min-width: 150px;
+   min-width: 250px;
    min-height: 30px;
   }
 
@@ -183,10 +195,8 @@ a.nav-links {
    border: 1px solid coral;
    border-radius: 25px;
    color: #fafafa;
-   float:right;
    text-align: center;
    font-size: 16px;
-   margin-right: 15px;
    margin-top: 4px;
    transition: 0.3s;
    min-width: 140px;
@@ -209,8 +219,9 @@ a.nav-links {
    color: black;
    text-align: center;
    padding: 15px 15px 15px 15px;
-   opacity: 0.75;
+   opacity: 0.9;
    margin-top: 50px;
+   margin-bottom: 50px;
  }
 
 .quote-button {
@@ -224,9 +235,18 @@ a.nav-links {
     margin-top: 50px;
  }
 
-.radio-standard-input {
-   text-align: left;
-   margin-left: 20px;
+ .radio-standard-text {
+    text-align: center;
+    opacity: 0.75;
+    display:block;
+    padding-bottom: 20px;
+  }
+
+.radio-standard-button {
+   text-align: center;
+   display: table-cell;
+   vertical-align: middle;
+   vertical-align: top;
    opacity: 0.75;
  }
   /*-- Grow and Shrink effects adapted from https://www.webdesignerdepot.com/2014/05/8-simple-css3-transitions-that-will-wow-your-users/ --*/
@@ -275,12 +295,10 @@ img.service-pictures {
    border: 2px solid silver;
  }
 
-.testimonial {
-   border-radius: 25px;
-   height: 150px;
-   width: 200px;
+  .testimonial {
    overflow: hidden;
    opacity: 0.8;
+   text-align: center;
  }
 
 img.testimonial {
@@ -288,7 +306,10 @@ img.testimonial {
    height: 150px;
    border-radius: 75px;
    opacity: 0.8;
-   border: 2px solid silver;
+   border: 8px solid silver;
+   margin-top: 30px;
+   margin-bottom: 110px;
+
  }
 
 img.beforeandafter {
@@ -297,18 +318,18 @@ img.beforeandafter {
   border-radius: 25px;
   opacity: 0.8;
   overflow: hidden;
-  border: 2px solid deepskyblue;;
+  border: 12px solid silver;
   margin-bottom: 20px;
  }
 
 /*-------------------------- Font Awesome Rules --------------------------------*/
 
 #phone-contact-icon {
-   padding-left: 22px;
+   padding-left: 27px;
  }
 
 #email-contact-icon {
-    padding-left: 45px;
+    padding-left: 49px;
  }
 
 #post-contact-icon {
@@ -337,7 +358,21 @@ img.beforeandafter {
 
 .dropdown-standard-input {
   font-size: 12px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
  }
+
+.form-standard-input {
+   text-align: center;
+ }
+
+.form-headings {
+  text-align: center;
+  padding: 20px 0 15px 0;
+  opacity: 0.85;
+  font-size: 130%;
+}
 
 #colour-scheme {
    background-color: lightgray;
@@ -355,7 +390,7 @@ img.beforeandafter {
 
 #contact-form {
    background-color: #fafafa;
-   min-height: 500px;
+   min-height: 800px;
    max-width: 800px;
    color: black;
    border: 1px solid coral;
@@ -381,6 +416,7 @@ img.beforeandafter {
    min-width: 150px;
    margin-left: 50px;
  }
+
 
 /*-------------------------- Foooter Style Rules --------------------------------*/
 
@@ -448,7 +484,7 @@ img.company-logo-footer {
     padding-top: 0px;
  }
 
- h2.nav-links {
+  h2.nav-links {
   font-size: 80%;
   }
 
@@ -462,17 +498,13 @@ img.company-logo-footer {
 
   .form-standard-input {
     max-width: 150px;
-    text-align: center;
- }
 
-  .beforeandafter {
-    text-align: center;
  }
 
   img.beforeandafter {
     width: 250px;
     height: 250px;
-    border-radius: 5px;
+    border-radius: 25px;
     opacity: 0.8;
     overflow: hidden;
     margin-left: -20px;
@@ -509,12 +541,26 @@ img.company-logo-footer {
   .reasons, .image-caption {
     font-size: 15px;
  }
+
+ .submit-button, .reset-button {
+   min-width: 130px;
+ }
+
   .ul-contact-touch {
     font-size: 12px;
  }
 
   ul.services-text > li {
     list-style: none;
+ }
+
+  img.service-pictures {
+   display:none;
+ }
+
+ .services-text {
+     text-align:center;
+
  }
 
   #form-query-input {
@@ -545,133 +591,103 @@ img.company-logo-footer {
     max-height: 60px;
     max-width: 70px;
     padding-top: 0px;
- }
+  }
 
   h2.nav-links {
   font-size: 80%;
- }
+  }
 
   div.bands-contact,div.bands-services, div.bands-about {
     text-align: left;
     margin-top: 15px;
- }
+  }
 
   div.col-testimonial {
     text-align: center;
- }
+  }
 
   .fa-phone, .fa-cog, .fa-info {
     display: none;
- }
+  }
 
   .form-standard-input {
     max-width: 180px;
- }
 
-  .reset-button {
-    background-color: lightgrey;
-    border: 1px solid coral;
-    border-radius: 25px;
-    color: #fafafa;
-    float:left;
-    text-align: center;
-    font-size: 16px;
-    margin-left: 10px;
-    margin-bottom: 15px;
-    transition: 0.3s;
-    min-width: 100px;
-    min-height: 30px;
- }
-
-  .submit-button {
-    background-color: lightgrey;
-    border: 1px solid coral;
-    border-radius: 25px;
-    color: black;
-    text-align: center;
-    font-size: 16px;
-    margin: 4px 2px 0px 10px;
-    opacity: 1;
-    transition: 0.3s;
-    min-width: 100px;
-    min-height: 30px;
-    float:left;
- }
-
-  .beforeandafter {
-    text-align: left;
- }
+  }
 
   img.beforeandafter {
     width: 250px;
     height: 250px;
-    border-radius: 5px;
+    border-radius: 25px;
     opacity: 0.8;
     overflow: hidden;
-    align-items: flex-start;
- }
+
+  }
 
   .bandsheading {
     font-size: 24px;
     text-align: left;
- }
+  }
 
   .foot-face, .foot-instagram, .foot-twitter {
     font-size: 100%;
- }
+  }
 
  .ul-hours-touch {
    font-size: 14px;
    text-align: center;
- }
+  }
 
   .p-contact-touch {
     font-size: 18px;
     text-align: center;
- }
+  }
 
   .main-caption-text {
     padding-bottom: 40px;
     opacity: 0.75;
     font-size: 15px;
- }
+  }
 
   .main-picture-gallery {
     max-width: 400px;
     max-height: 350px;
     margin-left: -1px;
- }
+  }
 
   .reasons, .image-caption {
       font-size: 15px;
- }
-
-  .reasons {
-    font-size: 15px;
- }
+  }
 
   .ul-contact-touch {
-    font-size: 16px;
-    text-align: center;
- }
+  font-size: 16px;
+  text-align: center;
+  }
 
   img.service-pictures {
-    max-width: 150px;
-    max-height: 150px;
- }
+    display:none;
+  }
 
   ul.services-text > li {
     list-style: none;
- }
+  }
 
-  .painter-button {
-    margin-top: 160px;
-    margin-left: -20px;
- }
+  .services-text {
+   text-align:center;
+
+  }
+
+  .submit-button {
+    min-width: 150px;
+  }
 
   .munsters-best {
     padding-top: 10px;
     padding-bottom: 10px;
+  }
+
+  .br-quote {
+    display:contents;
   }
 
   #form-query-input {
@@ -698,14 +714,15 @@ img.company-logo-footer {
 
 @media only screen and (min-width: 500px) and (max-width: 767px) {
 
-    img.company-logo {
-    max-height: 60px;
-    max-width: 70px;
-    text-align:left;
-    padding-top: 0px;
+  img.company-logo {
+  max-height: 60px;
+  max-width: 70px;
+  text-align:left;
+  padding-top: 0px;
+
   }
 
- h2.nav-links {
+  h2.nav-links {
   font-size: 80%;
   }
 
@@ -725,14 +742,7 @@ img.company-logo-footer {
 
   .form-standard-input {
     max-width: 280px;
- }
-
-  .beforeandafter {
     text-align: center;
- }
-
-  img.beforeandafter {
-    margin-left: 50px;
  }
 
   .main-picture-gallery {
@@ -750,25 +760,36 @@ img.company-logo-footer {
     font-size: 100%;
  }
 
-  img.service-pictures {
-    margin-left: -10px;
+ img.service-pictures {
+   max-width: 100%;
+   max-height: 100%;
+   margin-left: 15%;
  }
 
-  .painter-button {
-    margin-left: 120px;
+ ul.services-text > li {
+   list-style: none;
+
  }
 
-  #form-query-input {
-    min-width: 350px;
-    min-height: 350px;
+ .br-quote {
+   display:contents;
  }
 
-  #email-contact-icon, #post-contact-icon {
-    display: none;
+ .services-text {
+   text-align: center;
  }
 
-  #quote-form {
-    min-height: 1000px;
+ #form-query-input {
+   min-width: 350px;
+   min-height: 350px;
+ }
+
+ #email-contact-icon, #post-contact-icon {
+   display: none;
+ }
+
+ #quote-form {
+   min-height: 1000px;
  }
 
 }
@@ -794,14 +815,6 @@ img.company-logo-footer {
     text-align: center;
  }
 
-  .beforeandafter {
-    text-align: center;
- }
-
-  img.beforeandafter {
-    margin-left: 150px;
- }
-
   .main-picture-gallery {
     max-width: 600px;
     max-height: 400px;
@@ -813,8 +826,7 @@ img.company-logo-footer {
  }
 
   .services-heading {
-    max-width: 250px;
-    text-align: left;
+    text-align: center;
     opacity: 0.75;
  }
 
@@ -828,11 +840,9 @@ img.company-logo-footer {
  }
 
   img.service-pictures {
-    margin-left: -65px;
- }
+    max-width: 200px;
+    max-height: 200px;
 
-  .painter-button {
-    margin-left: 210px;
  }
 
   #br-reasons {
@@ -852,22 +862,14 @@ img.company-logo-footer {
   img.company-logo {
     max-height: 90px;
     max-width: 90px;
- }
+  }
 
- h2.nav-links {
+  h2.nav-links {
   font-size: 100%;
   }
 
   div.bands-contact,div.bands-services, div.bands-about {
     text-align: center;
- }
-
-  .beforeandafter {
-    text-align: center;
- }
-
-  img.beforeandafter {
-    margin-left: 25px;
  }
 
   .main-picture-gallery {
@@ -881,8 +883,7 @@ img.company-logo-footer {
  }
 
   .services-heading {
-    max-width: 250px;
-    text-align: left;
+    text-align: center;
     opacity: 0.75;
  }
 
@@ -895,12 +896,9 @@ img.company-logo-footer {
     font-size: 100%;
  }
 
-  .painter-button {
-    margin-left: 250px;
- }
-
   img.service-pictures {
-    margin-left: -35px;
+    max-width: 300px;
+    max-height: 300px;
  }
 
   #br-reasons {
@@ -920,9 +918,9 @@ img.company-logo-footer {
   img.company-logo {
     max-height: 90px;
     max-width: 90px;
- }
+  }
 
- h2.nav-links {
+  h2.nav-links {
   font-size: 100%;
   }
 
@@ -945,14 +943,6 @@ img.company-logo-footer {
     font-size: 150%;
  }
 
-  .beforeandafter {
-    text-align: center;
- }
-
-  img.beforeandafter {
-    margin-left: 25px;
- }
-
   .main-picture-gallery {
     max-width: 600px;
     max-height: 400px;
@@ -964,17 +954,13 @@ img.company-logo-footer {
  }
 
   .services-heading {
-    max-width: 250px;
-    text-align: left;
+    text-align: center;
     opacity: 0.75;
  }
 
-  .painter-button {
-    margin-left: 250px;
- }
-
   img.service-pictures {
-    margin-left: -35px;
+    max-width: 300px;
+    max-height: 300px;
  }
 
   #form-query-input {
@@ -991,11 +977,11 @@ img.company-logo-footer {
     max-height: 100px;
     max-width: 100px;
 
- }
+  }
 
   h2.nav-links {
    font-size: 120%;
-   }
+  }
 
   h1.bands.heading {
     text-align: left;
@@ -1028,10 +1014,7 @@ img.company-logo-footer {
     opacity: 0.8;
     overflow: hidden;
     margin-left: 25px;
- }
-
-  .beforeandafter {
-    text-align: center;
+    align-items: center;
  }
 
   img.beforeandafter {
@@ -1040,19 +1023,15 @@ img.company-logo-footer {
     border-radius: 25px;
     opacity: 0.8;
     overflow: hidden;
-    margin-left: 70px;
+
  }
 
   img.service-pictures {
     margin-left: -15px;
  }
 
-  .painter-button {
-    margin-left: 250px;
- }
-
   .br-quote {
-    display:contents;
+   display:contents;
  }
 
   #form-query-input {

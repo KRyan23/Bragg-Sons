@@ -1,10 +1,10 @@
 #Bragg&Sons Website
 
-[View the live project here.](https://codeinstitute.net)
+[View the live project here.]()
 
 This is a new website for Bragg&Sons painters. It is designed to be straightforward responsive and accessible on a range of devices, making it easy to navigate for new and existing customers.
 
-<img src="https://i.ibb.co/TYvTXz1/Example-CI.png"> <!--  Put a Link to the Bragg&Sons Logo-->
+<img src="/assets/images/bragg&sons.jpg">
 
 ## User Experience (UX)
 
@@ -16,7 +16,7 @@ This is a new website for Bragg&Sons painters. It is designed to be straightforw
 * To clearly display its services and showcase the result of its efforts in a gallery.
 
 ####User Goals
-* Due to a recent survey, the number 1 issue were that came up is the confusing and unrelible contact methods for the business. Their customers demand a central area thats easy to use and a variety of contact methods.
+* Due to a recent survey undertaken by Bragg&Sons, communication was top of the list. Confusing and unrelible contact methods for the business were one of their main concerns. Their customers demand a central area thats easy with and a variety of contact methods all in one place.
 
     -   #### First Time Visitor Goals
 
@@ -37,7 +37,9 @@ This is a new website for Bragg&Sons painters. It is designed to be straightforw
 
 -   ### Design
     -   #### Colour Scheme
-        -   The 5 main colours used are Lightgrey, Coral, DeepSkyBlue, DarkOrange and our off-white.
+        -   The 3 main colours used are shown below, also off white #fafafa was used for the background.
+
+            <img src="/assets/images/colours-used.png">
 
     -   #### Typography
         -   The NotoSans font is the main font used throughout the whole site with Sans Serif as the fallback font. NotoSans was chosen to appear friendly but maintain a sense of purpose so it is both functional and appropriate.
@@ -45,6 +47,7 @@ This is a new website for Bragg&Sons painters. It is designed to be straightforw
     -   #### Imagery
         -   The hero image was chosen to be attractive with a sense of space in line with what the services the Business provides. Similarly the rest of the images were chosen to complement the logo and colour scheme used in throughout the site.
 
+Done to here
 *   ### Wireframes
 
     -   Desktop Wireframes - [View](https://github.com/)
@@ -84,7 +87,7 @@ This is a new website for Bragg&Sons painters. It is designed to be straightforw
     - GitHub is used to store the projects code after being pushed from Git.
 1. [Onedrive](https://onedrive.live.com/)
     - Onedrive was used to provide an additional layer of backup for the projects contents.
-1. [MsPaint:](https://www.adobe.com/ie/products/photoshop.html)
+1. [MsPaint3D:](https://support.microsoft.com/en-us/windows/get-microsoft-paint-a6b9578c-ed1c-5b09-0699-4ed8115f9aa9)
     - MsPaint was used for resizing images and editing photos for the website.
 1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq 4.2.1 was used to create the [wireframes](https://github.com/) during the design process.
@@ -96,7 +99,7 @@ The W3C Markup Validator and W3C CSS Jigsaw Validator Services were used to vali
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
 
-  - Lighthouse was used in Chrome Developer Tools to test perfomance of the website see link here [Results](https://www.google.ie)
+  - Lighthouse was used in Chrome Developer Tools to test perfomance of the website see link here [Results](Lighthouse-test.html)
 ### Testing User Stories from User Experience (UX) Section
 
 ###Business Stories
@@ -108,6 +111,7 @@ The W3C Markup Validator and W3C CSS Jigsaw Validator Services were used to vali
   3.  Theres rarely a bad word to be said about the service we provide and again we would like to get that message out there.
 
   4.  Social Media is a great communicator but the various pages we have on facebook,twitter and instagram just feel too fragmented we need a website to tie them together.
+
 - #### Addressing the Business needs
 
   1. In this scenario it was easy to identify that a comprehensive contact page was important to the sucess of the Bragg&Sons website.
@@ -176,14 +180,14 @@ The W3C Markup Validator and W3C CSS Jigsaw Validator Services were used to vali
 ### Further Testing
 
 -   The Website was tested on Google Chrome, Opera, Internet Explorer 11, Microsoft Edge and Firefox browsers.
-  - Lighthouse from Chrome Developer tools was ran on the local server, the performance report can be accessed [Here](Lighthouse-test.html) 
--   The website was continually checked on a variety of emulated devices under Chromes Developer tools, these included Desktop, Moto4, GalaxyS5, Pixel, IPhones5,6,7,8,X, Ipad/Pro and the Surface Duo.
+- Lighthouse from Chrome Developer tools was ran on the local server, the performance report can be accessed [Here](Lighthouse-test.html)
+- The website was continually checked on a variety of emulated devices under Chromes Developer tools, these included Desktop, Moto4, GalaxyS5, Pixel, IPhones5,6,7,8,X, Ipad/Pro and the Surface Duo.
 -   Internal and external linking were continually tested thoughtout the project to ensure functionality.
 -   Family members were asked to review the site and to give their inital thoughs and feedback. Their input were then fed back into 2 of user stories and the colour scheme choice was slightly altered after a review.
 
 ### Known Bugs
 
--   On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
+-   On Internet Explorer 11 the formatting on the quote page does not display correctly.
     -   A white gap can be seen to the right of the footer and navigation bar as a result.
 -   On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
 
@@ -243,13 +247,10 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
--   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
-
 ### Content
 
--   All content was written by the developer.
+-   All content was written by myself.
 
--   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
 
 ### Media
 
@@ -259,4 +260,5 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   My Mentor for continuous helpful feedback.
 
--   Tutor support at Code Institute for their support.
+-   [StackOverflow for the hack add the colours](https://stackoverflow.com/questions/11509830/how-to-add-color-to-githubs-readme-md-file/41247934#41247934)
+- [Colours Used](https://css-tricks.com/snippets/css/named-colors-and-hex-equivalents/)
