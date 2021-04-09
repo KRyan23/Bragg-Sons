@@ -269,12 +269,19 @@ They were designed to look like a thumbnail with lower resouloution and with rem
 The pictures on the testimonials page were borrowed from the following sources
 
 [1. - DepositPhotos](https://fr.depositphotos.com/81823932/stock-photo-close-up-of-happy-couple.html)
+
 [2. - Dreamstime](https://images.app.goo.gl/EQMkgsxjFir9L8Jy9)
+
 [3. - Staff, Sports Key Development](https://images.app.goo.gl/XrfFWj9hZ9pTPvdp7)
+
 [4. - Dr Gilbert Dentists](http://www.dr-gilbert-maudet-isabelle.chirurgiens-dentistes.fr/actualites/invisalign)
+
 [5. - Shutterstock](https://www.shutterstock.com/image-photo/portrait-girl-boy-sister-brother-1671413416)
+
 [6. - Mcgregor](https://mcgregoramasa.org/blog_import_images/Elderly_gentleman_with_glasses.jpg)
+
 [7. - Population Europe](https://population-europe.eu/sites/default/files/styles/bxslider_node_detailpage/public/media-images/istock-152949893.jpg?itok=eL0SlxeO)
+
 [8. - Drq Dental](https://drqdental.net/wp-content/uploads/2017/10/Depositphotos_4857198_original-compressor-300x200.jpg)
 
 
