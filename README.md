@@ -256,6 +256,7 @@ $ git clone https://github.com/KRyan23/Bragg-Sons
 
 The Bragg&Sons logo was borrowed from BrandCrowd,
 I added the text and style.
+
 [1. - BrandCrowd](https://www.brandcrowd.com/maker/logo/colorful-pillar-house-88207?text=Bragg%26Sons)
 
 The main home page image was sourced from IsStockPhotos.
@@ -295,7 +296,7 @@ The pictures on the services page were borrowed from the following sources.
 
 [1 - iStockphoto](https://images.app.goo.gl/kxWEyCKr447FAPU49)
 
-[2 - indiamart](https://4.imimg.com/data4/KY/EE/MY-16994530/interior-paint-500x500.jpg)
+[2 - Indiamart](https://4.imimg.com/data4/KY/EE/MY-16994530/interior-paint-500x500.jpg)
 
 
 The pictures on the gallery page were borrowed from the following sources.
