@@ -254,41 +254,45 @@ $ git clone https://github.com/KRyan23/Bragg-Sons
 
 ### Media
 
--   The Bragg&Sons logo was borrowed from, [BrandCrowd](https://www.brandcrowd.com) I added the text and style.
+The Bragg&Sons logo was borrowed from BrandCrowd,
+I added the text and style.
+[1. - BrandCrowd](https://www.brandcrowd.com/maker/logo/colorful-pillar-house-88207?text=Bragg%26Sons)
 
-Home page
+The main home page image was sourced from IsStockPhotos.
 
-[Main Picture - IsStockPhotos](https://www.istockphoto.com/)
+[1. - IsStockPhotos](https://www.pinterest.ie/pin/191473421646257386/)
 
-The testimonials and gallery pages images, a screenshot was taken of the finished pages, edited and a new image made from, this designed to look like a thumbnail with removed content to entice the user to click explore further.
+The images named main-gallery-image.jpg and main-testimonial-image.jpg. Explanation: a screenshot was taken of the finished pages, edited and new images made from these.
+They were designed to look like a thumbnail with lower resouloution and with removed content to entice the visitor to click explore further.
 
 
 The pictures on the testimonials page were borrowed from the following sources
-[1. - DreamsTime](https://www.dreamstime.com/)
-[2. - Hackesack Meridian Health](https://www.hackensackmeridianhealth.org/)
-[3. - HomeCareAssistanceRoseville](https://www.homecareassistanceroseville.com/)
-[4. - TropicalSky](https://www.tropicalsky.i)
-[5. - SportsKeyDevelopment](ttps://1220hslgc6sportkeydevelopment.wordpress.com/staff/)
-[6. - I DentistClinicBar](https://www.facebook.com/identistclinicbarlad/)
-[7. - Shutterstock](https://www.shutterstock.com/)
-[8. - 123rf](https://www.123rf.com/)
+
+[1. - DepositPhotos](https://fr.depositphotos.com/81823932/stock-photo-close-up-of-happy-couple.html)
+[2. - Dreamstime](https://images.app.goo.gl/EQMkgsxjFir9L8Jy9)
+[3. - Staff, Sports Key Development](https://images.app.goo.gl/XrfFWj9hZ9pTPvdp7)
+[4. - Dr Gilbert Dentists](http://www.dr-gilbert-maudet-isabelle.chirurgiens-dentistes.fr/actualites/invisalign)
+[5. - Shutterstock](https://www.shutterstock.com/image-photo/portrait-girl-boy-sister-brother-1671413416)
+[6. - Mcgregor](https://mcgregoramasa.org/blog_import_images/Elderly_gentleman_with_glasses.jpg)
+[7. - Population Europe](https://population-europe.eu/sites/default/files/styles/bxslider_node_detailpage/public/media-images/istock-152949893.jpg?itok=eL0SlxeO)
+[8. - Drq Dental](https://drqdental.net/wp-content/uploads/2017/10/Depositphotos_4857198_original-compressor-300x200.jpg)
 
 
-The colour palette to create the colour-scheme.pdf was borrowed from here
-[Lakelandfurniture](https://www.Lakelandfurniture.co.uk)
+The colour palette to create the colour-scheme.pdf was borrowed from Lakelandfurniture.
+[1. - Lakelandfurniture](https://images.app.goo.gl/US59HqsRuZkcveyh7)
 
-The pictures on the services page were borrowed from the following sources
-[1 - istockphoto](https://istockphoto.com)
-[2 - indiamart](https://www.indiamart.com/)
+The pictures on the services page were borrowed from the following sources.
+[1 - iStockphoto](https://images.app.goo.gl/kxWEyCKr447FAPU49)
+[2 - indiamart](https://4.imimg.com/data4/KY/EE/MY-16994530/interior-paint-500x500.jpg)
 
-The pictures on the gallery page were from the following sources
-[1 - Perfecthome](https:www.perfecthome.ie)
-[2 - PowellPaintingAndHomeServices](https://powellpaintingandhomeservices.com/)
-[3 - YainnovationPainting](https://www.yainnovationpainting.com/)
-[4 - TheGasCompany](https://www.thegascompany.ie)
-[5 - Pinterest](https://www.pinterest.ie/)
-[6 - HighHeelsToHotWheels](http://highheelstohotwheels.com/)
-[7 - HelixPainting](https://helixpainting.com)
+The pictures on the gallery page were borrowed from the following sources.
+[1 - Pinterest](https://images.app.goo.gl/DpYh31rikayZR1x17)
+[2 - Needham Interior Painting](https://images.app.goo.gl/yYVijFGVRT5NGPDN6)
+[3 - A Renovation Story](https://images.app.goo.gl/ezFq1T35uY3aUZVR9)
+[4 - Helix Painting](https://images.app.goo.gl/LEbrg85eWix5GRdx7)
+[5 - Pinterest](https://images.app.goo.gl/2w6SRF2tuMKaHgP18)
+[6 - Sherwin Williams](https://img.17qq.com/images/djbfpibbbdz.jpeg)
+[7 - High Heels to Hot Wheels](https://images.app.goo.gl/2tz3ZDAqCPEP7Uwp6)
 
 
 ### Acknowledgements
