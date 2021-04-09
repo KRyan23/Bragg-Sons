@@ -1,4 +1,4 @@
-#Bragg&Sons Website
+# Bragg&Sons Website
 
 [View the live project here.](https://github.com/KRyan23/Bragg-Sons)
 
@@ -10,12 +10,12 @@ This is a new website for Bragg&Sons painters. It is designed to be straightforw
 
 -   ### User stories
 
-####Business Goals
+#### Business Goals
 * The main purpose of the project is to give the Bragg&Sons business a central area where they can direct new and existing customers to.
 * With the company expanding it aims to modernise its information gathering and speed up communication use digital technologies.
 * To clearly display its services and showcase the result of its efforts in a gallery.
 
-####User Goals
+#### User Goals
 * Due to a recent survey undertaken by Bragg&Sons, communication was top of the list. Confusing and unreliable contact methods for the business were one of their main concerns. Their customers demand a central area that’s easy with and a variety of contact methods all in one place.
 
     -   #### First Time Visitor Goals
@@ -108,7 +108,7 @@ The W3C Mark-up Validator and W3C CSS Jigsaw Validator Services were used to val
 
 ### Testing User Stories from User Experience (UX) Section
 
-###Business Stories
+### Business Stories
 
   1. Due to a recent survey we need to address the issue of communication and information gathering within for the business, we want to start with something relatively basic that meets our current needs and in the future if it works for us we would like to build on it to take payments from customers.
 
@@ -126,7 +126,7 @@ The W3C Mark-up Validator and W3C CSS Jigsaw Validator Services were used to val
   4. This was addressed by having social media links consistently visible throughout the project.
 
 
-###Users Stories
+### Users Stories
 -   #### First Time Visitor Goals
 
     1. As a First Time Visitor, I want to easily understand the main purpose of the site.
@@ -287,10 +287,12 @@ The pictures on the testimonials page were borrowed from the following sources
 
 
 The colour palette to create the colour-scheme.pdf was borrowed from Lakelandfurniture.
+
 [1. - Lakelandfurniture](https://images.app.goo.gl/US59HqsRuZkcveyh7)
 
 
 The pictures on the services page were borrowed from the following sources.
+
 [1 - iStockphoto](https://images.app.goo.gl/kxWEyCKr447FAPU49)
 
 [2 - indiamart](https://4.imimg.com/data4/KY/EE/MY-16994530/interior-paint-500x500.jpg)
