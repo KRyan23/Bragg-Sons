@@ -285,21 +285,33 @@ The pictures on the testimonials page were borrowed from the following sources
 [8. - Drq Dental](https://drqdental.net/wp-content/uploads/2017/10/Depositphotos_4857198_original-compressor-300x200.jpg)
 
 
+
 The colour palette to create the colour-scheme.pdf was borrowed from Lakelandfurniture.
 [1. - Lakelandfurniture](https://images.app.goo.gl/US59HqsRuZkcveyh7)
 
+
 The pictures on the services page were borrowed from the following sources.
 [1 - iStockphoto](https://images.app.goo.gl/kxWEyCKr447FAPU49)
+
 [2 - indiamart](https://4.imimg.com/data4/KY/EE/MY-16994530/interior-paint-500x500.jpg)
 
+
 The pictures on the gallery page were borrowed from the following sources.
+
 [1 - Pinterest](https://images.app.goo.gl/DpYh31rikayZR1x17)
+
 [2 - Needham Interior Painting](https://images.app.goo.gl/yYVijFGVRT5NGPDN6)
+
 [3 - A Renovation Story](https://images.app.goo.gl/ezFq1T35uY3aUZVR9)
+
 [4 - Helix Painting](https://images.app.goo.gl/LEbrg85eWix5GRdx7)
+
 [5 - Pinterest](https://images.app.goo.gl/2w6SRF2tuMKaHgP18)
+
 [6 - Sherwin Williams](https://img.17qq.com/images/djbfpibbbdz.jpeg)
+
 [7 - High Heels to Hot Wheels](https://images.app.goo.gl/2tz3ZDAqCPEP7Uwp6)
+
 
 
 ### Acknowledgements
