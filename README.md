@@ -1,6 +1,6 @@
 # Bragg&Sons Website
 
-[View the live project here.](https://github.com/KRyan23/Bragg-Sons)
+[View the live project here.](https://kryan23.github.io/Bragg-Sons/)
 
 This is a new website for Bragg&Sons painters. It is designed to be straightforward responsive and accessible on a range of devices, making it easy to navigate for new and existing customers.
 
